@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>ATLAS Experiment</title>
+<title>ATLAS Detector Operation</title>
 <link rel="stylesheet" type="text/css" href="<?=Baseurl?>css/style.css" />
 <link rel="shortcut icon" href="/Atlas/Collaboration/images/atlasblue.ico">
 

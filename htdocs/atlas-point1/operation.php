@@ -64,114 +64,66 @@ animatedcollapse.init()
             
             <div class="btContent">
             	<div class="leftCol">
-                	<div class="title"><h3>General</h3>
+                	<div class="title"><h3>Run Status</h3>
 					</div>
                 	<div class="leftNav">
 						<ul id="menu" class="slidingmenu1">
-							<li><a href="#" id="1">ATLAS Organization
-							</a>
+							<li><a href="#" id="1">Systems</a>
 								<ul class="subLeftNavGeneral" id="menu_1">
 									<li>
-										<a href="http://atlas.web.cern.ch/Atlas/Management/AM.html">Management</a>
+										<a href="http://atlas.web.cern.ch/Atlas/Management/AM.html">Inner Detector</a>
 									</li>
 									<li>
-										<a href="http://atlas.web.cern.ch/Atlas/Management/Organization.pdf">Organigram</a>
+										<a href="http://atlas.web.cern.ch/Atlas/Management/Organization.pdf">LAr Calorimeter</a>
 									</li>
 									<li>
-										<a href="http://atlas.web.cern.ch/Atlas/Management/Institutions.html">Institutions</a>
+										<a href="http://atlas.web.cern.ch/Atlas/Management/Institutions.html">Tile Calorimeter</a>
 								  </li>
 								  <li>
-										<a href="http://atlas.web.cern.ch/Atlas/private/ATLAS_CB/CB_Issues.html">Collaboration Board <?php if($_SESSION['valid_code']=="" || $_SESSION['ATLAS-MEMBER']=="0") {?><img src="<?=Baseurl?>images/lock.png" /><?php } ?></a>
+										<a href="http://atlas.web.cern.ch/Atlas/private/ATLAS_CB/CB_Issues.html">Muon Spectrometer</a>
 									</li>
 									  <li>
-										<a href="http://atlas.web.cern.ch/Atlas/Management/EB.html">Executive Board <?php if($_SESSION['valid_code']=="" || $_SESSION['ATLAS-MEMBER']=="0") {?><img src="<?=Baseurl?>images/lock.png" /><?php } ?></a>
+										<a href="http://atlas.web.cern.ch/Atlas/Management/EB.html">Trigger</a>
 									</li>
-								 <li><a href="<?=Baseurl?>login/login.php">Committees & Databases <?php if($_SESSION['valid_code']=="" || $_SESSION['ATLAS-MEMBER']=="0") {?><img src="<?=Baseurl?>images/lock.png" 
-/><?php } ?></a>
-							
-						<?php if($_SESSION['valid_code']!="" && $_SESSION['ATLAS-MEMBER']=="1") {?>
-						 	<div class="sub_subLeftNav">
-                                        <p><a href="https://twiki.cern.ch/twiki/bin/view/AtlasProtected/PubComHome">Publications Committee </a></p>
-                                        <p><a href="https://twiki.cern.ch/twiki/bin/view/AtlasProtected/AuthorShipCommittee">Authorship Committee</a></p>
-										<p><a href="http://atlas.web.cern.ch/Atlas/private/ATLAS_CB/Text.html#Speakers_Committee">Speakers Committee</a></p>
-										<p><a href="https://atglance.web.cern.ch/atglance/authorship/">Membership Database </a></p>
-										<p><a href="https://atglance.web.cern.ch/atglance/appointment/">Appointments Database </a></p>
-										<p><a href="https://twiki.cern.ch/twiki/bin/view/AtlasProtected/AuthorShipCommittee#Lists_for_the_M_and_O_and_operat">M&O share list </a></p>
-                                    </div>  
-									<?php 
-								}
-								?>
-							</li>							
-									<li>
-										<a href="https://twiki.cern.ch/twiki/bin/view/AtlasProtected/AtlasPolicyDocuments" >Policy Documents <?php if($_SESSION['valid_code']=="" || $_SESSION['ATLAS-MEMBER']=="0") {?><img src="<?=Baseurl?>images/lock.png" /><?php } ?></a>
-									</li>
-									<li>
-										<a href="https://atlas.web.cern.ch/Atlas/private/MOU/" >MoU & Annexes <?php if($_SESSION['valid_code']=="" || $_SESSION['ATLAS-MEMBER']=="0") {?><img src="<?=Baseurl?>images/lock.png" /><?php } ?></a>
-									</li>
-									<li>
-										<a href="https://twiki.cern.ch/twiki/bin/view/Atlas/AtlasPolicyDocuments" class="last-child">Policy for External Collaboration</a>
-									</li>
+								 <li><a href="<?=Baseurl?>login/login.php">Trigger</a>
+								 <li><a href="<?=Baseurl?>login/login.php">DAQ</a>
+								 <li><a href="<?=Baseurl?>login/login.php">DCS</a>
+								 <li><a href="<?=Baseurl?>login/login.php">Tier-0</a>
 								</ul>
+								
                                 </li>
-							<li><a  href="#" id="2">General Information </a>
+							<li><a  href="#" id="2">Services</a>
 								
                             	<ul class="subLeftNav" id="menu_2">
 									<li>
-										<a class="active" href="http://atlassec.web.cern.ch/atlassec/Secretariat.htm" >Secretariat</a>
+										<a class="active" href="http://atlassec.web.cern.ch/atlassec/Secretariat.htm" >Cooling</a>
 									</li>
 									<li>
-										<a href="http://atlassec.web.cern.ch/atlassec/Registration.htm">Newcomers: Registration & Access</a>
+										<a href="http://atlassec.web.cern.ch/atlassec/Registration.htm">Electrical Network</a>
 									</li>
 									<li>
-										<a href="https://twiki.cern.ch/twiki/bin/view/Main/NewMemberChecklist">Newcomers: Additional Info</a>
+										<a href="https://twiki.cern.ch/twiki/bin/view/Main/NewMemberChecklist">Gas Systems</a>
 									</li>
 									<li>
-										<a href="https://twiki.cern.ch/twiki/bin/view/AtlasProtected/AuthorShipCommittee#Rules_for_qualifying_as_an_ATLAS">Authorship Qualification <?php if($_SESSION['valid_code']=="" || $_SESSION['ATLAS-MEMBER']=="0") {?><img src="<?=Baseurl?>images/lock.png" /><?php } ?></a>
-									</li>
-									<li>
-										<a href="http://ph-dep-usersoffice.web.cern.ch/ph-dep-UsersOffice/CheckIn/Visas/Welcome.html">Visa Requirements for Visitors</a>
-									</li>
-									<li>
-										<a href="http://atlassec.web.cern.ch/atlassec/Housing.htm">Housing & Local Info</a>
-									</li>
-								  <li>
-										<a href="http://atlassec.web.cern.ch/atlassec/Forms.htm">Forms & Services</a>
-								  </li>
-                                    <li>
-										<a href="http://atlas.web.cern.ch/Atlas/TCOORD/Activities/TcOffice/Scheduling/Installation/Point1_visits.html">Visits to Point-1</a>
-									</li>
-									 <li>
-										<a href="http://atlas.web.cern.ch/Atlas/TCOORD/Activities/TcOffice/Safety/index.htm">Safety</a>
-									</li>
-									 <li>
-										<a href="http://atlas.web.cern.ch/Atlas/GROUPS/GENERAL/JOBS/jobs.html" class="last-child">Job Vacancies</a>
+										<a href="https://twiki.cern.ch/twiki/bin/view/Main/NewMemberChecklist">Cryogenics</a>
 									</li>
 								</ul>	
 								
 							</li>
-							<li><a href="#" id="3" >Documentation & Links </a>
+							<li><a href="#" id="3" >Infrastructure</a>
 								
 								<ul class="subLeftNav" id="menu_3">
-									<li><a href="https://twiki.cern.ch/twiki/bin/view/Atlas/AccessProtectedInformation">Information Protection Policy</a></li>
-									<li><a href="https://twiki.cern.ch/twiki/bin/view/Atlas/MailingLists">Mailing List Information </a></li>
-									<li><a href="http://cdsweb.cern.ch/collection/ATLAS?ln=en">CDS Documents</a></li>
-									<li><a href="https://edms.cern.ch/nav/ATLAS">EDMS Documents</a></li>
-									<li><a href="http://atlas.web.cern.ch/Atlas/internal/tdr.html">Proposal & TDR</a></li>
-									<li> <a href="http://atlas.web.cern.ch/Atlas/documentation/thesis/thesis.html">Theses</a></li>
-									<li> <a href="https://twiki.cern.ch/twiki/bin/view/Atlas/ComputingTutorials">Tutorials</a></li>
-									<li><a href="#" id="usefull_links">Useful Links </a>
-						 				<div class="sub_subLeftNav" id="usefull_links_nav">
-                                        <p><a href="http://www.slac.stanford.edu/spires/">SLAC Spires</a></p>
-                                        <p><a href="http://pdg.lbl.gov/">Review of Particle Physics</a></p>
-                                        <p><a href="https://twiki.cern.ch/twiki/bin/view/AtlasProtected/AtlasJuniors">Junior Seminars</a></p>
-                                        <p><a href="https://twiki.cern.ch/twiki/bin/view/Atlas/AtlasWomenPage">Women Group</a></p>
-                                    	</div>
-									</li>
+									<li><a href="https://twiki.cern.ch/twiki/bin/view/Atlas/AccessProtectedInformation">Magnets</a></li>
+									<li><a href="https://twiki.cern.ch/twiki/bin/view/Atlas/MailingLists">Counting Rooms, Cavern</a></li>
+									<li><a href="http://cdsweb.cern.ch/collection/ATLAS?ln=en">Environment</a></li>
+									<li><a href="https://edms.cern.ch/nav/ATLAS">Safety System</a></li>
+									<li><a href="http://atlas.web.cern.ch/Atlas/internal/tdr.html">Computer & Networks</a></li>
+									<li> <a href="http://atlas.web.cern.ch/Atlas/documentation/thesis/thesis.html">Database Servers</a></li>
+									<li> <a href="https://twiki.cern.ch/twiki/bin/view/Atlas/ComputingTutorials">Radiation Monitors</a></li>
 								</ul>	
 							</li>
 								
-							<li><a class="#" href="http://atlas-service-enews.web.cern.ch/atlas-service-enews/index.html">ATLAS e-News</a></li>
-							<li class="last-child"><a class="#" href="http://atlas.web.cern.ch/Atlas/index_old.html">Old Collaboration page</a></li>
+							<li class="last-child"><a class="#" href="http://atlas.web.cern.ch/Atlas/index_old.html">Old Operation page</a></li>
 							
 						</ul>
                        
