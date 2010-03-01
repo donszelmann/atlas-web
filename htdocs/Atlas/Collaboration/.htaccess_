@@ -1,0 +1,26 @@
+RewriteEngine On
+ReWriteBase /atlas
+
+
+
+RewriteRule ^index.html index.php [L,NC]
+
+RewriteRule ^atlas_live.html atlas_live.php [L,NC]
+
+
+RewriteRule ^Management/AM.html  Management/AM.php  [L,NC]
+
+RewriteRule ^Management/EB.html  Management/EB.php  [L,NC]
+RewriteRule ^Management/Institutions.html$  Management/Institutions.php  [L,NC]
+RewriteRule ^TCOORD/Activities/TcOffice/Scheduling/Installation/Point1_visits.html$  TCOORD/Activities/TcOffice/Scheduling/Installation/Point1_visits.php [L,NC]
+ 
+RewriteRule ^GROUPS/GENERAL/JOBS/jobs.html$  GROUPS/GENERAL/JOBS/jobs.php  [L,NC]
+RewriteRule ^internal/tdr.html$  internal/tdr.php  [L,NC]
+RewriteRule ^documentation/thesis/thesis.html$  documentation/thesis/thesis.php  [L,NC]
+RewriteRule ^GROUPS/LIQARGON/Organization/index.html$  GROUPS/LIQARGON/Organization/index.php  [L,NC]
+RewriteRule ^GROUPS/LIQARGSTORE/Organization/Dates/LArg-Weeks-all.html$  GROUPS/LIQARGSTORE/Organization/Dates/LArg-Weeks-all.php  [L,NC]
+RewriteRule ^GROUPS/LIQARGON/Organization/General/Tutorial/model.html$  GROUPS/LIQARGON/Organization/General/Tutorial/model.php  [L,NC]
+RewriteRule ^SUB_DETECTORS/TILE/index.html$  SUB_DETECTORS/TILE/index.php [L,NC]
+RewriteRule ^GROUPS/Sheilding/index.html$  GROUPS/Sheilding/index.php [L,NC]
+RewriteRule ^TCOORD/Activities/CommonSys/Shielding/photos/start.html$ TCOORD/Activities/CommonSys/Shielding/photos/start.php [L,NC]
+

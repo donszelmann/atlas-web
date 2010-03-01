@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+ <agenda_item>
+  <id>73288</id>
+  <agenda_url>http://indico.cern.ch/conferenceDisplay.py?confId=73288</agenda_url>
+  <category>Operation/Operation Management</category>
+  <title>OPM Weekly Meeting</title>
+  <speaker>G Mornacchi and M Jaekel</speaker>
+  <start_date>2009-11-23</start_date>
+  <start_time>11:00</start_time>
+  <end_date>2009-11-23</end_date>
+  <end_time>12:30</end_time>
+  <room>3162-1-K01</room>
+  <building>3162</building>
+ </agenda_item>
+</collection>

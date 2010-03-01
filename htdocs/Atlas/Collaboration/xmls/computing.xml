@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+        xmlns:media="http://search.yahoo.com/mrss/"
+        xmlns:atom="http://www.w3.org/2005/Atom">
+      <channel>
+        <title>CERN Document Server</title>
+        <link>http://cdsweb.cern.ch</link>
+        <description>CERN Document Server latest documents</description>
+        <language>en</language>
+        <pubDate>Thu, 25 Feb 2010 16:00:25 CET</pubDate>
+        <category></category>
+        <generator>CDS Invenio 0.99.0.20080511</generator>
+        <webMaster>cds.support@cern.ch</webMaster>
+        <ttl>360</ttl>
+<atom:link rel="self" href="http://cdsweb.cern.ch/rss?cc=ATLAS+Live+Computing+%26+Software+News&amp;ln=en&amp;p=925__b%3A%24TODAY%24-%3E2200-01-01" />
+
+        <image>
+            <url>http://cdsweb.cern.ch/img/cds.png</url>
+            <title>CERN Document Server</title>
+            <link>http://cdsweb.cern.ch</link>
+        </image>
+        <textInput>
+          <title>Search </title>
+          <description>Search this site:</description>
+          <name>p</name>
+          <link>http://cdsweb.cern.ch/search</link>
+        </textInput>
+        
+<item>
+  <title>Deletion of 2009 run data</title>
+  <link>http://cdsweb.cern.ch/record/1243758</link>
+  <description>We plan to delete all real data reconstruction datasets of 2009 run with beams processed in the Tier-0, from disks on the grid. These data correpsond to the AMI tags from f163 to f193, project tags &amp;quot;data09_900GeV&amp;quot; and &amp;quot;data09_2TeV&amp;quot;. Of course a copy of these data will be copied on tape (and can b retrieved on request). This step is in according to the n-2 deletion policy in the computing model. Therefore, if there is any data you need from those datasets, please secure them by making copies in you Group disk area (for example). We remind you that the we have the real data reconstruction relative to the &amp;quot;December09&amp;quot; reprocessing, largely used by all on-going analyses. Furthermore, the &amp;quot;February10&amp;quot; reprocessing of these data is almost complete (and this makes the Tier-0 sample really obsolete). Deadline for this operation: one week from now. Kind regards             Beathe, Andreas, Tom and Leandro</description>
+  <creator>Dario Barberis</creator>
+  <pubDate>Mon, 22 Feb 2010 00:00:00 GMT</pubDate>
+  <guid>http://cdsweb.cern.ch/record/1243758</guid>
+</item>
+
+      </channel>
+</rss>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+ <agenda_item>
+  <id>74468</id>
+  <agenda_url>http://indico.cern.ch/conferenceDisplay.py?confId=74468</agenda_url>
+  <category>Data Quality</category>
+  <title>Data Preparation/Data Quality Daily Meeting</title>
+  <speaker>Hauschild, Michael</speaker>
+  <affiliation>CERN</affiliation>
+  <speaker>Onyisi, Peter</speaker>
+  <affiliation>University of Chicago</affiliation>
+  <start_date>2009-11-23</start_date>
+  <start_time>16:30</start_time>
+  <end_date>2009-11-23</end_date>
+  <end_time>18:00</end_time>
+  <room>3162-1-K01</room>
+  <building>3162</building>
+ </agenda_item>
+</collection>

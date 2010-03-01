@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+        xmlns:media="http://search.yahoo.com/mrss/"
+        xmlns:atom="http://www.w3.org/2005/Atom">
+      <channel>
+        <title>CERN Document Server</title>
+        <link>http://cdsweb.cern.ch</link>
+        <description>CERN Document Server latest documents</description>
+        <language>en</language>
+        <pubDate>Thu, 25 Feb 2010 16:00:25 CET</pubDate>
+        <category></category>
+        <generator>CDS Invenio 0.99.0.20080511</generator>
+        <webMaster>cds.support@cern.ch</webMaster>
+        <ttl>360</ttl>
+<atom:link rel="self" href="http://cdsweb.cern.ch/rss?cc=ATLAS+Live+Data+Preparation+News&amp;ln=en&amp;p=925__b%3A%24TODAY%24-%3E2200-01-01" />
+
+        <image>
+            <url>http://cdsweb.cern.ch/img/cds.png</url>
+            <title>CERN Document Server</title>
+            <link>http://cdsweb.cern.ch</link>
+        </image>
+        <textInput>
+          <title>Search </title>
+          <description>Search this site:</description>
+          <name>p</name>
+          <link>http://cdsweb.cern.ch/search</link>
+        </textInput>
+        
+<item>
+  <title>Info on forthcoming beam-splash events</title>
+  <link>http://cdsweb.cern.ch/record/1244472</link>
+  <description>ATLAS expects this Thursday to receive 10 beam-splash events from beam-1 (A-side), followed by 10 beam-splash events from beam-2 (C-side).  The project tag* used for the beam splash events will be: data10_1beam David Cote and Walter Lampl (PROC) have kindly agreed to create event skims of the forthcoming beam-splash events in RAW and ESD format. They will appear at this afs location(**): 	/afs/cern.ch/user/g/gencomm/w0/2010Splash/RAW 	/afs/cern.ch/user/g/gencomm/w0/2010Splash/ESD soon after the processing.  ---------------------------------------------------------------------- (*) the first field appearing in the dataset names. (**) similar to what has been produced by Jamie in 2009:     /afs/cern.ch/user/g/gencomm/w0/2009Splash/RAW     /afs/cern.ch/user/g/gencomm/w0/2009Splash/ESD</description>
+  <creator></creator>
+  <pubDate>Tue, 23 Feb 2010 00:00:00 GMT</pubDate>
+  <guid>http://cdsweb.cern.ch/record/1244472</guid>
+</item>
+
+<item>
+  <title>Debug stream available for analysis cross checks</title>
+  <link>http://cdsweb.cern.ch/record/1244471</link>
+  <description>Since about a week (and from now ongoing), offline-recovered debug streams are fully reconstructed in the Tier-0, registered to DDM and available on the grid. Before getting to the details, a few comments are in order:    - The trigger group is strongly committed to keeping these streams as small as technically possible. Occurrences are analysed offline and individually followed-up.    - It has been agreed with physics coordination that events in the debug stream MUST NOT be included in physics analysis, since they are not included in the usual physics metadata bookkeeping.     - Until we have gained more experience, the analysts (in particular for searches) are asked to run over the debugrec_hltacc datasets to see if these events have any peculiarity that (given the small number of events in this stream) could influence the results of the analysis.  There are exactly three types of recovered debug streams, which have the stream names: 	debugrec_hltacc  	debugrec_hltrej 	debugrec_crashed for HLT accepted, HLT rejected and 'HLT crashed' events (no HLT decision could be derived for the latter type of events). These RAW streams are reconstructed (and distributed) just as any other 'physics' streams, producing ESD, dESD, AOD, TAG(_COMM), HIST, NTUP_.... (However, since cosmic data are only distributed on request(*), it is the same for the debug streams - so no automatic distribution of these). An example for a recent debug-stream dataset is: 	data10_cos.00148156.debugrec_hltacc.merge.RAW for the RAW data, and  	data10_cos.00148156.debugrec_hltacc.recon.ESD.f210 for the corresponding reconstructed ESD dataset. Each of these datasets contains a single file, ie, they include all luminosity blocks of a given run! The datasets can be displayed, eg, with the run-query, for example: http://atlas-runquery.cern.ch/query.py?q=f+r+148156+%2F+sh+t+and+da+*debugrec*merge* The distribution information is as usual in AMI and dq2.  PS: place data distribution requests here: http://gridui07.usatlas.bnl.gov:25880/server/pandamon/query?mode=reqsubs0</description>
+  <creator></creator>
+  <pubDate>Tue, 23 Feb 2010 00:00:00 GMT</pubDate>
+  <guid>http://cdsweb.cern.ch/record/1244471</guid>
+</item>
+
+<item>
+  <title>February 2010 Reprocessing nearly finished</title>
+  <link>http://cdsweb.cern.ch/record/1243761</link>
+  <description>The Feb. 2010 reprocessing campaign of the data is nearly complete. The reco AMI tag is r1093.</description>
+  <creator>Beate</creator>
+  <pubDate>Mon, 22 Feb 2010 00:00:00 GMT</pubDate>
+  <guid>http://cdsweb.cern.ch/record/1243761</guid>
+</item>
+
+<item>
+  <title>ATLAS luminosity in 2009</title>
+  <link>http://cdsweb.cern.ch/record/1238170</link>
+  <description>The luminosity collected in 2009 was about 19 &amp;mu; b&lt;sup&gt;-1&lt;/sup&gt; for 900 GeV and 0.7 &amp;mu; b&lt;sup&gt;-1&lt;/sup&gt; for 2.36 TeV</description>
+  <creator>Beate</creator>
+  <pubDate>Thu, 04 Feb 2010 00:00:00 GMT</pubDate>
+  <guid>http://cdsweb.cern.ch/record/1238170</guid>
+</item>
+
+      </channel>
+</rss>
+

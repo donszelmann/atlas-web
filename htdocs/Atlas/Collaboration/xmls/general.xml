@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+        xmlns:media="http://search.yahoo.com/mrss/"
+        xmlns:atom="http://www.w3.org/2005/Atom">
+      <channel>
+        <title>CERN Document Server</title>
+        <link>http://cdsweb.cern.ch</link>
+        <description>CERN Document Server latest documents</description>
+        <language>en</language>
+        <pubDate>Thu, 25 Feb 2010 16:00:25 CET</pubDate>
+        <category></category>
+        <generator>CDS Invenio 0.99.0.20080511</generator>
+        <webMaster>cds.support@cern.ch</webMaster>
+        <ttl>360</ttl>
+<atom:link rel="self" href="http://cdsweb.cern.ch/rss?cc=ATLAS+Live+General+News&amp;ln=en&amp;p=925__b%3A%24TODAY%24-%3E2200-01-01" />
+
+        <image>
+            <url>http://cdsweb.cern.ch/img/cds.png</url>
+            <title>CERN Document Server</title>
+            <link>http://cdsweb.cern.ch</link>
+        </image>
+        <textInput>
+          <title>Search </title>
+          <description>Search this site:</description>
+          <name>p</name>
+          <link>http://cdsweb.cern.ch/search</link>
+        </textInput>
+        
+<item>
+  <title>IUPAP Young Scientist Prize for the Commission of Particles and Fields (C11)</title>
+  <link>http://cdsweb.cern.ch/record/1241811</link>
+  <description>&amp;lt;!--HTML--&amp;gt;The Commission on Particles and Fields (C11) of IUPAP solicits nominations of outstanding young experimental or theoretical particle physicists for the two 2010 Young Scientists Prizes.  &amp;lt;http://www.iupapc11.org/C11YoungScientistPrize2010.html&amp;gt; The prizes, each consisting of an IUPAP medal and a small cash award, will be presented at the 35th International Conference on High Energy Physics, Paris, France on July 21 - 28, 2010. Past Winners: Yasaman Farzan (Institute for Research in Fundamental Sciences, Teheran) Kai-Feng Chen (National Taiwan University, Taipei)  Candidates for the prize should have a maximum of 8 years of research experience (excluding career interruptions) following the PhD.  Previous award recipients will not be eligible for the award. Nominations for the IUPAP Particles and Fields Young Scientist Prize can be made by experimental or theoretical particle physicists who know the work of the nominee well.  Nomination packages should consist of: .      a nomination letter, .      two additional letters of support, and .      a complete CV and list of publications. All letters should discuss the nominee's qualifications and scientific achievements in the field of experimental or theoretical particle physics and any significant publications.   At least one supporting letter should come from someone who is not at the nominee's institution and is not a past or present mentor.  Nomination materials should be sent by electronic mail to the C11 Commission Chair (mcbride@fnal.gov) before March 20, 2010. Dr. Patricia McBride IUPAP C11 Chair www.iupapc11.org</description>
+  <creator>Gregor Herten</creator>
+  <pubDate>Wed, 17 Feb 2010 00:00:00 GMT</pubDate>
+  <guid>http://cdsweb.cern.ch/record/1241811</guid>
+</item>
+
+<item>
+  <title>Performance paper on 2009 collision data</title>
+  <link>http://cdsweb.cern.ch/record/1240819</link>
+  <description>Following the discussions at the ATLAS Weekly on 26/1/2010,  and additional debate in the Executive Board, the EB  agreed (at its meeting on 11/2/2010) to publish a  &amp;quot;Performance paper&amp;quot; based on the 2009 collision data.  This paper will cover the performance results (from trigger detector, luminosity, Combined Performance groups, etc.)  approved for the 2010 Winter Conferences.  It will not include combined cosmics results. The paper editors are B.Mansoulie', W.Murray and H.-C.Schultz-Coulon.   The aim is to release the first draft in the first week of March, and  to submit the paper for publication early April.    Plans for physics papers based on 2009 data and first 2010 data  will be discussed at the February ATLAS week. </description>
+  <creator>Fabiola Gianotti</creator>
+  <pubDate>Sat, 13 Feb 2010 00:00:00 GMT</pubDate>
+  <guid>http://cdsweb.cern.ch/record/1240819</guid>
+</item>
+
+<item>
+  <title>Draft agenda of next ATLAS week available</title>
+  <link>http://cdsweb.cern.ch/record/1238158</link>
+  <description>Check out the &lt;a href="http://indico.cern.ch/conferenceDisplay.py?confId=66742"&gt;draft agenda&lt;/a&gt; of the next ATLAS Collaboration week (22-26 February).</description>
+  <creator>Fabiola Gianotti</creator>
+  <pubDate>Thu, 04 Feb 2010 00:00:00 GMT</pubDate>
+  <guid>http://cdsweb.cern.ch/record/1238158</guid>
+</item>
+
+<item>
+  <title>Main outcome of the Chamonix LHC Workshop</title>
+  <link>http://cdsweb.cern.ch/record/1236816</link>
+  <description>Yesterday, at the end of the LHC workshop in Chamonix, the  following preliminary plan has been agreed by CERN Management,  the machine team and the experiments: -- The LHC will run at 3.5+3.5 TeV in 2010 and 2011, until    the experiments collect an integrated luminosity of    ~ 1 fb-1. Only a short technical stop is foreseen at the    end of 2010-beginning of 2011. -- The 2010-2011 run will be followed by a long (~1 year)    shut-down, to redo all splices and thus enable the machine    to operate up to the design energy (7+7 TeV). -- Partial fixing of the splices (e.g. for 5+5 TeV operation) is    judged by the machine management at this stage to be a higher-risk     scenario than repairing the whole machine. -- A firmer plan can only be made around June, after    experience is gained with the machine operation    and performance (e.g. in terms of luminosity) at 3.5+3.5 TeV A more extensive report, including also LHC upgrade aspects, will be presented  and discussed at the ATLAS Weekly meeting on Tuesday 2 February.</description>
+  <creator>Fabiola Gianotti, Marzio Nessi</creator>
+  <pubDate>Sat, 30 Jan 2010 00:00:00 GMT</pubDate>
+  <guid>http://cdsweb.cern.ch/record/1236816</guid>
+</item>
+
+<item>
+  <title>Main news from the meeting with the DG on 12-1-2010</title>
+  <link>http://cdsweb.cern.ch/record/1233744</link>
+  <description>The DG, S.Bertolucci and S.Myers met briefly with the  ALICE, ATLAS, CMS, LHCb Spokespersons on 12-1-2010 afternoon,  to principally discuss possible experiments' input to the Chamonix  workshop (http://indico.cern.ch/conferenceDisplay.py?confId=67839).  The main news and conclusions are posted &lt;a href="http://indico.cern.ch/materialDisplay.py?contribId=15&amp;sessionId=12&amp;materialId=2&amp;confId=a041476"&gt;here&lt;/a&gt;</description>
+  <creator>Fabiola Gianotti</creator>
+  <pubDate>Sun, 17 Jan 2010 00:00:00 GMT</pubDate>
+  <guid>http://cdsweb.cern.ch/record/1233744</guid>
+</item>
+
+      </channel>
+</rss>
+

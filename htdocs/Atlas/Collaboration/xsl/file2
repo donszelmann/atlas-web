@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+ <agenda_item>
+  <id>72562</id>
+  <agenda_url>http://indico.cern.ch/conferenceDisplay.py?confId=72562</agenda_url>
+  <category>Operation/Run Coordination&amp;nbsp;/&amp;nbsp;Daily Meeting</category>
+  <title>Daily run meeting</title>
+  <start_date>2009-11-23</start_date>
+  <start_time>09:30</start_time>
+  <end_date>2009-11-23</end_date>
+  <end_time>10:30</end_time>
+  <room>3162-1-K01</room>
+  <building>3162</building>
+ </agenda_item>
+</collection>

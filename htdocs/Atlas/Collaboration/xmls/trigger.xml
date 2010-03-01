@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+        xmlns:media="http://search.yahoo.com/mrss/"
+        xmlns:atom="http://www.w3.org/2005/Atom">
+      <channel>
+        <title>CERN Document Server</title>
+        <link>http://cdsweb.cern.ch</link>
+        <description>CERN Document Server latest documents</description>
+        <language>en</language>
+        <pubDate>Thu, 25 Feb 2010 16:00:25 CET</pubDate>
+        <category></category>
+        <generator>CDS Invenio 0.99.0.20080511</generator>
+        <webMaster>cds.support@cern.ch</webMaster>
+        <ttl>360</ttl>
+<atom:link rel="self" href="http://cdsweb.cern.ch/rss?cc=ATLAS+Live+Trigger+News&amp;ln=en&amp;p=925__b%3A%24TODAY%24-%3E2200-01-01" />
+
+        <image>
+            <url>http://cdsweb.cern.ch/img/cds.png</url>
+            <title>CERN Document Server</title>
+            <link>http://cdsweb.cern.ch</link>
+        </image>
+        <textInput>
+          <title>Search </title>
+          <description>Search this site:</description>
+          <name>p</name>
+          <link>http://cdsweb.cern.ch/search</link>
+        </textInput>
+        
+<item>
+  <title>Want to know what's running now?</title>
+  <link>http://cdsweb.cern.ch/record/1237565</link>
+  <description>Follow &lt;a href="https://atlasop.cern.ch/atlas-point1/wmi/current/WTRP_wmi/"&gt;this link&lt;/a&gt;! Current rates and trigger keys.</description>
+  <creator>Thorsten Wengler</creator>
+  <pubDate>Wed, 03 Feb 2010 00:00:00 GMT</pubDate>
+  <guid>http://cdsweb.cern.ch/record/1237565</guid>
+</item>
+
+      </channel>
+</rss>
+

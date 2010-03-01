@@ -1,0 +1,59 @@
+/* Scroll Bar Master Styling Starts Here */
+/* All comments can be freely removed from the css */
+
+.scrollgeneric {
+line-height: 1px;
+font-size: 1px;
+position: absolute;
+top: 0; left: 0;
+}
+
+.vscrollerbase {
+width: 10px;
+background-color: white;
+}
+.vscrollerbar {
+width: 10px;
+background-color: black;
+}
+.hscrollerbase {
+height: 10px;
+background-color: white;
+}
+.hscrollerbar {
+height: 10px;
+background-color: black;
+}
+
+.scrollerjogbox {
+width: 10px;
+height: 10px;
+top: auto; left: auto;
+bottom: 0px; right: 0px;
+background-color: gray;
+}
+
+
+.flexcroll {
+/* Typical fixed height and fixed width example */
+width: 300px;
+height: 250px;
+overflow: auto;
+/* IE overflow fix, position must be relative or absolute*/
+position: relative;
+background-color: #E7EADE;
+margin: 0.3em auto;
+padding: 15px;
+}
+
+/* hesido: notice the addition of emptyspace holder, it should slightly be bigger than the containing div */
+/* and it should only be that big when fleXcroll is active for better degradation */
+/* version 1.9.1 and up adds flexcrollactive class, but the script should work with 1.8.9 and up */
+.flexcrollactive .emptyspace {
+	height: 260px;
+	}
+
+/* you may optionally want to hide the scrollbars */
+#mycustomscroll .vscrollerbase {
+	visibility: hidden !important;
+}
