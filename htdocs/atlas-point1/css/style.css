@@ -639,6 +639,7 @@ ul#menu li ul li a:hover {
 }
 /*Edited By Rudra*/
 
+/** Edited by Mark Donszelmann, changed padding-bottom from 12 to 0 **/
 .middleHeadMid {
 	width:316px;
 	background:url(../images/medium_blueTop.jpg) no-repeat left top;

@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>ATLAS Detector Operation</title>
-<link rel="stylesheet" type="text/css" href="<?=Baseurl?>css/style.css" />
-<link rel="shortcut icon" href="/Atlas/Collaboration/images/atlasblue.ico">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="shortcut icon" href="images/atlasblue.ico">
 
 
 <!--[if lt IE 8]>
