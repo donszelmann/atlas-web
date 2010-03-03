@@ -201,7 +201,16 @@ animatedcollapse.init()
 						<div class="subBox">
                         </div>
 <iframe src="https://atlasop.cern.ch/atlas-point1/wmi/current/Run Status_wmi/AtlasRunCom.html" width="100%" 
-height="500"></iframe>
+height="400"></iframe>
+					    <div class="clearfix"></div>
+                    </div><!--end run program-->
+
+                	<div class="middleHeadMid">
+                    <h3>Operation News</h3>
+						<div class="subBox">
+                        </div>
+<iframe src="xxx" width="100%" 
+height="200"></iframe>
 					    <div class="clearfix"></div>
                     </div><!--end run program-->
                                
