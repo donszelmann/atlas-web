@@ -191,7 +191,6 @@ body {
 	padding:0 10px;
 	width:960px;
 	color:#FFFFFF;
-	cursor: pointer;
 }
 .topHeadMeeting h3.active {
 	background-position: right 5px;
@@ -653,7 +652,6 @@ ul#menu li ul li a:hover {
 	text-transform:uppercase;
 	padding:0 10px;
 	color:#FFFFFF;
-	cursor: pointer;
 }
 .middleHeadMid h3.active {
 	background-position: right 5px;
@@ -743,7 +741,6 @@ ul#menu li ul li a:hover {
 	text-transform:uppercase;
 	padding:0 10px;
 	color:#FFFFFF;
-	cursor: pointer;
 }
 .middleHeadServices h3.active {
 	background-position: right 5px;

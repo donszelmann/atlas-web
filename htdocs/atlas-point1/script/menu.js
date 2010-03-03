@@ -119,7 +119,7 @@ $(document).ready(function() {
   
 	   
   if (username!=null && username!=""){
-	   //alert(username);
+	   alert(username);
 	   var checkElement = $(this).next();
 	   val = username;
 	

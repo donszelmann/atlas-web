@@ -19,7 +19,7 @@ animatedcollapse.addDiv('dog', 'fade=0,speed=400,group=pets,persist=1,hide=1')
 animatedcollapse.addDiv('rabbit_service', 'fade=1,speed=400,group=pets,hide=1')
 
 //Detector Activites
-//animatedcollapse.addDiv('rabbit_detector', 'fade=1,speed=400,group=pets,hide=1')
+animatedcollapse.addDiv('rabbit_detector', 'fade=1,speed=400,group=pets,hide=1')
 
 //Meetings
 animatedcollapse.addDiv('rabbit_meeting', 'fade=1,speed=400,group=pets,hide=1')
@@ -44,10 +44,7 @@ animatedcollapse.init()
     <div id="mainWp">
     	<div id="content" class="container">       
         	<div class="topHeadMeeting">
-              <?php 
-			
-			  include_once("meeting.php");
-			  ?>          
+				<h3>Detector Operation</h3>
 			</div><!--end topHead-->
             
             <div class="activities">
@@ -70,7 +67,7 @@ animatedcollapse.init()
                 	<div class="leftNav">
 						<ul id="menu" class="slidingmenu1">
 							<li><a href="#" id="1">Systems</a>
-								<ul class="subLeftNavGeneral" id="menu_1">
+								<ul class="subLeftNav" id="menu_1">
 									<li>
 										<a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=systems/geninfo/id.html">Inner Detector</a>
 									</li>
@@ -125,9 +122,20 @@ animatedcollapse.init()
 									<li> <a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=radiation/">Radiation Monitors</a></li>
 								</ul>	
 							</li>
+                			<li><a href="#" id="4" >LHC Machine</a>
+								<ul class="subLeftNav" id="menu_4">
 								
-							<li class="last-child"><a class="#" href="http://atlas.web.cern.ch/Atlas/index_old.html">Old Operation page</a></li>
-							
+									<li><a href="http://op-webtools.web.cern.ch/op-webtools/vistar/vistars.php?usr=LHC1">LHC Page 1</a></li>
+									<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=dcs/dcs/process.php?page=ATL_LHC&subd=IS">ATLAS Page 1</a></li>
+									<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=http://atlas.web.cern.ch/Atlas/GROUPS/DATAPREPARATION/runs.html">Luminosity Performance</a></li>
+									<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=lhc/backgrounds.html">Backgrounds</a></li>
+									<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=dcs/dcs/process.php?page=LHC_INS::BPTXInfo&subd=IS">Beam Instrumentation</a></li>
+									<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=dcs/dcs/process.php?page=ATL_EXT::Vacuum&subd=IS">Vacuum Beam Pipe</a></li>
+									<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=dcs/dcs/process.php?page=LHC_BIS">Beam Interlock System</a></li>
+								</ul>
+							</li>
+								
+							<li class="last-child"><a class="#" href="https://atlasop.cern.ch/atlas-point1/operation_old.php">Old Operation page</a></li>					
 						</ul>
           
 				  	</div>
@@ -136,22 +144,54 @@ animatedcollapse.init()
 					</div>
 
 					<div style="padding-bottom: 12px;">
-                	<div class="title"><h3>LHC Machine</h3>
-					</div>
-                	<div class="leftNav">
-						<ul id="menu" class="slidingmenu2">
-								
-							<li><a href="http://op-webtools.web.cern.ch/op-webtools/vistar/vistars.php?usr=LHC1">LHC Page 1</a></li>
-							<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=dcs/dcs/process.php?page=ATL_LHC&subd=IS">ATLAS Page 1</a></li>
-							<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=http://atlas.web.cern.ch/Atlas/GROUPS/DATAPREPARATION/runs.html">Luminosity Performance</a></li>
-							<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=lhc/backgrounds.html">Backgrounds</a></li>
-							<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=dcs/dcs/process.php?page=LHC_INS::BPTXInfo&subd=IS">Beam Instrumentation</a></li>
-							<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=dcs/dcs/process.php?page=ATL_EXT::Vacuum&subd=IS">Vacuum Beam Pipe</a></li>
-							<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=dcs/dcs/process.php?page=LHC_BIS">Beam Interlock System</a></li>
+                	<div class="middleHeadMid">
+                    <h3>Work at Point 1</h3>
+
+					<div class="leftNav">
+							
+						<ul id="menu" class="slidingmenu1">
+							<li><a href="http://indico.cern.ch/categoryDisplay.py?categId=1407">Operation Meetings</a></li>
+							<li><a href="#" id="5" >Operation Schedule</a>
+							<ul class="subLeftNav" id="menu_5">
+								<li><a href="https://atlasop.cern.ch/atlas-point1/twiki/bin/view/Main/RunningSchedules">Run Schedule</a></li>
+								<li><a href="http://indico.cern.ch/categoryDisplay.py?categId=1419">Intervention Schedule</a></li>
+								<li><a href="http://indico.cern.ch/categoryDisplay.py?categId=1428">Run Meetings</a></li>
+								<li><a href="https://edms.cern.ch/cedar/plsql/navigation.tree?p_top_id=1069988858&p_top_type=P&p_open_id=1916187939&p_open_type=P">Operation Documents in EDMS</a></li>
+							</ul>
+							<li><a href="https://atlasop.cern.ch/atlas-point1/ATLAS_Logbook.htm">E-Logbook</a></li>
+							<li><a href="#" id="6" >Shifts</a>
+							<ul class="subLeftNav" id="menu_6">
+								<li><a href="https://pptevm.cern.ch/mao/client/cern.ppt.mao.app.gwt.MaoClient/MaoClient.html#home">Shift Booking (OTP)</a></li>
+								<li><a href="https://atlasop.cern.ch/atlas-point1/shift.html">Shift Booking Rules</a></li>
+								<li><a href="http://pptevm-public.cern.ch/mao/public/PhoneList.html">Today's Shift Schedule</a></li>
+							</ul>
+							<li><a href="http://atlas-service-runinformation.web.cern.ch/atlas-service-runinformation/">Run Summaries</a></li>
+							<li><a href="https://atlasop.cern.ch/atlas-point1/status/Phone.htm">On Call Phones</a></li>
+							<li><a href="https://edms.cern.ch/document/817670">Piquet Services</a></li>
+							<li><a href="https://edms.cern.ch/file/1020308/1/atc-e-mg-0012.pdf">ATLAS-LHC Meetings</a></li>
+							<li><a href="http://atlas.web.cern.ch/Atlas/TCOORD/Activities/TcOffice/Scheduling/Installation/Point1_visits.html">Visits to Point 1</a></li>
+							<li><a href="http://atlas.web.cern.ch/Atlas/TCOORD/Activities/TcOffice/Safety/Work.htm">Working at Point 1</a></li>
+							<li><a href="http://atlas.web.cern.ch/Atlas/TCOORD/Activities/TcOffice/Safety/index.htm">Safety in ATLAS</a></li>
+							<li><a href="#" id="7" >Documentation</a>
+							<ul class="subLeftNav" id="menu_7">
+								<li><a href="https://atlasop.cern.ch/atlas-point1/slimos/doc/default.htm">Slimos</a></li>
+								<li><a href="https://atlasop.cern.ch/atlas-point1/twiki/bin/view/Main/LArOperationManualShifter">LAr</a></li>
+								<li><a href="https://atlasop.cern.ch/atlas-point1/twiki/bin/view/Main/TileCalorimeterWhiteBoard">Tile</a></li>
+							</ul>
+							<li><a href="#" id="8" >Links</a>
+							<ul class="subLeftNav" id="menu_8">
+								<li><a href="https://atlasop.cern.ch/atlas-point1/ATLASview/ACR.htm">ATLAS Control Room</a></li>
+								<li><a href="http://atlaseye-webpub.web.cern.ch/atlaseye-webpub/web-sites/pages/UX15_webcams.htm">ATLAS Cavern</a></li>
+								<li><a href="http://atglance.home.cern.ch/atglance/cgi-bin/listInterfaces">Glance</a></li>
+								<li><a href="broken link">SysAdmin FAQ</a></li>
+								<li><a href="http://atlas-tdaq-sysadmin.web.cern.ch/atlas-tdaq-sysadmin/public/">SysAdmin</a></li>
+								<li><a href="http://acr.web.cern.ch/acr/safe_keys.pdf">Emergency Access Keys</a></li>
+							</ul>
 						</ul>
-					</div>
-                        <div class="clearfix"></div>
-				
+					</div>	
+					</div>	
+					
+                    <div class="clearfix"></div>			
 				</div>
                 </div><!--end left nav-->
 
@@ -169,51 +209,6 @@ height="500"></iframe>
                 </div><!--end middleCol-->
                 
                 <div class="rightCol">
-                	<div class="middleHeadMid">
-                    <h3>Work at Point 1</h3>
-
-					<div class="leftNav">
-							
-						<ul id="menu" class="slidingmenu1">
-							<li><a href="#" id="4" >Operation Schedule</a>
-							<ul class="subLeftNav" id="menu_4">
-								<li><a href="https://atlasop.cern.ch/atlas-point1/twiki/bin/view/Main/RunningSchedules">Run Schedule</a></li>
-								<li><a href="http://indico.cern.ch/categoryDisplay.py?categId=1419">Intervention Schedule</a></li>
-								<li><a href="http://indico.cern.ch/categoryDisplay.py?categId=1428">Run Meetings</a></li>
-								<li><a href="https://edms.cern.ch/cedar/plsql/navigation.tree?p_top_id=1069988858&p_top_type=P&p_open_id=1916187939&p_open_type=P">Operation Documents in EDMS</a></li>
-							</ul>
-							<li><a href="https://atlasop.cern.ch/atlas-point1/ATLAS_Logbook.htm">E-Logbook</a></li>
-							<li><a href="#" id="5" >Shifts</a>
-							<ul class="subLeftNav" id="menu_5">
-								<li><a href="https://pptevm.cern.ch/mao/client/cern.ppt.mao.app.gwt.MaoClient/MaoClient.html#home">Shift Booking (OTP)</a></li>
-								<li><a href="https://atlasop.cern.ch/atlas-point1/shift.html">Shift Booking Rules</a></li>
-								<li><a href="http://pptevm-public.cern.ch/mao/public/PhoneList.html">Today's Shift Schedule</a></li>
-							</ul>
-							<li><a href="http://atlas-service-runinformation.web.cern.ch/atlas-service-runinformation/">Run Summaries</a></li>
-							<li><a href="https://atlasop.cern.ch/atlas-point1/status/Phone.htm">On Call Phones</a></li>
-							<li><a href="https://edms.cern.ch/document/817670">Piquet Services</a></li>
-							<li><a href="https://edms.cern.ch/file/1020308/1/atc-e-mg-0012.pdf">ATLAS-LHC Meetings</a></li>
-							<li><a href="http://atlas.web.cern.ch/Atlas/TCOORD/Activities/TcOffice/Scheduling/Installation/Point1_visits.html">Visits to Point 1</a></li>
-							<li><a href="http://atlas.web.cern.ch/Atlas/TCOORD/Activities/TcOffice/Safety/Work.htm">Working at Point 1</a></li>
-							<li><a href="http://atlas.web.cern.ch/Atlas/TCOORD/Activities/TcOffice/Safety/index.htm">Safety in ATLAS</a></li>
-							<li><a href="#" id="6" >Documentation</a>
-							<ul class="subLeftNav" id="menu_6">
-								<li><a href="https://atlasop.cern.ch/atlas-point1/slimos/doc/default.htm">Slimos</a></li>
-								<li><a href="https://atlasop.cern.ch/atlas-point1/twiki/bin/view/Main/LArOperationManualShifter">LAr</a></li>
-								<li><a href="https://atlasop.cern.ch/atlas-point1/twiki/bin/view/Main/TileCalorimeterWhiteBoard">Tile</a></li>
-							</ul>
-							<li><a href="#" id="7" >Links</a>
-							<ul class="subLeftNav" id="menu_7">
-								<li><a href="https://atlasop.cern.ch/atlas-point1/ATLASview/ACR.htm">ATLAS Control Room</a></li>
-								<li><a href="http://atlaseye-webpub.web.cern.ch/atlaseye-webpub/web-sites/pages/UX15_webcams.htm">ATLAS Cavern</a></li>
-								<li><a href="http://atglance.home.cern.ch/atglance/cgi-bin/listInterfaces">Glance</a></li>
-								<li><a href="broken link">SysAdmin FAQ</a></li>
-								<li><a href="http://atlas-tdaq-sysadmin.web.cern.ch/atlas-tdaq-sysadmin/public/">SysAdmin</a></li>
-								<li><a href="http://acr.web.cern.ch/acr/safe_keys.pdf">Emergency Access Keys</a></li>
-							</ul>
-						</ul>
-					</div>	
-					</div>
                 	<div class="searchBox">
                     	<h3>search & phones</h3>
                         <div class="search">
@@ -231,9 +226,8 @@ height="500"></iframe>
 					<div class="middleHeadServices">
                     	<!--<h3>services & tools</h3>-->
 						
-						<h3><a href="#" rel="toggle[rabbit_service]" data-openimage="images/minus_arrow.png" data-closedimage="images/plus_arrow.png" style="text-decoration:none; color:#FFFFFF">services & tools<span style="margin-left:120px;"><img src="images/minus_arrow.png" border="0" style="padding-top:3px"/></span></a></h3>
+						<h3>services & tools</h3>
 						
-                        <div class="subBox" id="rabbit_service">
                         	<div class="serviceList">
                             <h5>services</h5>
                             <ul class="leftList">
@@ -281,7 +275,7 @@ href="http://atlas-authdb.web.cern.ch/atlas-authdb/autoout/atlas_webdir.html">AT
 							</li>                            
                             </ul>
                            </div> 
-                        </div>
+
                         <div class="clearfix"></div>
                     </div><!--end services and tools-->
 

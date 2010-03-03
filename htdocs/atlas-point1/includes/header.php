@@ -24,11 +24,15 @@
 
 <body>
 <div id="wrapper">
-	<div id="topRow">
-    	<div id="login" class="container"> <?php if($_SESSION['valid_code']=="") {?><a href="<?=Baseurl?>login/login.php" class="loginBtn" >Login</a> <?php } else {?> <a href="logout.php"><img src="images/logout.jpg"  style="padding:4px;" /></a><span class="userinfo"><?=$_SESSION['HTTP_ADFS_FULLNAME']?>&nbsp;&nbsp;&nbsp;<?=$_SESSION['HTTP_ADFS_EMAIL']?></span><?php } ?>
+	<div id="topRow">	
+    	<div id="login" class="container"> 
+<!--
+    	<?php if($_SESSION['valid_code']=="") {?><a href="<?=Baseurl?>login/login.php" class="loginBtn" >Login</a> <?php } else {?> <a href="logout.php"><img src="images/logout.jpg"  style="padding:4px;" /></a><span class="userinfo"><?=$_SESSION['HTTP_ADFS_FULLNAME']?>&nbsp;&nbsp;&nbsp;<?=$_SESSION['HTTP_ADFS_EMAIL']?></span><?php } ?>
+-->
         	 <div class="slogun"><p><a href="http://www.cern.ch/" title="Go to the CERN homepage">European Organization for Nuclear Research</a></p></div>
              <div class="clearfix"></div>
-        </div>       
+        </div> 
+      
     </div><!--end tophead-->
     <div id="header">
     	<div id="logoWp" class="container"><h1><a href="http://atlas.web.cern.ch/Atlas/Collaboration/index.php">Atlas Experiment</a></h1>
