@@ -44,6 +44,12 @@ body{
 	font-size:10px;
 	color:#FFFFFF;
 }
+#login .slogun p a {
+	line-height:27px;
+	font-size:10px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
 #header{
 	background:url(../images/header_grad.gif) repeat-x left top;
 	height:104px;
@@ -1002,11 +1008,11 @@ html[xmlns] .clearfix {
 .topSubBtns ul.btnsLink li.detBtn2 a{background:url(../images/roundBlue_btn2.gif) no-repeat left top;}
 .topSubBtns ul.btnsLink li.detBtn2 a:hover, .topSubBtns ul.btnsLink li.detBtn2 a.active{background:url(../images/roundBlue_btn2.gif) no-repeat left bottom; }
 
-.topSubBtns ul.btnsLink li.comSoftBtn3 a{background:url(../images/roundBlue_btn3.gif) no-repeat left top;}
-.topSubBtns ul.btnsLink li.comSoftBtn3 a:hover, .topSubBtns ul.btnsLink li.comSoftBtn3 a.active{background:url(../images/roundBlue_btn3.gif) no-repeat left bottom; }
+.topSubBtns ul.btnsLink li.comSoftBtn3 a{background:url(../images/roundBlue_btn4.gif) no-repeat left top;}
+.topSubBtns ul.btnsLink li.comSoftBtn3 a:hover, .topSubBtns ul.btnsLink li.comSoftBtn3 a.active{background:url(../images/roundBlue_btn4.gif) no-repeat left bottom; }
 
-.topSubBtns ul.btnsLink li.trigBtn4 a{background:url(../images/roundBlue_btn4.gif) no-repeat left top;}
-.topSubBtns ul.btnsLink li.trigBtn4 a:hover, .topSubBtns ul.btnsLink li.trigBtn4 a.active{background:url(../images/roundBlue_btn4.gif) no-repeat left bottom; }
+.topSubBtns ul.btnsLink li.trigBtn4 a{background:url(../images/roundBlue_btn3.gif) no-repeat left top;}
+.topSubBtns ul.btnsLink li.trigBtn4 a:hover, .topSubBtns ul.btnsLink li.trigBtn4 a.active{background:url(../images/roundBlue_btn3.gif) no-repeat left bottom; }
 
 .topSubBtns ul.btnsLink li.dataBtn5 a{background:url(../images/roundBlue_btn5.gif) no-repeat left top;}
 .topSubBtns ul.btnsLink li.dataBtn5 a:hover, .topSubBtns ul.btnsLink li.dataBtn5 a.active{background:url(../images/roundBlue_btn5.gif) no-repeat left bottom; }

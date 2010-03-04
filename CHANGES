@@ -1,0 +1,30 @@
+Changes to template to make into operations
+===========================================
+? are questions
++ are changes that should be done to the template
+- are changes made for operation
+===========================================
+- Title changed to ATLAS Detector Operation
++ main links should be absolute with server name as this page is housed in different servers
+? login, if pointed to main page, then redirect will not come to operation page, maybe remove as this page is protected
+- link made from "European…" to CERN, style file, added "#login .slogun p a" to remove change of link color
+? Atlas Live -> Atlas Now
+? Contact us -> CERN&nbsp;
++ links made to atlas experiment, collaboration, atlas now, atlas public and CERN
+- Data Preparation -> Detector Operation and changed color for headerTxt in css from #1cb5b2 to ???
++ Genaral -> General
+? General, where should this point to, or remove
+- moved class=active to Detector Operation
+? exchanged trigger with computing to keep same order as on main page, also changed colors 2 times in css
++ links made to data operation, trigger, computing, data preparation and physics
+- change data operation link to operation.html
++ changed copyright to Copyright 2010 - mailto me, ATLAS Web Communications
+
+
+
+Problems
+========
+- Login...
+- Title Color
+- Banner Colors
+- Menu cookies
