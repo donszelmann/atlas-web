@@ -45,9 +45,15 @@ $(document).ready(function(){
 		$(this).next(".subBox").slideToggle("slow")
 		.siblings(".subBox:visible").slideUp("slow");
 		$(this).toggleClass("active");
-		$(this).siblings(".largeGeneralNews1 h3, .largeGeneralNews1 h3").removeClass("active");
+		$(this).siblings(".largeGeneralNews1 h3, .largeGeneralNews2 h3").removeClass("active");
 	});
-	
+	$(".largeGeneralNews1 h3, .largeGeneralNews2 h3").toggleClass("active");
+	$(".largeGeneralNews1 h3, .largeGeneralNews2 h3").click(function(){
+		$(this).next(".subBoxOpen").slideToggle("slow")
+		.siblings(".subBoxOpen:visible").slideUp("slow");
+		$(this).toggleClass("inactive");
+		$(this).siblings(".largeGeneralNews1 h3, .largeGeneralNews2 h3").removeClass("active");
+	});	
 //---------------for .genNewBox1, .genNewBox2-------------------------		
 	$(".genNewBox1 h3").click(function(){
 		$(this).next(".subBox").slideToggle("slow")

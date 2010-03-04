@@ -172,6 +172,8 @@ body{
 .subBox{
 	display: none;
 }
+.subBoxOpen{
+}
 ul.subMenu{
 	background:url(../images/blue_grad.jpg) repeat-x left top;
 	height:27px;

@@ -19,8 +19,8 @@ Changes to template to make into operations
 + links made to data operation, trigger, computing, data preparation and physics
 - change data operation link to operation.html
 + changed copyright to Copyright 2010 - mailto me, ATLAS Web Communications
-
-
++ collapDiv.js largeGeneralNews1, type in siblings, should be 2 instead of 1
++ added subBoxOpen to css and collapDiv, making the area open by default
 
 Problems
 ========
@@ -28,3 +28,5 @@ Problems
 - Title Color
 - Banner Colors
 - Menu cookies
+- Meetings
+- SysAdmin FAQ broken link
