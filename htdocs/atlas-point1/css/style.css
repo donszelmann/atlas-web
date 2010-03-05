@@ -971,8 +971,38 @@ html[xmlns] .clearfix {
 	height:130px;
 	clear:both;
 }
-.topSubBtns p.headerTxt{
+.topSubBtns p.headerTxt1{
 	color:#3b88d7;
+	font-size:36px;
+	text-align:center;
+	line-height:36px;
+}
+.topSubBtns p.headerTxt2{
+	color:#3b88d7;
+	font-size:36px;
+	text-align:center;
+	line-height:36px;
+}
+.topSubBtns p.headerTxt3{
+	color:#3b88d7;
+	font-size:36px;
+	text-align:center;
+	line-height:36px;
+}
+.topSubBtns p.headerTxt4{
+	color:#3b88d7;
+	font-size:36px;
+	text-align:center;
+	line-height:36px;
+}
+.topSubBtns p.headerTxt5{
+	color:#2ed2d0;
+	font-size:36px;
+	text-align:center;
+	line-height:36px;
+}
+.topSubBtns p.headerTxt6{
+	color:#28d5bf;
 	font-size:36px;
 	text-align:center;
 	line-height:36px;

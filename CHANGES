@@ -11,7 +11,8 @@ Changes to template to make into operations
 ? Atlas Live -> Atlas Now
 ? Contact us -> CERN&nbsp;
 + links made to atlas experiment, collaboration, atlas now, atlas public and CERN
-- Data Preparation -> Detector Operation and changed color for headerTxt in css from #1cb5b2 to #3b88d7
+- Data Preparation -> Detector Operation and changed color to headerTxt2 in css
++ Split headerTxt in 1-6 for different colors
 + Genaral -> General
 ? General, where should this point to, or remove
 - moved class=active to Detector Operation
