@@ -46,6 +46,7 @@
                     <li class="phyBtn6"><a href="https://twiki.cern.ch/twiki/bin/view/AtlasProtected/AtlasPhysics">Physics</a></li>
                 </ul>
             </div>
+            
             <div class="dataPreBox">
             	<div class="dataPre_leftCol">
                 	<ul id="menuSec" class="slidingmenu">
@@ -108,13 +109,32 @@
 								<li><a href="https://atlasop.cern.ch/atlas-point1/ATLASview/ACR.htm">ATLAS Control Room</a></li>
 								<li><a href="http://atlaseye-webpub.web.cern.ch/atlaseye-webpub/web-sites/pages/UX15_webcams.htm">ATLAS Cavern</a></li>
 								<li><a href="http://atglance.home.cern.ch/atglance/cgi-bin/listInterfaces">Glance</a></li>
-								<li><a href="broken link">SysAdmin FAQ</a></li>
-								<li><a href="http://atlas-tdaq-sysadmin.web.cern.ch/atlas-tdaq-sysadmin/public/">SysAdmin</a></li>
+								<li><a href="https://atlasop.cern.ch/atlas-point1/twiki/bin/view/SysAdmins/FAQ">SysAdmin FAQ</a></li>
+								<li><a href="https://atlasop.cern.ch/atlas-point1/twiki/bin/view/SysAdmins">SysAdmin</a></li>
 								<li class="last-child" ><a href="http://acr.web.cern.ch/acr/safe_keys.pdf">Emergency Access Keys</a></li>
 							</ul>
                         </li>
                         <li class="last-child"><a class="https://atlasop.cern.ch/atlas-point1/operation-old.php">Old Operation Page</a></li>
                     </ul>
+                
+                	<div class="searchBox">
+                    	<h3>search & phones</h3>
+                        <div class="search">
+                        	<form method="get" action="https://cern.ch/search" class="searchFrm" name="searchFrm">
+                            	<p>
+                            		<input  name="qt" type="text" value="Search" onblur="if(this.value=='')this.value='Search'"  onfocus="this.value=''" alt="Search"/>
+                           	   		<input name="" type="button" class="btnSearch" onclick="javascript:document.searchFrm.submit();"/>
+                           	   	</p>
+							</form>
+							<form method="post" action="http://consult.cern.ch/xwho" class="searchFrm1" name="searchFrm1">
+                                <p>
+                                	<input name="-notag" type="text" value="Name"  onblur="if(this.value=='')this.value='Name'"  onfocus="this.value=''" alt="Name"/>
+                               		<input name="" type="button" class="btnCall" onclick="javascript:document.searchFrm1.submit();"/>
+                               	</p>
+                             </form>
+                        </div>
+                    </div><!--end searchBox-->
+
                 </div><!--end dataPre_leftCol-->
                 
                 <div class="dataPre_rightCol">
@@ -124,40 +144,92 @@
                         	<div class="datapreInside">
                                 <!-- <h6>Program of the Day</h6> -->
                                 <iframe src="https://atlasop.cern.ch/atlas-point1/wmi/current/Run Status_wmi/AtlasRunCom.html" width="100%" 
-height="200"></iframe>
+height="160"></iframe>
                             </div>
-                        </div>
-                        
+                        </div>                       
                     </div>
-                                        
+                    
 					<div class="secRow_genNew">
-                    	<div class="genNewBox1 first-child">
-                        	<h3>General news</h3>
-                            <div class="subBox">
-                            	<div class="datapreInside">
-                            	<h6>ATLAS Week ongoing in Barcelona</h6>
-                                <ul>
-                                	<li>Lorem ipsum dolor sit, consectetuer adipiscing. </li>
-                                    <li>Aenean commodo ligula dolor.</li>
-                                    <li>Cum sociis natoque penatibus et magnis. </li>
-                                    <li>Donec quam felis, ultricies nec, pellentesque.</li>
-                                    <li>Nulla consequat massa quis enim. </li>
-                                </ul>
-                                </div>
-                            </div>
-                        </div>
+					<table>
+                    	<tr>
+                        	<td>
+		                    	<div class="genNewBox1">
+		                        	<h3>Systems</h3>
+		                            <div class="subBoxOpen">
+		                            	<div class="datapreInside">
+		           							<ul id="menuSec" class="slidingmenu">
+												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=systems/geninfo/id.html">Inner Detector</a></li>
+												<li><a href="https://atlasop.cern.ch/atlas-point1/systems/geninfo/sys.php?subdet=LAR">LAr Calorimeter</a></li>
+												<li><a href="https://atlasop.cern.ch/atlas-point1/systems/geninfo/sys.php?subdet=TIL">Tile Calorimeter</a></li>
+										  		<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=systems/geninfo/muon.html">Muon Spectrometer</a></li>
+											  	<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=systems/geninfo/trigger.html">Trigger</a></li>
+										 		<li><a href="https://atlasop.cern.ch/atlas-point1/wmi/current/Run%20Status_wmi/ATLAS.html">DAQ</a></li>
+										 		<li><a href="https://atlasop.cern.ch/atlas-point1/dcs/status_pages.html">DCS</a></li>
+										 		<li><a href="http://atlasdqm.web.cern.ch/atlasdqm/">Data Quality</a></li>
+										 		<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=tier0/">Tier-0</a></li>
+		                   					</ul>
+		                        		</div>
+		                            </div>
+		                        </div>
+                        	</td>
+
+							<td>
+		                        <div class="genNewBox1">
+		                        	<h3>LHC Machine</h3>
+		                            <div class="subBoxOpen">
+		                            	<div class="datapreInside">
+		           							<ul id="menuSec" class="slidingmenu">
+												<li><a href="http://op-webtools.web.cern.ch/op-webtools/vistar/vistars.php?usr=LHC1">LHC Page 1</a></li>
+												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=dcs/dcs/process.php?page=ATL_LHC&subd=IS">ATLAS Page 1</a></li>
+												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=http://atlas.web.cern.ch/Atlas/GROUPS/DATAPREPARATION/runs.html">Luminosity Performance</a></li>
+												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=lhc/backgrounds.html">Backgrounds</a></li>
+												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=dcs/dcs/process.php?page=LHC_INS::BPTXInfo&subd=IS">Beam Instrumentation</a></li>
+												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=dcs/dcs/process.php?page=ATL_EXT::Vacuum&subd=IS">Vacuum Beam Pipe</a></li>
+												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=dcs/dcs/process.php?page=LHC_BIS">Beam Interlock System</a></li>
+		                   					</ul>
+		                                </div>
+		                            </div>
+		                        </div>
+							</td> 
+                        	                	                  
+                        	<td>
+		                        <div class="genNewBox1">
+		                        	<h3>Services</h3>
+		                            <div class="subBoxOpen">
+		                            	<div class="datapreInside">
+		           							<ul id="menuSec" class="slidingmenu">
+												<li><a class="active" href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=cooling/cooling.html" >Cooling</a></li>
+												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=electrnet/">Electrical Network</a></li>
+												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=gas/gas.html">Gas Systems</a></li>
+												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=cryo/cryo.html">Cryogenics</a></li>
+		                   					</ul>
+		                                </div>
+		                            </div>
+								</div>
+							</td>							
+                        	             	                  
+                        	<td>
+                        		<div class="genNewBox1 last-child">
+		                        	<h3>Infrastructure</h3>
+		                            <div class="subBoxOpen">
+		                            	<div class="datapreInside">
+		           							<ul id="menuSec" class="slidingmenu">
+												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=magnets/">Magnets</a></li>
+												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=countingrooms/">Counting Rooms, Cavern</a></li>
+												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=envir/">Environment</a></li>
+												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=safety/ss.php">Safety System</a></li>
+												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=sysadmin/host-status/index.php">Computers & Network</a></li>
+												<li> <a href="https://atlas-service-dbmonitor.web.cern.ch/atlas-service-dbmonitor/shifter/database_dashboard.php">Database Servers</a></li>
+												<li> <a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=radiation/">Radiation Monitors</a></li>
+		                   					</ul>
+										</div>
+		                            </div>
+		                        </div>
+                        	</td>
+                        </tr>
+                    </table>               	                  
                         
-                        <div class="genNewBox1">
-                        	<h3>General news</h3>
-                            <div class="subBox">
-                            	<div class="datapreInside">
-                            	<h6>ATLAS Week ongoing in Barcelona</h6>
-                                <p>Lorem ipsum dolor sit, consectetuer adipiscing. Aenean com modo ligula dolor. Cum sociis natoque penatibus et magnis. Donec quam felis, ultricies nec, pellentesque. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                     </div><!--end secRow_genNew-->                    
+                    </div><!--end secRow_genNew-->                    
                     
                     <div class="largeGeneralNews2">
                     	<h3>Posted News</h3>

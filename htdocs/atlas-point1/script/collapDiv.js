@@ -61,5 +61,12 @@ $(document).ready(function(){
 		$(this).toggleClass("active");
 		$(this).siblings(".genNewBox1 h3").removeClass("active");
 	});
+	$(".genNewBox1 h3").toggleClass("active");
+	$(".genNewBox1 h3").click(function(){
+		$(this).next(".subBoxOpen").slideToggle("slow")
+		.siblings(".subBoxOpen:visible").slideUp("slow");
+		$(this).toggleClass("inactive");
+		$(this).siblings(".genNewBox1 h3").removeClass("active");
+	});	
 
 });

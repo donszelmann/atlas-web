@@ -22,11 +22,18 @@ Changes to template to make into operations
 + changed copyright to Copyright 2010 - mailto me, ATLAS Web Communications
 + collapDiv.js largeGeneralNews1, type in siblings, should be 2 instead of 1
 + added subBoxOpen to css and collapDiv, making the area open by default
+- split news part (now overview menus) into 4, including placement of iconifier
++ changed first-child into "none", added last-child
++ added table to secRow_genNew to handle 4 column layout
+- added posted news part
+- added search and reformatted for correct width
 
 Problems
 ========
 - Login...
-- Banner Colors
+- Banner Colors/Gradients
 - Menu cookies
 - Meetings
-- SysAdmin FAQ broken link
+- Take out top level menu
+- Shrink general menu
+- Reformat PotD

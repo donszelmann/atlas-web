@@ -449,6 +449,7 @@ ul#menu li ul li a:hover {
 }
 .searchBox{
 	overflow:hidden;
+	padding-top:12px;
 	padding-bottom:12px;
 }
 .searchBox h3{
@@ -468,7 +469,15 @@ ul#menu li ul li a:hover {
 .searchFrm{
 	padding:15px 10px;
 }
+.searchFrm1 {
+	padding:0px 10px;
+}
 .searchFrm p{
+	display:block;
+	height:25px;
+	clear:left;
+}
+.searchFrm1 p {
 	display:block;
 	margin-bottom:10px;
 	height:25px;
@@ -476,7 +485,7 @@ ul#menu li ul li a:hover {
 }
 .search input{
 	background:url(../images/textarea_grad.jpg) repeat-x left top;
-	width:240px;
+	width:145px;
 	padding:5px;
 	font-size:11px;
 	/*line-height:22px;*/
@@ -1194,15 +1203,30 @@ p.txtLeft{
 
 /**--genNewBox1
 ---------------------------------------------------------------------------------**/
+.secRow_genNew table{
+	width:100%;
+	border:0;
+	cellspacing:0;
+	cellpadding:0;
+}
+.secRow_genNew table td{
+	vertical-align:top;
+}
 .genNewBox1{
-	width: 369px;
+	width: 174px;
 	background:url(../images/genNewsTop_small.gif) no-repeat left top;
 	float:left;
 	display:inline;
+	margin-right:14px;
+	margin-bottom:10px;
 }
-
-.genNewBox1.first-child{
-	margin-right:13px;
+.genNewBox1.last-child{
+	margin-right:0;
+	width: 190px;
+}
+.genNewBox1.last-child h3{
+	margin-right:0;
+	width: 170px;
 }
 .genNewBox1 h3{
 	background:url(../images/arrow-square.gif) no-repeat right -49px;
@@ -1212,7 +1236,7 @@ p.txtLeft{
 	display:block;
 	text-transform:uppercase;
 	padding:0 10px;
-	width:349px;
+	width:154px;
 	color:#FFFFFF;
 	cursor: pointer;
 }
@@ -1220,10 +1244,9 @@ p.txtLeft{
 	background-position: right 5px;
 }
 .genNewBox1 .datapreInside{
-	min-height:185px;
+	min-height:100px;
 	height:auto !important;
-	height:185px;
-	border:1px solid #C1BDBD;
+	border:0px solid #C1BDBD;
 	border-top:none;
 	overflow:hidden;
 	background:#F2F2F2 url(../images/dataPre_grad.gif) repeat-x left bottom;
