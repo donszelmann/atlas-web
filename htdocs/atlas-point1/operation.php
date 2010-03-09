@@ -9,15 +9,15 @@
 <![endif]-->
 <script type="text/javascript" src="script/jquery.js"></script>
 <script type="text/javascript" src="script/collapDiv.js"></script>
-<script src="script/jquery-1.2.1.min.js" type="text/javascript"></script>
-<script src="script/menu.js" type="text/javascript"></script>
+<script type="text/javascript" src="script/jquery-1.2.1.min.js"></script>
+<script type="text/javascript" src="script/menu.js"></script>
 
 </head>
 
 <body>
 <div id="wrapper">
 	<div id="topRow">
-    	<div id="login" class="container"><a href="#" class="loginBtn">Login</a>
+    	<div id="login" class="container"><!-- <a href="#" class="loginBtn">Login</a> -->
         	 <div class="slogun"><p><a href="http://www.cern.ch">European Organization for Nuclear Research</a></p></div>
              <div class="clearfix"></div>
         </div>       
@@ -36,14 +36,13 @@
     <div id="mainWp">
     	<div id="content" class="container">
         	<div class="topSubBtns">
-                <p class="headerTxt2">Detector Operation</p>
+                <p class="headerTxt1">Detector Operation</p>
                 <ul class="btnsLink">
-                    <li class="genBtn1"><a href="#">General</a></li>
-                    <li class="detBtn2"><a href="operation.html" class="active">Detector Operation</a></li>
-                    <li class="trigBtn4"><a href="https://twiki.cern.ch/twiki/bin/view/Atlas/AtlasTrigger">Trigger</a></li>
+                    <li class="detBtn1"><a href="operation.php" class="active">Detector Operation</a></li>
+                    <li class="trigBtn2"><a href="https://twiki.cern.ch/twiki/bin/view/Atlas/AtlasTrigger">Trigger</a></li>
                     <li class="comSoftBtn3"><a href="https://twiki.cern.ch/twiki/bin/view/Atlas/AtlasComputing">Computing &amp; Software </a></li>
-                    <li class="dataBtn5"><a href="https://twiki.cern.ch/twiki/bin/view/Atlas/DataPreparation">Data Preparation</a></li>
-                    <li class="phyBtn6"><a href="https://twiki.cern.ch/twiki/bin/view/AtlasProtected/AtlasPhysics">Physics</a></li>
+                    <li class="dataBtn4"><a href="https://twiki.cern.ch/twiki/bin/view/Atlas/DataPreparation">Data Preparation</a></li>
+                    <li class="phyBtn5"><a href="https://twiki.cern.ch/twiki/bin/view/AtlasProtected/AtlasPhysics">Physics</a></li>
                 </ul>
             </div>
             
@@ -53,22 +52,22 @@
                         <li><a href="http://indico.cern.ch/categoryDisplay.py?categId=1407">Operation Meetings</a>
                         <li><a href="#">Operation Schedule</a>
                             <ul class="subLeftNav">
-								<li><a href="https://atlasop.cern.ch/atlas-point1/twiki/bin/view/Main/RunningSchedules">Run Schedule</a></li>
+								<li><a href="twiki/bin/view/Main/RunningSchedules">Run Schedule</a></li>
 								<li><a href="http://indico.cern.ch/categoryDisplay.py?categId=1419">Intervention Schedule</a></li>
 								<li><a href="http://indico.cern.ch/categoryDisplay.py?categId=1428">Run Meetings</a></li>
 								<li class="last-child"><a href="https://edms.cern.ch/cedar/plsql/navigation.tree?p_top_id=1069988858&p_top_type=P&p_open_id=1916187939&p_open_type=P">Operation Documents in EDMS</a></li>
                             </ul>
                         </li>
-					    <li><a href="https://atlasop.cern.ch/atlas-point1/ATLAS_Logbook.htm">E-Logbook</a></li>
+					    <li><a href="ATLAS_Logbook.htm">E-Logbook</a></li>
                         <li><a href="#">Shifts</a>
                             <ul class="subLeftNav">
 								<li><a href="https://pptevm.cern.ch/mao/client/cern.ppt.mao.app.gwt.MaoClient/MaoClient.html#home">Shift Booking (OTP)</a></li>
-								<li><a href="https://atlasop.cern.ch/atlas-point1/shift.html">Shift Booking Rules</a></li>
+								<li><a href="shift.html">Shift Booking Rules</a></li>
 								<li class="last-child"><a href="http://pptevm-public.cern.ch/mao/public/PhoneList.html">Today's Shift Schedule</a></li>
                             </ul>
                         </li>
 						<li><a href="http://atlas-service-runinformation.web.cern.ch/atlas-service-runinformation/">Run Summaries</a></li>
-						<li><a href="https://atlasop.cern.ch/atlas-point1/status/Phone.htm">On Call Phones</a></li>
+						<li><a href="status/Phone.htm">On Call Phones</a></li>
 						<li><a href="https://edms.cern.ch/document/817670">Piquet Services</a></li>
 						<li><a href="https://edms.cern.ch/file/1020308/1/atc-e-mg-0012.pdf">ATLAS-LHC Meetings</a></li>
 						<li><a href="http://atlas.web.cern.ch/Atlas/TCOORD/Activities/TcOffice/Scheduling/Installation/Point1_visits.html">Visits to Point 1</a></li>
@@ -85,7 +84,7 @@
 										<p><a href="http://atglance.web.cern.ch/atglance/ATLASTCnDB/">Glance</a></p>
 										<p><a href="http://www.cern.ch/dmu-atlas">CATIA</a></p>
                             			<p><a href="http://atlas.web.cern.ch/Atlas/TCOORD/Activities/Installation/Database/rack.htm">Rack</a></p>
-                            			<p><a href="https://atlasop.cern.ch/atlas-point1/ATLAS_TWiki.html">Twiki</a></p>
+                            			<p><a href="ATLAS_TWiki.html">Twiki</a></p>
                                     </div>                                                                     
                                 </li>                            		
 	                        	<li><a href="#">Tools</a>
@@ -99,22 +98,22 @@
                         </li>
                         <li><a href="#">Documentation</a>
                             <ul class="subLeftNav">
-								<li><a href="https://atlasop.cern.ch/atlas-point1/slimos/doc/default.htm">Slimos</a></li>
-								<li><a href="https://atlasop.cern.ch/atlas-point1/twiki/bin/view/Main/LArOperationManualShifter">LAr</a></li>
-								<li class="last-child" ><a href="https://atlasop.cern.ch/atlas-point1/twiki/bin/view/Main/TileCalorimeterWhiteBoard">Tile</a></li>
+								<li><a href="slimos/doc/default.htm">Slimos</a></li>
+								<li><a href="twiki/bin/view/Main/LArOperationManualShifter">LAr</a></li>
+								<li class="last-child" ><a href="twiki/bin/view/Main/TileCalorimeterWhiteBoard">Tile</a></li>
 							</ul>
                         </li>
                         <li><a href="#">Links</a>
 							<ul class="subLeftNav">
-								<li><a href="https://atlasop.cern.ch/atlas-point1/ATLASview/ACR.htm">ATLAS Control Room</a></li>
+								<li><a href="ATLASview/ACR.htm">ATLAS Control Room</a></li>
 								<li><a href="http://atlaseye-webpub.web.cern.ch/atlaseye-webpub/web-sites/pages/UX15_webcams.htm">ATLAS Cavern</a></li>
 								<li><a href="http://atglance.home.cern.ch/atglance/cgi-bin/listInterfaces">Glance</a></li>
-								<li><a href="https://atlasop.cern.ch/atlas-point1/twiki/bin/view/SysAdmins/FAQ">SysAdmin FAQ</a></li>
-								<li><a href="https://atlasop.cern.ch/atlas-point1/twiki/bin/view/SysAdmins">SysAdmin</a></li>
+								<li><a href="twiki/bin/view/SysAdmins/FAQ">SysAdmin FAQ</a></li>
+								<li><a href="twiki/bin/view/SysAdmins">SysAdmin</a></li>
 								<li class="last-child" ><a href="http://acr.web.cern.ch/acr/safe_keys.pdf">Emergency Access Keys</a></li>
 							</ul>
                         </li>
-                        <li class="last-child"><a class="https://atlasop.cern.ch/atlas-point1/operation-old.php">Old Operation Page</a></li>
+                        <li class="last-child"><a class="operation-old.php">Old Operation Page</a></li>
                     </ul>
                 
                 	<div class="searchBox">
@@ -137,13 +136,39 @@
 
                 </div><!--end dataPre_leftCol-->
                 
+                
+                
+                
+                
                 <div class="dataPre_rightCol">
                 	<div class="largeGeneralNews1">
+                    	<h3>Operation Meetings</h3>
+                        <div class="subBox">
+                        	<div class="datapreInside">
+                            </div>
+                        </div>                       
+                    </div>
+                    
+                	<div class="largeGeneralNews2">
                     	<h3>Run Program</h3>
                         <div class="subBoxOpen">
                         	<div class="datapreInside">
-                        		<iframe src="https://atlasop.cern.ch/atlas-point1/wmi/current/Run Status_wmi/AtlasRunCom.html" width="100%" height="160"></iframe>
-                            </div>
+								<?php 
+									$file = 'wmi/current/Run Status_wmi/AtlasRunCom.html'; 
+									$fp = fopen($file, 'r'); 
+									$contents = fread($fp, filesize($file)); 
+  									fclose($fp); 
+
+									$pattern = '/<body bgcolor="#fcfcfc">(.*?)<\/body>/s';
+									if(preg_match($pattern, $contents, $matches)) 
+  									{ 
+  										$what_you_want = $matches[1]; 
+  									} else {
+  										$what_you_want = "Error: Cannot find 'Program of the Day'";
+  									}
+									echo $what_you_want;  					
+  								?>
+                        	</div>
                         </div>                       
                     </div>
                     
@@ -156,15 +181,15 @@
 		                            <div class="subBoxOpen">
 		                            	<div class="datapreInside">
 		           							<ul id="menuSec" class="slidingmenu">
-												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=systems/geninfo/id.html">Inner Detector</a></li>
-												<li><a href="https://atlasop.cern.ch/atlas-point1/systems/geninfo/sys.php?subdet=LAR">LAr Calorimeter</a></li>
-												<li><a href="https://atlasop.cern.ch/atlas-point1/systems/geninfo/sys.php?subdet=TIL">Tile Calorimeter</a></li>
-										  		<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=systems/geninfo/muon.html">Muon Spectrometer</a></li>
-											  	<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=systems/geninfo/trigger.html">Trigger</a></li>
-										 		<li><a href="https://atlasop.cern.ch/atlas-point1/wmi/current/Run%20Status_wmi/ATLAS.html">DAQ</a></li>
-										 		<li><a href="https://atlasop.cern.ch/atlas-point1/dcs/status_pages.html">DCS</a></li>
+												<li><a href="oper.php?subs=systems/geninfo/id.html">Inner Detector</a></li>
+												<li><a href="systems/geninfo/sys.php?subdet=LAR">LAr Calorimeter</a></li>
+												<li><a href="systems/geninfo/sys.php?subdet=TIL">Tile Calorimeter</a></li>
+										  		<li><a href="oper.php?subs=systems/geninfo/muon.html">Muon Spectrometer</a></li>
+											  	<li><a href="oper.php?subs=systems/geninfo/trigger.html">Trigger</a></li>
+										 		<li><a href="wmi/current/Run%20Status_wmi/ATLAS.html">DAQ</a></li>
+										 		<li><a href="dcs/status_pages.html">DCS</a></li>
 										 		<li><a href="http://atlasdqm.web.cern.ch/atlasdqm/">Data Quality</a></li>
-										 		<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=tier0/">Tier-0</a></li>
+										 		<li><a href="oper.php?subs=tier0/">Tier-0</a></li>
 		                   					</ul>
 		                        		</div>
 		                            </div>
@@ -178,12 +203,12 @@
 		                            	<div class="datapreInside">
 		           							<ul id="menuSec" class="slidingmenu">
 												<li><a href="http://op-webtools.web.cern.ch/op-webtools/vistar/vistars.php?usr=LHC1">LHC Page 1</a></li>
-												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=dcs/dcs/process.php?page=ATL_LHC&subd=IS">ATLAS Page 1</a></li>
-												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=http://atlas.web.cern.ch/Atlas/GROUPS/DATAPREPARATION/runs.html">Luminosity Performance</a></li>
-												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=lhc/backgrounds.html">Backgrounds</a></li>
-												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=dcs/dcs/process.php?page=LHC_INS::BPTXInfo&subd=IS">Beam Instrumentation</a></li>
-												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=dcs/dcs/process.php?page=ATL_EXT::Vacuum&subd=IS">Vacuum Beam Pipe</a></li>
-												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=dcs/dcs/process.php?page=LHC_BIS">Beam Interlock System</a></li>
+												<li><a href="oper.php?subs=dcs/dcs/process.php?page=ATL_LHC&subd=IS">ATLAS Page 1</a></li>
+												<li><a href="oper.php?subs=http://atlas.web.cern.ch/Atlas/GROUPS/DATAPREPARATION/runs.html">Luminosity Performance</a></li>
+												<li><a href="oper.php?subs=lhc/backgrounds.html">Backgrounds</a></li>
+												<li><a href="oper.php?subs=dcs/dcs/process.php?page=LHC_INS::BPTXInfo&subd=IS">Beam Instrumentation</a></li>
+												<li><a href="oper.php?subs=dcs/dcs/process.php?page=ATL_EXT::Vacuum&subd=IS">Vacuum Beam Pipe</a></li>
+												<li><a href="oper.php?subs=dcs/dcs/process.php?page=LHC_BIS">Beam Interlock System</a></li>
 		                   					</ul>
 		                                </div>
 		                            </div>
@@ -196,10 +221,10 @@
 		                            <div class="subBoxOpen">
 		                            	<div class="datapreInside">
 		           							<ul id="menuSec" class="slidingmenu">
-												<li><a class="active" href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=cooling/cooling.html" >Cooling</a></li>
-												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=electrnet/">Electrical Network</a></li>
-												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=gas/gas.html">Gas Systems</a></li>
-												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=cryo/cryo.html">Cryogenics</a></li>
+												<li><a href="oper.php?subs=cooling/cooling.html" >Cooling</a></li>
+												<li><a href="oper.php?subs=electrnet/">Electrical Network</a></li>
+												<li><a href="oper.php?subs=gas/gas.html">Gas Systems</a></li>
+												<li><a href="oper.php?subs=cryo/cryo.html">Cryogenics</a></li>
 		                   					</ul>
 		                                </div>
 		                            </div>
@@ -212,13 +237,13 @@
 		                            <div class="subBoxOpen">
 		                            	<div class="datapreInside">
 		           							<ul id="menuSec" class="slidingmenu">
-												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=magnets/">Magnets</a></li>
-												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=countingrooms/">Counting Rooms, Cavern</a></li>
-												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=envir/">Environment</a></li>
-												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=safety/ss.php">Safety System</a></li>
-												<li><a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=sysadmin/host-status/index.php">Computers & Network</a></li>
+												<li><a href="oper.php?subs=magnets/">Magnets</a></li>
+												<li><a href="oper.php?subs=countingrooms/">Counting Rooms, Cavern</a></li>
+												<li><a href="oper.php?subs=envir/">Environment</a></li>
+												<li><a href="oper.php?subs=safety/ss.php">Safety System</a></li>
+												<li><a href="oper.php?subs=sysadmin/host-status/index.php">Computers & Network</a></li>
 												<li> <a href="https://atlas-service-dbmonitor.web.cern.ch/atlas-service-dbmonitor/shifter/database_dashboard.php">Database Servers</a></li>
-												<li> <a href="https://atlasop.cern.ch/atlas-point1/oper.php?subs=radiation/">Radiation Monitors</a></li>
+												<li> <a href="oper.php?subs=radiation/">Radiation Monitors</a></li>
 		                   					</ul>
 										</div>
 		                            </div>
@@ -233,7 +258,7 @@
                     	<h3>Posted News</h3>
                         <div class="subBoxOpen">
                         	<div class="datapreInside">
-                                <iframe src="https://atlasop.cern.ch/atlas-point1/events.html" width="100%" height="100"></iframe>
+								<?php include("events.html");?>
                             </div>
                         </div>
                     </div>             	
@@ -244,7 +269,7 @@
         </div><!--end content-->
     </div><!--end mainWp-->
     <div id="footer">
-    	<div id="copyright" class="container"><p>Copyright© 2010 CERN - <a href="mailto:Mark.Donszelmann@cern.ch">ATLAS Web Communications</a></p></div>
+    	<div id="copyright" class="container"><p>Copyright© 2010 CERN - <a href="mailto:Mark.Donszelmann@cern.ch">ATLAS Operations</a></p></div>
     </div>
     
 	

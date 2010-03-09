@@ -47,7 +47,8 @@ $(document).ready(function(){
 		$(this).toggleClass("active");
 		$(this).siblings(".largeGeneralNews1 h3, .largeGeneralNews2 h3").removeClass("active");
 	});
-	$(".largeGeneralNews1 h3, .largeGeneralNews2 h3").toggleClass("active");
+	$(".largeGeneralNews1 h3").toggleClass("inactive");
+	$(".largeGeneralNews2 h3").toggleClass("active");
 	$(".largeGeneralNews1 h3, .largeGeneralNews2 h3").click(function(){
 		$(this).next(".subBoxOpen").slideToggle("slow")
 		.siblings(".subBoxOpen:visible").slideUp("slow");
@@ -55,6 +56,7 @@ $(document).ready(function(){
 		$(this).siblings(".largeGeneralNews1 h3, .largeGeneralNews2 h3").removeClass("active");
 	});	
 //---------------for .genNewBox1, .genNewBox2-------------------------		
+/*
 	$(".genNewBox1 h3").click(function(){
 		$(this).next(".subBox").slideToggle("slow")
 		.siblings(".subBox:visible").slideUp("slow");
@@ -68,5 +70,5 @@ $(document).ready(function(){
 		$(this).toggleClass("inactive");
 		$(this).siblings(".genNewBox1 h3").removeClass("active");
 	});	
-
+*/
 });

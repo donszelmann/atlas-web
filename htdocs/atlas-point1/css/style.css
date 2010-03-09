@@ -52,20 +52,20 @@ body{
 }
 #header{
 	background:url(../images/header_grad.gif) repeat-x left top;
-	height:104px;
+	height:42px;
 }
 /**--logo
 ----------------------------------------------------------------------**/
 #logoWp h1{
 	width:174px;
-	height:65px;
+	height:42px;
 	float:left;
-	margin-top:20px;
+	margin-top:0px;
 	display:inline;
 }
 #logoWp h1 a{
 	background:url(../images/logo.jpg) no-repeat left top;
-	height:65px;
+	height:42px;
 	display:block;
 	text-indent:-999999px;
 	cursor:pointer;
@@ -79,23 +79,23 @@ body{
 #logoWp ul.topNav li{
 	float:left;
 	display:inline;
-	height:104px;
+	height:42px;
 }
 #logoWp ul.topNav li a{
 	display:block;
-	height:104px;
+	height:42px;
 	font-size:20px;
 	color:#5d5d5d;
 	display:block;
 	float:left;
 	text-decoration:none;
-	line-height:104px;
+	line-height:42px;
 	padding:0 22px;
 	font-family:Helvetica, Arial, sans-serif;
 	
 }
 #logoWp ul.topNav li.last-child a{
-	padding:0 0 0 22px;
+	padding:0 0 0 42px;
 }
 #logoWp ul.topNav li.last-child a:hover, #logoWp ul.topNav li.last-child a.active{
 	color:#387fc6;
@@ -136,7 +136,7 @@ body{
 #logoWp ul.topNav li em{
 	background:url(../images/sep.jpg) no-repeat left top;
 	width:3px;
-	height:104px;
+	height:42px;
 	float:left;
 	display:block;
 }
@@ -146,7 +146,7 @@ body{
 	background:#E6E6E6 url(../images/main_grad.jpg) repeat-x left top;
 }
 #content{
-	padding:32px 0;
+	padding:18px 0;
 }
 /**--topHead
 -------------------------------------------------------------------------------**/
@@ -999,18 +999,12 @@ html[xmlns] .clearfix {
 	line-height:36px;
 }
 .topSubBtns p.headerTxt4{
-	color:#3b88d7;
-	font-size:36px;
-	text-align:center;
-	line-height:36px;
-}
-.topSubBtns p.headerTxt5{
 	color:#2ed2d0;
 	font-size:36px;
 	text-align:center;
 	line-height:36px;
 }
-.topSubBtns p.headerTxt6{
+.topSubBtns p.headerTxt5{
 	color:#28d5bf;
 	font-size:36px;
 	text-align:center;
@@ -1027,7 +1021,7 @@ html[xmlns] .clearfix {
 	height:38px;
 	margin-right:12px;
 }
-.topSubBtns ul.btnsLink li.phyBtn6{
+.topSubBtns ul.btnsLink li.phyBtn5{
 	margin-right:0;
 }
 .topSubBtns ul.btnsLink li a{
@@ -1043,23 +1037,20 @@ html[xmlns] .clearfix {
 .topSubBtns ul.btnsLink li a:focus, .topSubBtns ul.btnsLink li a.active{
 	font-weight:bold;
 }
-.topSubBtns ul.btnsLink li.genBtn1 a{background:url(../images/roundBlue_btn1.gif) no-repeat left top;}
-.topSubBtns ul.btnsLink li.genBtn1 a:hover, .topSubBtns ul.btnsLink li.genBtn1 a.active{background:url(../images/roundBlue_btn1.gif) no-repeat left bottom;}
+.topSubBtns ul.btnsLink li.detBtn1 a{background:url(../images/roundBlue_btn2.gif) no-repeat left top;}
+.topSubBtns ul.btnsLink li.detBtn1 a:hover, .topSubBtns ul.btnsLink li.detBtn1 a.active{background:url(../images/roundBlue_btn2.gif) no-repeat left bottom; }
 
-.topSubBtns ul.btnsLink li.detBtn2 a{background:url(../images/roundBlue_btn2.gif) no-repeat left top;}
-.topSubBtns ul.btnsLink li.detBtn2 a:hover, .topSubBtns ul.btnsLink li.detBtn2 a.active{background:url(../images/roundBlue_btn2.gif) no-repeat left bottom; }
+.topSubBtns ul.btnsLink li.trigBtn2 a{background:url(../images/roundBlue_btn3.gif) no-repeat left top;}
+.topSubBtns ul.btnsLink li.trigBtn2 a:hover, .topSubBtns ul.btnsLink li.trigBtn2 a.active{background:url(../images/roundBlue_btn3.gif) no-repeat left bottom; }
 
 .topSubBtns ul.btnsLink li.comSoftBtn3 a{background:url(../images/roundBlue_btn4.gif) no-repeat left top;}
 .topSubBtns ul.btnsLink li.comSoftBtn3 a:hover, .topSubBtns ul.btnsLink li.comSoftBtn3 a.active{background:url(../images/roundBlue_btn4.gif) no-repeat left bottom; }
 
-.topSubBtns ul.btnsLink li.trigBtn4 a{background:url(../images/roundBlue_btn3.gif) no-repeat left top;}
-.topSubBtns ul.btnsLink li.trigBtn4 a:hover, .topSubBtns ul.btnsLink li.trigBtn4 a.active{background:url(../images/roundBlue_btn3.gif) no-repeat left bottom; }
+.topSubBtns ul.btnsLink li.dataBtn4 a{background:url(../images/roundBlue_btn5.gif) no-repeat left top;}
+.topSubBtns ul.btnsLink li.dataBtn4 a:hover, .topSubBtns ul.btnsLink li.dataBtn4 a.active{background:url(../images/roundBlue_btn5.gif) no-repeat left bottom; }
 
-.topSubBtns ul.btnsLink li.dataBtn5 a{background:url(../images/roundBlue_btn5.gif) no-repeat left top;}
-.topSubBtns ul.btnsLink li.dataBtn5 a:hover, .topSubBtns ul.btnsLink li.dataBtn5 a.active{background:url(../images/roundBlue_btn5.gif) no-repeat left bottom; }
-
-.topSubBtns ul.btnsLink li.phyBtn6 a{background:url(../images/roundBlue_btn6.gif) no-repeat left top;}
-.topSubBtns ul.btnsLink li.phyBtn6 a:hover, .topSubBtns ul.btnsLink li.phyBtn6 a.active{background:url(../images/roundBlue_btn6.gif) no-repeat left bottom; }
+.topSubBtns ul.btnsLink li.phyBtn5 a{background:url(../images/roundBlue_btn6.gif) no-repeat left top;}
+.topSubBtns ul.btnsLink li.phyBtn5 a:hover, .topSubBtns ul.btnsLink li.phyBtn5 a.active{background:url(../images/roundBlue_btn6.gif) no-repeat left bottom; }
 
 
 .dataPreBox{
@@ -1159,7 +1150,7 @@ ul#menuSec li ul li a:hover {
 
 .largeGeneralNews1{
 	width: 752px;
-	background:url(../images/genNewsTop_medium1.gif) no-repeat left top;
+	background:url(../images/large_blueTop.jpg) no-repeat left top;
 	padding-bottom:12px;
 }
 .largeGeneralNews1 h3{
@@ -1214,7 +1205,7 @@ p.txtLeft{
 }
 .genNewBox1{
 	width: 174px;
-	background:url(../images/genNewsTop_small.gif) no-repeat left top;
+	background:url(../images/detector.png) no-repeat left top;
 	float:left;
 	display:inline;
 	margin-right:14px;
@@ -1229,7 +1220,7 @@ p.txtLeft{
 	width: 170px;
 }
 .genNewBox1 h3{
-	background:url(../images/arrow-square.gif) no-repeat right -49px;
+#	background:url(../images/arrow-square.gif) no-repeat right -49px;
 	font-size:16px;
 	line-height:28px;
 	font-weight:bold;
@@ -1275,7 +1266,7 @@ p.txtLeft{
 
 .largeGeneralNews2{
 	width: 752px;
-	background:url(../images/genNewsTop_medium1.gif) no-repeat left top;
+	background:url(../images/large_blueTop.jpg) no-repeat left top;
 	margin-bottom:12px;
 	clear:both;
 }

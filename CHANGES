@@ -13,8 +13,7 @@ Changes to template to make into operations
 + links made to atlas experiment, collaboration, atlas now, atlas public and CERN
 - Data Preparation -> Detector Operation and changed color to headerTxt2 in css
 + Split headerTxt in 1-6 for different colors
-+ Genaral -> General
-? General, where should this point to, or remove
++ Remove General
 - moved class=active to Detector Operation
 ? exchanged trigger with computing to keep same order as on main page, also changed colors 2 times in css
 + links made to data operation, trigger, computing, data preparation and physics
@@ -27,16 +26,14 @@ Changes to template to make into operations
 + added table to secRow_genNew to handle 4 column layout
 - added posted news part
 - added search and reformatted for correct width
++ Changed header height from 104px to 42px (in 5 places)
++ Changed h1 in header from 65px to 42px, margin-top from 20px to 0px, logo is 42 pixels high.
 
-Problems
-========
-- Login...
-- Banner Colors/Gradients
-- Menu cookies
-- Meetings
-- Take out top level menu
-- Shrink general menu
+Problems:
+=========
+- logo is too big
+- buttons are too narrow (153 -> 183)
+- Rounded corners on title bars
 - Align Search and Phones, right side
-- Reformat PotD
-- Reformat Posted News
-- Relative Links
+- rename news styles in something decent
+- Menu cookies
