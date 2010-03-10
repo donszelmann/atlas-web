@@ -3,14 +3,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>ATLAS Detector Operation</title>
-<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css-new/style.css" />
 <!--[if lt IE 8]>
-<script src="script/IE8.js" type="text/javascript"></script>
+<script src="script-new/IE8.js" type="text/javascript"></script>
 <![endif]-->
-<script type="text/javascript" src="script/jquery.js"></script>
-<script type="text/javascript" src="script/collapDiv.js"></script>
-<script type="text/javascript" src="script/jquery-1.2.1.min.js"></script>
-<script type="text/javascript" src="script/menu.js"></script>
+<script type="text/javascript" src="script-new/jquery.js"></script>
+<script type="text/javascript" src="script-new/collapDiv.js"></script>
+<script type="text/javascript" src="script-new/jquery-1.2.1.min.js"></script>
+<script type="text/javascript" src="script-new/menu.js"></script>
 
 </head>
 
@@ -49,7 +49,6 @@
             <div class="dataPreBox">
             	<div class="dataPre_leftCol">
                 	<ul id="menuSec" class="slidingmenu">
-                        <li><a href="http://indico.cern.ch/categoryDisplay.py?categId=1407">Operation Meetings</a>
                         <li><a href="#">Operation Schedule</a>
                             <ul class="subLeftNav">
 								<li><a href="twiki/bin/view/Main/RunningSchedules">Run Schedule</a></li>
@@ -145,6 +144,7 @@
                     	<h3>Operation Meetings</h3>
                         <div class="subBox">
                         	<div class="datapreInside">
+								<!-- include(http://indico.cern.ch/categoryDisplay.py?categId=1407); -->
                             </div>
                         </div>                       
                     </div>

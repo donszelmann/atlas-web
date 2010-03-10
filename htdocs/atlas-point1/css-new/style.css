@@ -10,7 +10,7 @@ html,body{
 }
 body{
 
-	background:#365D86 url(../images/mainBlue_grad.jpg) repeat-x left bottom;
+	background:#365D86 url(../images-new/mainBlue_grad.jpg) repeat-x left bottom;
 	font:normal 12px/18px Arial, Helvetica, sans-serif;
 }
 /**--layout
@@ -23,11 +23,11 @@ body{
 	margin:0 auto;
 }
 #topRow{
-	background:url(../images/top_grad.jpg) repeat-x left top;
+	background:url(../images-new/top_grad.jpg) repeat-x left top;
 	height:27px;
 }
 #login a.loginBtn{
-	background:url(../images/btn_login.jpg) no-repeat left top;
+	background:url(../images-new/btn_login.jpg) no-repeat left top;
 	width:61px;
 	height:19px;
 	display:block;
@@ -51,7 +51,7 @@ body{
 	text-decoration:none;
 }
 #header{
-	background:url(../images/header_grad.gif) repeat-x left top;
+	background:url(../images-new/header_grad.gif) repeat-x left top;
 	height:42px;
 }
 /**--logo
@@ -64,7 +64,7 @@ body{
 	display:inline;
 }
 #logoWp h1 a{
-	background:url(../images/logo.jpg) no-repeat left top;
+	background:url(../images-new/logo.jpg) no-repeat left top;
 	height:42px;
 	display:block;
 	text-indent:-999999px;
@@ -99,42 +99,42 @@ body{
 }
 #logoWp ul.topNav li.last-child a:hover, #logoWp ul.topNav li.last-child a.active{
 	color:#387fc6;
-	background:url(../images/contact_menu_hover.gif) no-repeat center top;
+	background:url(../images-new/contact_menu_hover.gif) no-repeat center top;
 }
 #logoWp ul.topNav li a:hover, #logoWp ul.topNav li a.active{
 	color:#387fc6;
-	background:url(../images/menu_hover.gif) no-repeat center top;
+	background:url(../images-new/menu_hover.gif) no-repeat center top;
 }
 /*#logoWp ul.topNav li.coll a{
-	background:url(../images/btn_collaboration.jpg) no-repeat left top;
+	background:url(../images-new/btn_collaboration.jpg) no-repeat left top;
 	width:165px;
 }
 #logoWp ul.topNav li.coll a:hover, #logoWp ul.topNav li.coll a.active{
-	background:url(../images/btn_collaboration.jpg) no-repeat left bottom;
+	background:url(../images-new/btn_collaboration.jpg) no-repeat left bottom;
 }
 #logoWp ul.topNav li.atlas_live a{
-	background:url(../images/btn_atlasLive.jpg) no-repeat left top;
+	background:url(../images-new/btn_atlasLive.jpg) no-repeat left top;
 	width:145px;
 }
 #logoWp ul.topNav li.atlas_live a:hover, #logoWp ul.topNav li.atlas_live a.active{
-	background:url(../images/btn_atlasLive.jpg) no-repeat left bottom;
+	background:url(../images-new/btn_atlasLive.jpg) no-repeat left bottom;
 }
 #logoWp ul.topNav li.atlas_pub a{
-	background:url(../images/btn_atlasPublic.jpg) no-repeat left top;
+	background:url(../images-new/btn_atlasPublic.jpg) no-repeat left top;
 	width:164px;
 }
 #logoWp ul.topNav li.atlas_pub a:hover, #logoWp ul.topNav li.atlas_pub a.active{
-	background:url(../images/btn_atlasPublic.jpg) no-repeat left bottom;
+	background:url(../images-new/btn_atlasPublic.jpg) no-repeat left bottom;
 }
 #logoWp ul.topNav li.contact a{
-	background:url(../images/btn_contactUs.jpg) no-repeat left top;
+	background:url(../images-new/btn_contactUs.jpg) no-repeat left top;
 	width:118px;
 }
 #logoWp ul.topNav li.contact a:hover, #logoWp ul.topNav li.contact a.active{
-	background:url(../images/btn_contactUs.jpg) no-repeat left bottom;
+	background:url(../images-new/btn_contactUs.jpg) no-repeat left bottom;
 }*/
 #logoWp ul.topNav li em{
-	background:url(../images/sep.jpg) no-repeat left top;
+	background:url(../images-new/sep.jpg) no-repeat left top;
 	width:3px;
 	height:42px;
 	float:left;
@@ -143,7 +143,7 @@ body{
 /**--mainWp
 --------------------------------------------------------------------------------**/
 #mainWp{
-	background:#E6E6E6 url(../images/main_grad.jpg) repeat-x left top;
+	background:#E6E6E6 url(../images-new/main_grad.jpg) repeat-x left top;
 }
 #content{
 	padding:18px 0;
@@ -152,10 +152,10 @@ body{
 -------------------------------------------------------------------------------**/
 .topHead{
 	width: 980px;
-	background:url(../images/large_blueTop.jpg) no-repeat left top;
+	background:url(../images-new/large_blueTop.jpg) no-repeat left top;
 }
 .topHead h3{
-	background:url(../images/arrow-square.gif) no-repeat right -49px;
+	background:url(../images-new/arrow-square.gif) no-repeat right -49px;
 	font-size:16px;
 	line-height:28px;
 	font-weight:bold;
@@ -175,7 +175,7 @@ body{
 .subBoxOpen{
 }
 ul.subMenu{
-	background:url(../images/blue_grad.jpg) repeat-x left top;
+	background:url(../images-new/blue_grad.jpg) repeat-x left top;
 	height:27px;
 }
 ul.subMenu li{
@@ -196,7 +196,7 @@ ul.subMenu li a:hover{
 	background-color:#3171B0;
 }
 ul.subMenu li em{
-	background:url(../images/blue_sep.jpg) no-repeat left top;
+	background:url(../images-new/blue_sep.jpg) no-repeat left top;
 	width:2px;
 	height:27px;
 	float:left;
@@ -205,7 +205,7 @@ ul.subMenu li em{
 /**--greyBox
 ------------------------------------------------------------------------------**/
 .greyBox{
-	background:#D9D9D9 url(../images/greyBox_grad.jpg) repeat-x left top;
+	background:#D9D9D9 url(../images-new/greyBox_grad.jpg) repeat-x left top;
 	padding:10px;
 	float:left;
 	width:958px;
@@ -213,7 +213,7 @@ ul.subMenu li em{
 	border-top:none;
 }
 .greyBox h4{
-	background:url(../images/hor_line.jpg) repeat-x left bottom;
+	background:url(../images-new/hor_line.jpg) repeat-x left bottom;
 	padding-bottom:10px;
 }
 .greyBox .firstCol{
@@ -235,7 +235,7 @@ ul.subMenu li em{
 	font-size:12px;
 	font-weight:bold;
 	padding:10px 0;
-	background:url(../images/hor_line.jpg) repeat-x left bottom;
+	background:url(../images-new/hor_line.jpg) repeat-x left bottom;
 }
 .firstCol ul li a, .secondCol ul li a{
 	color:#474747;
@@ -283,7 +283,7 @@ ul.subMenu li em{
 	margin-right:16px;
 }
 .leftCol .title{
-	background:url(../images/medium_blueTop.jpg) no-repeat left top;
+	background:url(../images-new/medium_blueTop.jpg) no-repeat left top;
 	height:28px;
 }
 .leftCol .title h3{
@@ -295,7 +295,7 @@ ul.subMenu li em{
 --------------------------------------------------------------------------------**/
 .leftNav{
 	width:316px;
-	background:#F2F2F2 url(../images/left_nav_grad.jpg) repeat-x left bottom;
+	background:#F2F2F2 url(../images-new/left_nav_grad.jpg) repeat-x left bottom;
 }
 ul#menu{
 	border:1px solid #c1bdbd;
@@ -312,7 +312,7 @@ ul#menu a {
   text-decoration: none;	
 }
 ul#menu li {
-	background:url(../images/hor_line.jpg) repeat-x left bottom;
+	background:url(../images-new/hor_line.jpg) repeat-x left bottom;
 	display:block;
 	margin: 0;
   	padding: 0;
@@ -330,11 +330,11 @@ ul#menu li a {
   padding: 0px 10px;
 }
 ul#menu li a:hover, ul#menu li a.pretty-hover{
-	background:#D4D4D4 url(../images/acc_grey_gradHover.jpg) repeat-x left bottom;  
+	background:#D4D4D4 url(../images-new/acc_grey_gradHover.jpg) repeat-x left bottom;  
 	color:#357cc3;
 }
 ul#menu li ul.subLeftNav{
-	background:#BBBBBB url(../images/subLeftnav_grad.jpg) repeat-x left top;
+	background:#BBBBBB url(../images-new/subLeftnav_grad.jpg) repeat-x left top;
 	border-bottom:1px solid #FFF;
 	padding-top:5px;
 }
@@ -348,7 +348,7 @@ ul#menu li ul.subLeftNav li a {
   height:26px;
   line-height:26px;
   display:block;
-  background:url(../images/subMenu_line.gif) no-repeat left bottom;
+  background:url(../images-new/subMenu_line.gif) no-repeat left bottom;
  }
 ul#menu li ul.subLeftNav li a.last-child, ul#menu li ul.subLeftNav li a.last-child:hover{
 	background:none;
@@ -356,11 +356,11 @@ ul#menu li ul.subLeftNav li a.last-child, ul#menu li ul.subLeftNav li a.last-chi
 
 ul#menu li ul li a:hover {
 	color:#357cc3;
-	background:url(../images/subMenu_line.gif) no-repeat left bottom;
+	background:url(../images-new/subMenu_line.gif) no-repeat left bottom;
 }
 .sub_subLeftNav{
 	
-	background:url(../images/subMenu_line.gif) no-repeat left bottom;
+	background:url(../images-new/subMenu_line.gif) no-repeat left bottom;
 }
 .sub_subLeftNav a{
 	color:#7D7D7D !important;
@@ -374,11 +374,11 @@ ul#menu li ul li a:hover {
 ---------------------------------------------------------------------------------**/
 .middleHead{
 	width:316px;
-	background:url(../images/medium_blueTop.jpg) no-repeat left top;
+	background:url(../images-new/medium_blueTop.jpg) no-repeat left top;
 	padding-bottom:12px;
 }
 .middleHead h3 {
-	background:url(../images/arrow-square.gif) no-repeat right -49px;
+	background:url(../images-new/arrow-square.gif) no-repeat right -49px;
 	font-size:16px;
 	line-height:28px;
 	font-weight:bold;
@@ -391,7 +391,7 @@ ul#menu li ul li a:hover {
 	background-position: right 5px;
 }
 .middleHead .subBox{
-	background:#F2F2F2 url(../images/left_nav_grad.jpg) repeat-x left bottom;
+	background:#F2F2F2 url(../images-new/left_nav_grad.jpg) repeat-x left bottom;
 	padding:10px;
 	border:1px solid #C1BDBD;
 	border-top:none;
@@ -407,7 +407,7 @@ ul#menu li ul li a:hover {
 	float:left;
 	clear:left;
 	width:294px;
-	background:url(../images/hor_line.jpg) repeat-x left bottom;
+	background:url(../images-new/hor_line.jpg) repeat-x left bottom;
 }
 .middleHead .subBox ul.list1 li a{
 	color: #474747;
@@ -428,7 +428,7 @@ ul#menu li ul li a:hover {
 /**--projects
 -------------------------------------------------------------------------------**/
 .projects .title{
-	background:url(../images/medium_blueTop.jpg) no-repeat left top;
+	background:url(../images-new/medium_blueTop.jpg) no-repeat left top;
 	height:28px;
 }
 .projects .title h3{
@@ -453,7 +453,7 @@ ul#menu li ul li a:hover {
 	padding-bottom:12px;
 }
 .searchBox h3{
-	background:url(../images/medium_blueTop.jpg) no-repeat left top;
+	background:url(../images-new/medium_blueTop.jpg) no-repeat left top;
 	height:28px;
 	padding:0 10px;
 	line-height:28px;
@@ -461,7 +461,7 @@ ul#menu li ul li a:hover {
 	
 }
 .search{
-	background:#D9D9D9 url(../images/search_grad.jpg) repeat-x left top;
+	background:#D9D9D9 url(../images-new/search_grad.jpg) repeat-x left top;
 	border:1px solid #C1BDBD;
 	border-top:none;
 	height:96px;
@@ -484,7 +484,7 @@ ul#menu li ul li a:hover {
 	clear:left;
 }
 .search input{
-	background:url(../images/textarea_grad.jpg) repeat-x left top;
+	background:url(../images-new/textarea_grad.jpg) repeat-x left top;
 	width:145px;
 	padding:5px;
 	font-size:11px;
@@ -496,7 +496,7 @@ ul#menu li ul li a:hover {
 	border:1px solid #CBC5C5;
 }
 .search input.btnSearch{
-	background:url(../images/search_icon-trans.png) no-repeat left top;
+	background:url(../images-new/search_icon-trans.png) no-repeat left top;
 	width:25px;
 	height:26px;
 	display:block;
@@ -505,7 +505,7 @@ ul#menu li ul li a:hover {
 	cursor:pointer;
 }
 .search input.btnCall{
-	background:url(../images/call_icon-trans.png) no-repeat left top;
+	background:url(../images-new/call_icon-trans.png) no-repeat left top;
 	width:25px;
 	height:26px;
 	display:block;
@@ -522,15 +522,15 @@ ul#menu li ul li a:hover {
 	width:314px;
 }
 .serviceList{
-	background:#D9D9D9 url(../images/greyBox_grad.jpg) repeat-x left top;
+	background:#D9D9D9 url(../images-new/greyBox_grad.jpg) repeat-x left top;
 	border-bottom:1px solid #C1BDBD;
 }
 .toolList{
-	background:#F3F3F3 url(../images/tools_grad.jpg)  repeat-x left bottom;
+	background:#F3F3F3 url(../images-new/tools_grad.jpg)  repeat-x left bottom;
 }
 .serviceList h5, .toolList h5{
 	text-transform:uppercase;
-	background:url(../images/hor_line.jpg) repeat-x left bottom;
+	background:url(../images-new/hor_line.jpg) repeat-x left bottom;
 	padding:5px 10px;
 }
 .serviceList ul, .toolList ul{
@@ -550,7 +550,7 @@ ul#menu li ul li a:hover {
 	clear:left;
 	width:130px;	
 	display:block;	
-	background:url(../images/hor_line.jpg) repeat-x left bottom;
+	background:url(../images-new/hor_line.jpg) repeat-x left bottom;
 }
 .serviceList ul li a, .toolList ul li a{
 	color:#474747;
@@ -587,16 +587,16 @@ ul#menu li ul li a:hover {
 }
 .lastest_news{
 	width:660px;
-	background: url(../images/lastestNews_bg.jpg) no-repeat left top;
+	background: url(../images-new/lastestNews_bg.jpg) no-repeat left top;
 	padding-bottom:12px;
 }
 .webcast{
 	width:308px;
-	background:url(../images/webCast_bg.jpg) no-repeat left top;
+	background:url(../images-new/webCast_bg.jpg) no-repeat left top;
 	padding-bottom:12px;
 }
 .lastest_news h3, .webcast h3 {
-	background:url(../images/arrow-square.gif) no-repeat right -49px;
+	background:url(../images-new/arrow-square.gif) no-repeat right -49px;
 	font-size:16px;
 	line-height:28px;
 	font-weight:bold;
@@ -609,7 +609,7 @@ ul#menu li ul li a:hover {
 	background-position: right 5px;
 }
 .lastest_news .subBox, .webcast .subBox{
-	background:#D8D8D8 url(../images/webcast_grad.jpg) repeat-x left top;
+	background:#D8D8D8 url(../images-new/webcast_grad.jpg) repeat-x left top;
 	padding:10px;
 	border:1px solid #C1BDBD;
 	border-top:none;
@@ -637,7 +637,7 @@ ul#menu li ul li a:hover {
 	margin-bottom:13px;
 }
 .generalNews .insideBox{
-	background:#FAFAFA url(../images/general_grad.jpg) repeat-x left bottom;
+	background:#FAFAFA url(../images-new/general_grad.jpg) repeat-x left bottom;
 	border:1px solid #C1BDBD;
 	border-top:none;
 	overflow:hidden;
@@ -645,7 +645,7 @@ ul#menu li ul li a:hover {
 	width:311px;
 }
 .generalNews .title1{
-	background:url(../images/small_blue_top1.jpg) no-repeat left top;
+	background:url(../images-new/small_blue_top1.jpg) no-repeat left top;
 	height:28px;
 	font-size:16px;
 	font-weight:bold;
@@ -655,7 +655,7 @@ ul#menu li ul li a:hover {
 	line-height:28px;
 }
 .generalNews .title2{
-	background:url(../images/small_blue_top2.jpg) no-repeat left top;
+	background:url(../images-new/small_blue_top2.jpg) no-repeat left top;
 	height:28px;
 	font-size:16px;
 	font-weight:bold;
@@ -665,7 +665,7 @@ ul#menu li ul li a:hover {
 	line-height:28px;
 }
 .generalNews .title3{
-	background:url(../images/small_blue_top3.jpg) no-repeat left top;
+	background:url(../images-new/small_blue_top3.jpg) no-repeat left top;
 	height:28px;
 	font-size:16px;
 	font-weight:bold;
@@ -675,7 +675,7 @@ ul#menu li ul li a:hover {
 	line-height:28px;
 }
 .generalNews .title4{
-	background:url(../images/small_blue_top4.jpg) no-repeat left top;
+	background:url(../images-new/small_blue_top4.jpg) no-repeat left top;
 	height:28px;
 	font-size:16px;
 	font-weight:bold;
@@ -685,7 +685,7 @@ ul#menu li ul li a:hover {
 	line-height:28px;
 }
 .generalNews .title5{
-	background:url(../images/small_blue_top5.jpg) no-repeat left top;
+	background:url(../images-new/small_blue_top5.jpg) no-repeat left top;
 	height:28px;
 	font-size:16px;
 	font-weight:bold;
@@ -695,7 +695,7 @@ ul#menu li ul li a:hover {
 	line-height:28px;
 }
 .generalNews h6{
-	background:url(../images/hor_line.jpg) repeat-x left bottom;
+	background:url(../images-new/hor_line.jpg) repeat-x left bottom;
 	padding:5px 10px;
 	color:#4d4d4d;
 	font-size:13px;
@@ -717,7 +717,7 @@ ul#menu li ul li a:hover {
 	width:280px;
 	padding:3px 0;
 	_padding:5px 0;
-	background:url(../images/hor_line.jpg) repeat-x left top;
+	background:url(../images-new/hor_line.jpg) repeat-x left top;
 }
 .generalNews ul li:first-child, .generalNews h6.last-child{
 	background:none;
@@ -728,7 +728,7 @@ ul#menu li ul li a:hover {
 	font-size:11px;
 	font-weight:bold;
 	line-height:16px;
-	background:url(../images/help_icon.gif) no-repeat right bottom;
+	background:url(../images-new/help_icon.gif) no-repeat right bottom;
 	display:block;
 	width:260px;
 	padding-right:20px;
@@ -744,7 +744,7 @@ ul#menu li ul li a:hover {
 ------------------------------------------------------------------------------**/
 .flashPlayer{
 	border:1px solid #C1BDBD;
-	background:url(../images/player_grad.jpg) repeat-x left top;
+	background:url(../images-new/player_grad.jpg) repeat-x left top;
 	padding:5px;
 }
 .flashPlayer p.blod_txt{
@@ -799,7 +799,7 @@ ul#menu li ul li a:hover {
 	padding-bottom:12px;
 }
 .run_status .title{
-	background:url(../images/large_blueTop.jpg) no-repeat left top;
+	background:url(../images-new/large_blueTop.jpg) no-repeat left top;
 	height:28px;
 	font-size:16px;
 	font-weight:bold;
@@ -809,7 +809,7 @@ ul#menu li ul li a:hover {
 	line-height:28px;
 }
 /*ul.stauts_subMenu{
-	background:url(../images/blue_grad.jpg) repeat-x left top;
+	background:url(../images-new/blue_grad.jpg) repeat-x left top;
 	height:27px;
 }
 ul.stauts_subMenu li{
@@ -829,7 +829,7 @@ ul.stauts_subMenu li a:hover{
 	background-color:#3171B0;
 }
 ul.stauts_subMenu li em{
-	background:url(../images/blue_sep.jpg) no-repeat left top;
+	background:url(../images-new/blue_sep.jpg) no-repeat left top;
 	width:2px;
 	height:27px;
 	float:left;
@@ -837,7 +837,7 @@ ul.stauts_subMenu li em{
 }*/
 
 .dataGrid{
-	background:#D9D9D9 url(../images/dataGrid_grad.jpg) repeat-x left top;
+	background:#D9D9D9 url(../images-new/dataGrid_grad.jpg) repeat-x left top;
 	border:1px solid #C1BDBD;
 	border-top:none;
 }
@@ -848,7 +848,7 @@ ul.stauts_subMenu li em{
 	height:27px;
 	line-height:27px;
 	text-align:center;
-	background:url(../images/blue_sep.jpg) no-repeat left top;
+	background:url(../images-new/blue_sep.jpg) no-repeat left top;
 	padding:0 3px;
 }
 .dataGrid table td{
@@ -859,7 +859,7 @@ ul.stauts_subMenu li em{
 	line-height:37px;
 	text-align:center;
 	padding:0 3px;
-	background:url(../images/dataGrid_sep.jpg) no-repeat left 15px;
+	background:url(../images-new/dataGrid_sep.jpg) no-repeat left 15px;
 }
 .dataGrid table td:first-child, .dataGrid table th:first-child{
 	background:none;
@@ -876,11 +876,11 @@ ul.stauts_subMenu li em{
 .large_colBox{
 	clear:both;
 	width: 980px;
-	background:url(../images/large_blueTop.jpg) no-repeat left top;
+	background:url(../images-new/large_blueTop.jpg) no-repeat left top;
 	/*height:28px;*/
 }
 .large_colBox h3{
-	background:url(../images/arrow-square.gif) no-repeat right -49px;
+	background:url(../images-new/arrow-square.gif) no-repeat right -49px;
 	font-size:16px;
 	line-height:28px;
 	font-weight:bold;
@@ -895,7 +895,7 @@ ul.stauts_subMenu li em{
 	background-position: right 5px;
 }
 .large_colBox .inSubBox{
-	background:#D9D9D9 url(../images/flashEvent_grad.jpg) repeat-x left top;
+	background:#D9D9D9 url(../images-new/flashEvent_grad.jpg) repeat-x left top;
 	padding:10px;
 	border:1px solid #C1BDBD;
 	border-top:none;
@@ -903,7 +903,7 @@ ul.stauts_subMenu li em{
 	overflow:auto;*/
 }
 .large_colBox .inSubBox1{
-	background:#D9D9D9 url(../images/flashEvent_grad.jpg) repeat-x left top;
+	background:#D9D9D9 url(../images-new/flashEvent_grad.jpg) repeat-x left top;
 	padding:10px;
 	border:1px solid #C1BDBD;
 	border-top:none;
@@ -913,7 +913,7 @@ ul.stauts_subMenu li em{
 /**--footer-
 --------------------------------------------------------------------------**/
 #footer{
-	background:url(../images/footer_bg.jpg) repeat-x left top;
+	background:url(../images-new/footer_bg.jpg) repeat-x left top;
 	height:39px;
 	margin-bottom:50px;
 	
@@ -1037,20 +1037,20 @@ html[xmlns] .clearfix {
 .topSubBtns ul.btnsLink li a:focus, .topSubBtns ul.btnsLink li a.active{
 	font-weight:bold;
 }
-.topSubBtns ul.btnsLink li.detBtn1 a{background:url(../images/roundBlue_btn2.gif) no-repeat left top;}
-.topSubBtns ul.btnsLink li.detBtn1 a:hover, .topSubBtns ul.btnsLink li.detBtn1 a.active{background:url(../images/roundBlue_btn2.gif) no-repeat left bottom; }
+.topSubBtns ul.btnsLink li.detBtn1 a{background:url(../images-new/roundBlue_btn2.gif) no-repeat left top;}
+.topSubBtns ul.btnsLink li.detBtn1 a:hover, .topSubBtns ul.btnsLink li.detBtn1 a.active{background:url(../images-new/roundBlue_btn2.gif) no-repeat left bottom; }
 
-.topSubBtns ul.btnsLink li.trigBtn2 a{background:url(../images/roundBlue_btn3.gif) no-repeat left top;}
-.topSubBtns ul.btnsLink li.trigBtn2 a:hover, .topSubBtns ul.btnsLink li.trigBtn2 a.active{background:url(../images/roundBlue_btn3.gif) no-repeat left bottom; }
+.topSubBtns ul.btnsLink li.trigBtn2 a{background:url(../images-new/roundBlue_btn3.gif) no-repeat left top;}
+.topSubBtns ul.btnsLink li.trigBtn2 a:hover, .topSubBtns ul.btnsLink li.trigBtn2 a.active{background:url(../images-new/roundBlue_btn3.gif) no-repeat left bottom; }
 
-.topSubBtns ul.btnsLink li.comSoftBtn3 a{background:url(../images/roundBlue_btn4.gif) no-repeat left top;}
-.topSubBtns ul.btnsLink li.comSoftBtn3 a:hover, .topSubBtns ul.btnsLink li.comSoftBtn3 a.active{background:url(../images/roundBlue_btn4.gif) no-repeat left bottom; }
+.topSubBtns ul.btnsLink li.comSoftBtn3 a{background:url(../images-new/roundBlue_btn4.gif) no-repeat left top;}
+.topSubBtns ul.btnsLink li.comSoftBtn3 a:hover, .topSubBtns ul.btnsLink li.comSoftBtn3 a.active{background:url(../images-new/roundBlue_btn4.gif) no-repeat left bottom; }
 
-.topSubBtns ul.btnsLink li.dataBtn4 a{background:url(../images/roundBlue_btn5.gif) no-repeat left top;}
-.topSubBtns ul.btnsLink li.dataBtn4 a:hover, .topSubBtns ul.btnsLink li.dataBtn4 a.active{background:url(../images/roundBlue_btn5.gif) no-repeat left bottom; }
+.topSubBtns ul.btnsLink li.dataBtn4 a{background:url(../images-new/roundBlue_btn5.gif) no-repeat left top;}
+.topSubBtns ul.btnsLink li.dataBtn4 a:hover, .topSubBtns ul.btnsLink li.dataBtn4 a.active{background:url(../images-new/roundBlue_btn5.gif) no-repeat left bottom; }
 
-.topSubBtns ul.btnsLink li.phyBtn5 a{background:url(../images/roundBlue_btn6.gif) no-repeat left top;}
-.topSubBtns ul.btnsLink li.phyBtn5 a:hover, .topSubBtns ul.btnsLink li.phyBtn5 a.active{background:url(../images/roundBlue_btn6.gif) no-repeat left bottom; }
+.topSubBtns ul.btnsLink li.phyBtn5 a{background:url(../images-new/roundBlue_btn6.gif) no-repeat left top;}
+.topSubBtns ul.btnsLink li.phyBtn5 a:hover, .topSubBtns ul.btnsLink li.phyBtn5 a.active{background:url(../images-new/roundBlue_btn6.gif) no-repeat left bottom; }
 
 
 .dataPreBox{
@@ -1075,7 +1075,7 @@ html[xmlns] .clearfix {
 ul#menuSec{
 	border:1px solid #c1bdbd;
  	width:215px;
-	background:#F2F2F2 url(../images/left_nav_grad.jpg) repeat-x left bottom;
+	background:#F2F2F2 url(../images-new/left_nav_grad.jpg) repeat-x left bottom;
 }
 ul#menuSec {	
   list-style-type:none;
@@ -1087,7 +1087,7 @@ ul#menuSec a {
   text-decoration: none;	
 }
 ul#menuSec li {
-	background:url(../images/hor_line.jpg) repeat-x left bottom;
+	background:url(../images-new/hor_line.jpg) repeat-x left bottom;
 	display:block;
 	margin: 0;
   	padding: 0;
@@ -1106,11 +1106,11 @@ ul#menuSec li a {
   letter-spacing:0px;
 }
 ul#menuSec li a:hover, ul#menuSec li a.pretty-hover{
-	background:#D4D4D4 url(../images/acc_grey_gradHover.jpg) repeat-x left bottom;  
+	background:#D4D4D4 url(../images-new/acc_grey_gradHover.jpg) repeat-x left bottom;  
 	color:#357cc3;
 }
 ul#menuSec li ul.subLeftNav{
-	background:#BBBBBB url(../images/subLeftnav_grad.jpg) repeat-x left top;
+	background:#BBBBBB url(../images-new/subLeftnav_grad.jpg) repeat-x left top;
 	border-bottom:1px solid #FFF;
 	padding-top:5px;
 }
@@ -1124,7 +1124,7 @@ ul#menuSec li ul.subLeftNav li a {
   height:26px;
   line-height:26px;
   display:block;
-  background:url(../images/subMenu_line.gif) no-repeat left bottom;
+  background:url(../images-new/subMenu_line.gif) no-repeat left bottom;
  }
 ul#menuSec li ul.subLeftNav li a.last-child, ul#menuSec li ul.subLeftNav li a.last-child:hover{
 	background:none;
@@ -1132,11 +1132,11 @@ ul#menuSec li ul.subLeftNav li a.last-child, ul#menuSec li ul.subLeftNav li a.la
 
 ul#menuSec li ul li a:hover {
 	color:#357cc3;
-	background:url(../images/subMenu_line.gif) no-repeat left bottom;
+	background:url(../images-new/subMenu_line.gif) no-repeat left bottom;
 }
 .sub_subLeftNav{
 	
-	background:url(../images/subMenu_line.gif) no-repeat left bottom;
+	background:url(../images-new/subMenu_line.gif) no-repeat left bottom;
 }
 .sub_subLeftNav a{
 	color:#7D7D7D !important;
@@ -1150,11 +1150,11 @@ ul#menuSec li ul li a:hover {
 
 .largeGeneralNews1{
 	width: 752px;
-	background:url(../images/large_blueTop.jpg) no-repeat left top;
+	background:url(../images-new/large_blueTop.jpg) no-repeat left top;
 	padding-bottom:12px;
 }
 .largeGeneralNews1 h3{
-	background:url(../images/arrow-square.gif) no-repeat right -49px;
+	background:url(../images-new/arrow-square.gif) no-repeat right -49px;
 	font-size:16px;
 	line-height:28px;
 	font-weight:bold;
@@ -1172,10 +1172,10 @@ ul#menuSec li ul li a:hover {
 	border:1px solid #C1BDBD;
 	border-top:none;
 	overflow:hidden;
-	background:#F2F2F2 url(../images/dataPre_grad.gif) repeat-x left bottom;
+	background:#F2F2F2 url(../images-new/dataPre_grad.gif) repeat-x left bottom;
 }
 .datapreInside h6{
-	background:transparent url(../images/hor_line.jpg) repeat-x scroll left bottom;
+	background:transparent url(../images-new/hor_line.jpg) repeat-x scroll left bottom;
 	color:#4D4D4D;
 	font-size:13px;
 	font-weight:bold;
@@ -1205,7 +1205,7 @@ p.txtLeft{
 }
 .genNewBox1{
 	width: 174px;
-	background:url(../images/detector.png) no-repeat left top;
+	background:url(../images-new/detector.png) no-repeat left top;
 	float:left;
 	display:inline;
 	margin-right:14px;
@@ -1220,7 +1220,7 @@ p.txtLeft{
 	width: 170px;
 }
 .genNewBox1 h3{
-#	background:url(../images/arrow-square.gif) no-repeat right -49px;
+#	background:url(../images-new/arrow-square.gif) no-repeat right -49px;
 	font-size:16px;
 	line-height:28px;
 	font-weight:bold;
@@ -1240,7 +1240,7 @@ p.txtLeft{
 	border:0px solid #C1BDBD;
 	border-top:none;
 	overflow:hidden;
-	background:#F2F2F2 url(../images/dataPre_grad.gif) repeat-x left bottom;
+	background:#F2F2F2 url(../images-new/dataPre_grad.gif) repeat-x left bottom;
 }
 /**--.secRow_genNew
 ---------------------------------------------------------------------------------------------------------------------**/
@@ -1255,7 +1255,7 @@ p.txtLeft{
 }
 .genNewBox1 ul li{
 	padding:0 10px 8px 10px;
-	background:url(../images/dot_bullet.gif) no-repeat left 5px;
+	background:url(../images-new/dot_bullet.gif) no-repeat left 5px;
 	color:#4d4d4d;
 }
 .genNewBox1 p{
@@ -1266,12 +1266,12 @@ p.txtLeft{
 
 .largeGeneralNews2{
 	width: 752px;
-	background:url(../images/large_blueTop.jpg) no-repeat left top;
+	background:url(../images-new/large_blueTop.jpg) no-repeat left top;
 	margin-bottom:12px;
 	clear:both;
 }
 .largeGeneralNews2 h3{
-	background:url(../images/arrow-square.gif) no-repeat right -49px;
+	background:url(../images-new/arrow-square.gif) no-repeat right -49px;
 	font-size:16px;
 	line-height:28px;
 	font-weight:bold;
@@ -1289,7 +1289,7 @@ p.txtLeft{
 	border:1px solid #C1BDBD;
 	border-top:none;
 	overflow:hidden;
-	background:#F2F2F2 url(../images/dataPre_grad.gif) repeat-x left bottom;
+	background:#F2F2F2 url(../images-new/dataPre_grad.gif) repeat-x left bottom;
 }
 .dataTable{
 	padding:10px;
