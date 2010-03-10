@@ -149,24 +149,27 @@
                         </div>                       
                     </div>
                     
-                	<div class="largeGeneralNews2">
+                	<div class="largeGeneralNews1">
                     	<h3>Run Program</h3>
-                        <div class="subBoxOpen">
+                        <div class="subBox">
                         	<div class="datapreInside">
 								<?php 
 									$file = 'wmi/current/Run Status_wmi/AtlasRunCom.html'; 
-									$fp = fopen($file, 'r'); 
-									$contents = fread($fp, filesize($file)); 
-  									fclose($fp); 
+									if(file_exists($file)) {
+										$fp = fopen($file, 'r'); 
+										$contents = fread($fp, filesize($file)); 
+	  									fclose($fp); 
 
-									$pattern = '/<body bgcolor="#fcfcfc">(.*?)<\/body>/s';
-									if(preg_match($pattern, $contents, $matches)) 
-  									{ 
-  										$what_you_want = $matches[1]; 
-  									} else {
-  										$what_you_want = "Error: Cannot find 'Program of the Day'";
-  									}
-									echo $what_you_want;  					
+										$pattern = '/<body bgcolor="#fcfcfc">(.*?)<hr.+\/>/s';
+										if(preg_match($pattern, $contents, $matches)) { 
+	  										$text = $matches[1]; 
+	  									} else {
+	  										$text = "Error: Cannot parse 'Program of the Day'";
+	  									}
+									} else {
+										$text = "Error: Cannot find '$file'";
+									}
+									echo $text;  					
   								?>
                         	</div>
                         </div>                       
@@ -258,7 +261,17 @@
                     	<h3>Posted News</h3>
                         <div class="subBoxOpen">
                         	<div class="datapreInside">
-								<?php include("events.html");?>
+								<?php 
+									$file = 'events.html';
+									if(file_exists($file)) {
+										$fp = fopen($file, 'r'); 
+										$contents = fread($fp, filesize($file)); 
+  										fclose($fp); 
+  									} else {
+  										$contents = "Error: Cannot find '$file'";
+  									}
+									echo $contents;  					
+  								?>
                             </div>
                         </div>
                     </div>             	
