@@ -1,0 +1,39 @@
+The images for the banners were resized using:
+
+http://www.roundedcornr.com
+
+Single RoundedCornr Image
+
+height: 28
+width: any
+
+Corner Background: transparent
+
+Rounded
+Rounded
+Square
+Square
+
+Corner Radius: 5
+
+Box Gradient: start 4d9bea (detector)
+	      end   3583d2 (detector)
+
+Border Solid: thinkness 1
+              color 3483d4
+
+generate and save,
+then go back and regenerate with new width
+
+IMPORTANT, the site does not seem to work very well,
+you need to reclick:
+
+-transparent corner
+-solid/gradient
+-none/border 
+
+otherwise you get "green"
+
+Mark Donszelmann
+
+

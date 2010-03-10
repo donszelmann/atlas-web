@@ -57,14 +57,14 @@ body{
 /**--logo
 ----------------------------------------------------------------------**/
 #logoWp h1{
-	width:174px;
+	width:113px;
 	height:42px;
 	float:left;
 	margin-top:0px;
 	display:inline;
 }
 #logoWp h1 a{
-	background:url(../images-new/logo.jpg) no-repeat left top;
+	background:url(../images-new/logo-110x42.jpg) no-repeat left top;
 	height:42px;
 	display:block;
 	text-indent:-999999px;
@@ -453,7 +453,7 @@ ul#menu li ul li a:hover {
 	padding-bottom:12px;
 }
 .searchBox h3{
-	background:url(../images-new/medium_blueTop.jpg) no-repeat left top;
+	background:url(../images-new/detector-215x28.gif) no-repeat left top;
 	height:28px;
 	padding:0 10px;
 	line-height:28px;
@@ -1150,7 +1150,7 @@ ul#menuSec li ul li a:hover {
 
 .largeGeneralNews1{
 	width: 752px;
-	background:url(../images-new/large_blueTop.jpg) no-repeat left top;
+	background:url(../images-new/detector-752x28.gif) no-repeat left top;
 	padding-bottom:12px;
 }
 .largeGeneralNews1 h3{
@@ -1205,7 +1205,7 @@ p.txtLeft{
 }
 .genNewBox1{
 	width: 174px;
-	background:url(../images-new/detector.png) no-repeat left top;
+	background:url(../images-new/detector-174x28.gif) no-repeat left top;
 	float:left;
 	display:inline;
 	margin-right:14px;
@@ -1214,6 +1214,7 @@ p.txtLeft{
 .genNewBox1.last-child{
 	margin-right:0;
 	width: 190px;
+	background:url(../images-new/detector-190x28.gif) no-repeat left top;
 }
 .genNewBox1.last-child h3{
 	margin-right:0;
@@ -1266,7 +1267,7 @@ p.txtLeft{
 
 .largeGeneralNews2{
 	width: 752px;
-	background:url(../images-new/large_blueTop.jpg) no-repeat left top;
+	background:url(../images-new/detector-752x28.gif) no-repeat left top;
 	margin-bottom:12px;
 	clear:both;
 }
