@@ -32,8 +32,9 @@ Changes to template to make into operations
 Problems:
 =========
 - logo is too big
-- buttons are too narrow (153 -> 183)
-- Rounded corners on title bars
+- Menu Buttons should be resized
+- Rounded corners on banners
+- Banners should have the correct color
 - Align Search and Phones, right side
 - rename news styles in something decent
 - Menu cookies
