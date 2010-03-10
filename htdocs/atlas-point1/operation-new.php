@@ -144,6 +144,8 @@
                     	<h3>Operation Meetings</h3>
                         <div class="subBox">
                         	<div class="datapreInside">
+                        		<p>Not yet available in integrated form</p>
+                        		<p>See <a href="http://indico.cern.ch/categoryDisplay.py?categId=1407">Indico</a></p>
 								<!-- include(http://indico.cern.ch/categoryDisplay.py?categId=1407); -->
                             </div>
                         </div>                       
