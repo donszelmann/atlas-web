@@ -282,7 +282,7 @@
         </div><!--end content-->
     </div><!--end mainWp-->
     <div id="footer">
-    	<div id="copyright" class="container"><p>Copyright© 2010 CERN - <a href="mailto:Mark.Donszelmann@cern.ch">ATLAS Operations</a></p></div>
+    	<div id="copyright" class="container"><p>Copyright© 2010 CERN - <a href="mailto:Mark.Donszelmann@cern.ch?subject=ATLAS Operations Website">ATLAS Operations</a></p></div>
     </div>
     
 	
