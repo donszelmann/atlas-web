@@ -6,7 +6,7 @@ body{
 }
 
 .container{
-	width: 1000px;
+	width: 1200px;
 	margin: 10px;
 }
 
@@ -35,7 +35,7 @@ body{
 .pageHeader_title{
 	background-image: url('images/menu-bgnd-normal.png');	
 	background-repeat: repeat-x;
-	width: 938px;
+	width: 1062px;
 	height: 47px;
 	float: left;
 	color: #ffffff;
@@ -99,17 +99,32 @@ information about a shift crew.
 
 /* *************** Shift crew ************ */
 
-.taskName{
-	width: 35%;
+.taskName1 {
+	width: 37%;
 	font-weight: bold;
 	background-color: #deedfd;
 }
 
-.shifters {
+.taskName2 {
+	width: 23%;
+	font-weight: bold;
+	background-color: #deedfd;
+}
+
+.shifters, .picture {
 	background-color: #eeece0;
 }
 
-.taskName, .shifters{
+.picture {
+	width: 50px;
+	border-bottom: solid 1px white;	
+}
+
+.picture img {
+	width: 50px;
+}
+
+.taskName1, .taskName2, .shifters {
 	border-bottom: solid 1px white;
 	padding: 5px;
 	font-size: 1.0em;
@@ -184,7 +199,7 @@ in the table.
 .rightSide, .middle, .bottomRightCorner, .bottomMiddle{
 	border-color: #7190c7;
 	border-style: solid;
-	width: 360px;
+	width: 360;
 }
 
 /*
