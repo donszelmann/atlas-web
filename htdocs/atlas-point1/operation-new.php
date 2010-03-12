@@ -60,7 +60,7 @@
 					    <li><a href="ATLAS_Logbook.htm">E-Logbook</a></li>
                         <li><a href="#">Shifts</a>
                             <ul class="subLeftNav">
-								<li><a href="https://pptevm.cern.ch/mao/client/cern.ppt.mao.app.gwt.MaoClient/MaoClient.html#home">Shift Booking (OTP)</a></li>
+								<li><a href="http://atlas-otp.cern.ch/">Shift Booking (OTP)</a></li>
 								<li><a href="shift.html">Shift Booking Rules</a></li>
 								<li class="last-child"><a href="http://pptevm-public.cern.ch/mao/public/PhoneList.html">Today's Shift Schedule</a></li>
                             </ul>
@@ -140,13 +140,21 @@
                 
                 
                 <div class="dataPre_rightCol">
-                	<div class="largeGeneralNews1">
+                	<div class="largeGeneralNews2">
                     	<h3>Operation Meetings</h3>
-                        <div class="subBox">
+                        <div class="subBoxOpen">
                         	<div class="datapreInside">
-                        		<p>Not yet available in integrated form</p>
-                        		<p>See <a href="http://indico.cern.ch/categoryDisplay.py?categId=1407">Indico</a></p>
-								<!-- include(http://indico.cern.ch/categoryDisplay.py?categId=1407); -->
+								<?php 
+									$file = 'meetings.html';
+									if(file_exists($file)) {
+										$fp = fopen($file, 'r'); 
+										$contents = fread($fp, filesize($file)); 
+  										fclose($fp); 
+  									} else {
+  										$contents = "Error: Cannot find '$file'";
+  									}
+									echo $contents;  					
+  								?>
                             </div>
                         </div>                       
                     </div>
