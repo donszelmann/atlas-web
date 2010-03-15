@@ -83,7 +83,6 @@
 										<p><a href="http://atglance.web.cern.ch/atglance/ATLASTCnDB/">Glance</a></p>
 										<p><a href="http://www.cern.ch/dmu-atlas">CATIA</a></p>
                             			<p><a href="http://atlas.web.cern.ch/Atlas/TCOORD/Activities/Installation/Database/rack.htm">Rack</a></p>
-                            			<p><a href="ATLAS_TWiki.html">Twiki</a></p>
                                     </div>                                                                     
                                 </li>                            		
 	                        	<li><a href="#">Tools</a>
@@ -97,6 +96,7 @@
                         </li>
                         <li><a href="#">Documentation</a>
                             <ul class="subLeftNav">
+                                <li><a href="ATLAS_TWiki.html">TWiki</a></li>
 								<li><a href="slimos/doc/default.htm">Slimos</a></li>
 								<li><a href="twiki/bin/view/Main/LArOperationManualShifter">LAr</a></li>
 								<li class="last-child" ><a href="twiki/bin/view/Main/TileCalorimeterWhiteBoard">Tile</a></li>
