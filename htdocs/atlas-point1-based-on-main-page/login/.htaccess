@@ -1,8 +1,0 @@
-ShibRequireAll On
-ShibRequireSession On
-ShibExportAssertion On
-SSLRequireSSL   # The modules only work using HTTPS
-AuthType Shibboleth
-
-Require adfs-group "atlas-readaccess-active-members"
-

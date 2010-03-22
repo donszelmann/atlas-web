@@ -144,6 +144,7 @@
                     	<h3>Operation Meetings</h3>
                         <div class="subBoxOpen">
                         	<div class="datapreInside">
+                        	    <h4><a href="http://indico.cern.ch/categoryDisplay.py?categId=1407">Indico Categories</a></h4>
 								<?php 
 									$file = 'meetings.html';
 									if(file_exists($file)) {
