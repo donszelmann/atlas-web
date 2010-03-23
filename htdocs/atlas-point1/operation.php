@@ -17,7 +17,8 @@
 <body>
 <div id="wrapper">
 	<div id="topRow">
-    	<div id="login" class="container"><!-- <a href="#" class="loginBtn">Login</a> -->
+    	<div id="login" class="container">
+    	<?php if($_SESSION['valid_code']=="") {?><a href="http://atlas.web.cern.ch/Atlas/Collaboration/login/login.php" class="loginBtn" >Login</a> <?php } else {?> <a href="http://atlas.web.cern.ch/Atlas/Collaboration/logout.php"><img src="images/logout.jpg"  style="padding:4px;" /></a><span class="userinfo"><?=$_SESSION['HTTP_ADFS_FULLNAME']?>&nbsp;&nbsp;&nbsp;<?=$_SESSION['HTTP_ADFS_EMAIL']?></span><?php } ?>
         	 <div class="slogun"><p><a href="http://www.cern.ch">European Organization for Nuclear Research</a></p></div>
              <div class="clearfix"></div>
         </div>       
