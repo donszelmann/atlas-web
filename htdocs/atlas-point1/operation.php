@@ -196,15 +196,43 @@
 		                            <div class="subBoxOpen">
 		                            	<div class="datapreInside">
 		           							<ul id="menuSec" class="slidingmenu">
-												<li><a href="oper.php?subs=systems/geninfo/id.html">Inner Detector</a></li>
+												<li><a href="#">Inner Detector</a>
+													<ul class="subLeftNav">
+														<li><a href="systems/geninfo/sys.php?subdet=PIX">PIX</a></li>
+														<li><a href="systems/geninfo/sys.php?subdet=SCT">SCT</a></li>
+														<li><a href="systems/geninfo/sys.php?subdet=TRT">TRT</a></li>
+														<li><a href="systems/geninfo/sys.php?subdet=IDE">IDE</a></li>
+														<li><a href="oper.php?subs=systems/geninfo/id.html">Inner Detector Status</a></li>
+													</ul>
+												</li>
 												<li><a href="systems/geninfo/sys.php?subdet=LAR">LAr Calorimeter</a></li>
 												<li><a href="systems/geninfo/sys.php?subdet=TIL">Tile Calorimeter</a></li>
-										  		<li><a href="oper.php?subs=systems/geninfo/muon.html">Muon Spectrometer</a></li>
-											  	<li><a href="oper.php?subs=systems/geninfo/trigger.html">Trigger</a></li>
+												<li><a href="#">Muon Spectrometer</a>
+													<ul class="subLeftNav">
+														<li><a href="systems/geninfo/sys.php?subdet=MDT">MDT</a></li>
+														<li><a href="systems/geninfo/sys.php?subdet=TGC">TGC</a></li>
+														<li><a href="systems/geninfo/sys.php?subdet=CSC">CSC</a></li>
+														<li><a href="systems/geninfo/sys.php?subdet=RPC">RPC</a></li>
+										  				<li><a href="oper.php?subs=systems/geninfo/muon.html">Muon Spectrometer Status</a></li>
+													</ul>
+												</li>												
+												<li><a href="#">Trigger</a>
+													<ul class="subLeftNav">
+														<li><a href="systems/geninfo/sys.php?subdet=TDQ">L1CALO</a></li>
+														<li><a href="wmi/current/WTRP_wmi/">Trigger Rates</a></li>
+											  			<li><a href="oper.php?subs=systems/geninfo/trigger.html">Trigger Status</a></li>
+													</ul>
+												</li>												
 										 		<li><a href="wmi/current/Run%20Status_wmi/ATLAS.html">DAQ</a></li>
 										 		<li><a href="dcs/status_pages.html">DCS</a></li>
 										 		<li><a href="http://atlasdqm.web.cern.ch/atlasdqm/">Data Quality</a></li>
-										 		<li><a href="oper.php?subs=tier0/">Tier-0</a></li>
+												<li><a href="#">Tier-0</a>
+													<ul class="subLeftNav">
+														<li><a href="http://atlas.web.cern.ch/Atlas/tzero/prod1/monitoring/">Tier-0 Processing</a></li>
+														<li><a href="http://dashb-atlas-data.cern.ch/dashboard/request.py/site?name=&statsInterval=24&activity=1">Tier-0 Export</a></li>
+										 				<li><a href="oper.php?subs=tier0/">Tier-0 Status</a></li>
+										 			</ul>
+										 		</li>
 		                   					</ul>
 		                        		</div>
 		                            </div>
