@@ -10,39 +10,58 @@
   <tr>
     <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td>
-  			<?php 
-				$file = 'https://atlasop.cern.ch/atlas-point1/dcs/dcs/process.php?page=ATLAS';
-				$contents = file_get_contents($file); 
-				echo $contents;  					
-			?>        
+        <td valign="top">
+			<?php 
+				$file = '../wmi/current/Run Status_wmi/ATLAS.html';
+				if(file_exists($file)) {
+					$fp = fopen($file, 'r'); 
+					$contents = fread($fp, filesize($file)); 
+					fclose($fp); 
+					
+					$pattern = '/Other active partitions can be seen here\.<\/a>.?<br.?\/>(.*)<\/tr>.?<tr><td align="center"><font size="5" color="#3c3cb7"><b>Busy Status/s';
+					if(preg_match($pattern, $contents, $matches)) { 
+						$text = $matches[1]; 
+					} else {
+						$text = "Error: Cannot parse '$file'";
+					}
+				} else {
+					$text = "Error: Cannot find '$file'";
+				}
+				echo $text;  					
+			?>
         </td>
       </tr>
       <tr>
-        <td>
-  			<?php 
-				$file = 'https://atlasop.cern.ch/atlas-point1/wmi/current/Run%20Status_wmi/ATLAS.html';
-				$contents = file_get_contents($file); 
-				echo $contents;  					
-			?>        
-        </td>
+        <td><img src="../dcs/data/snapshots/ATLAS.png" width="600" /></td>
+      </tr>
+      <tr>
+        <td><img src="../wmi/current/WTRP_wmi/pot_globalRates_0.png" width="600" /></td>
       </tr>
     </table></td>
     <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td>
   			<?php 
-				$file = 'https://atlasop.cern.ch/atlas-point1/wmi/current/Data%20Quality%20Monitoring_wmi/ATLAS.html';
+				$file = '../dcs/dcs/process.php?page=ATLAS';
 				$contents = file_get_contents($file); 
 				echo $contents;  					
 			?>        
         </td>
       </tr>
       <tr>
-        <td><img src="https://atlasop.cern.ch/atlas-point1/dcs/data/snapshots/ATLAS.png" width="600" /></td>
-      </tr>
-      <tr>
-        <td><img src="https://atlasop.cern.ch/atlas-point1/wmi/current/WTRP_wmi/pot_globalRates_0.png" width="600" /></td>
+        <td>
+			<?php 
+				$file = '../wmi/current/Data Quality Monitoring_wmi/ATLAS.html';
+				if(file_exists($file)) {
+					$fp = fopen($file, 'r'); 
+					$contents = fread($fp, filesize($file)); 
+							fclose($fp); 
+						} else {
+							$contents = "Error: Cannot find '$file'";
+						}
+				echo $contents;  					
+			?>
+        </td>
       </tr>
     </table></td>
   </tr>
