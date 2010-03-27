@@ -1,50 +1,111 @@
-.runStatus{
-	width: 980px;
-	background:url(../images-new/detector-752x28.gif) no-repeat left top;
+.container{
+	width:1160px;
+	margin:0 auto;
 }
+.runStatus{
+	width: 775px;
+}
+.lhcStatus{
+	width: 400px;
+	height: 400px;
+}
+.lhcStatus img{
+	width: 100%;
+}	
 .detectorControl{
-	width: 450px;
-	background:url(../images-new/detector-215x28.gif) no-repeat left top;
+	width: 487px;
 }
 .trigger{
-	width: 500px;
-	background:url(../images-new/detector-215x28.gif) no-repeat left top;
+	width: 595px;
 }
 .event{
-	width: 285px;
-	background:url(../images-new/detector-215x28.gif) no-repeat left top;
+	width: 595px;
+	height: 100%;
+}
+.event .RhoZ, .event .YX {
+	min-height:100px;
+	height: 222px;
+	border:0px solid #C1BDBD;
+	border-top:none;
+	overflow:hidden;
+}
+.event .RhoZ {
+	width: 400px;
+}
+.event .YX {
+	width: 195px;
+}
+.event .RhoZ img {
+	position:relative;
+	width: 600px;
+	left: 0px;
+	top: -243px;
+}
+.event .YX img {
+	position:relative;
+	width: 600px;
+	left: 0px;
+	top: -18px;
 }
 .quality{
 	width: 200px;
-	background:url(../images-new/detector-190x28.gif) no-repeat left top;
 }
-.runStatus, .detectorControl, .trigger, .event, .quality{
-	float:left;
-	display:inline;
-	margin-right:13px;
-	margin-bottom:10px;
+.runStatus, .lhcStatus, .detectorControl, .quality, .trigger, .event, .triggerEvent {
+	float: left;
+	display: inline;
+	margin-right: 13px;
+	margin-bottom: 10px;
 }
-.runStatus h3, .detectorControl h3, .trigger h3, .event h3, .quality h3{
+.runStatus h3, .lhcStatus h3, .detectorControl h3, .trigger h3, .event h3, .quality h3{
 	font-size:16px;
 	line-height:28px;
 	font-weight:bold;
 	display:block;
 	text-transform:uppercase;
-	padding:0 10px;
-	width:154px;
+	padding:0 0 0 7px;
 	color:#FFFFFF;
-	cursor: pointer;
+	background:url(../images-new/detector-7x28-left.gif) no-repeat left top;
 }
-.runStatus h3.active, .detectorControl h3.active, .trigger h3.active, .event h3.active, .quality h3.active{
-	background-position: right 5px;
+.runStatus h3 div, .lhcStatus h3 div, .detectorControl h3 div, .trigger h3 div, .event h3 div, .quality h3 div{
+	margin:0;
+	display:block;
+	padding:0;
+	background:url(../images-new/detector-1000x28-right.gif) no-repeat right top;
 }
-.runStatus .datapreInside, .detectorControl .datapreInside, .trigger .datapreInside, .event .datapreInside, .quality .datapreInside{
+#.runStatus h3.active, .lhcStatus h3.active, .detectorControl h3.active, .trigger h3.active, .event h3.active, .quality h3.active{
+#	background-position: right 5px;
+#}
+.runStatus .datapreInside, .lhcStatus .datapreInside, .detectorControl .datapreInside, .trigger .datapreInside, .event .datapreInside, .quality .datapreInside{
 	min-height:100px;
 	height:auto !important;
 	border:0px solid #C1BDBD;
 	border-top:none;
 	overflow:hidden;
 	background:#F2F2F2 url(../images-new/dataPre_grad.gif) repeat-x left bottom;
+}
+.runStatus table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 100%;
+}
+.runStatus table td table td{
+	padding: 5px 2px 5px 2px;
+}
+.runStatusHead{
+    background:#004080;
+    text-align:center;
+}
+.runStatusKey{
+    background:#dbeffb;
+}
+.runStatusValue{
+	background:#ffffff;
+}
+.runStatusRunning{
+	display:block;
+	color:#ffffff;
+	background:#00bb00;
+	font-weight:bold;
 }
 .statusOk{
 	background:#00ff00;

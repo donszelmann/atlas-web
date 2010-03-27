@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="refresh" content="15">
 <title>ATLAS Overview</title>
 <link rel="stylesheet" type="text/css" href="../css-new/style.css" />
 <link rel="stylesheet" type="text/css" href="page1.css" />
@@ -39,8 +40,9 @@
 
     <div id="mainWp">
         <div id="content" class="container">
+   
             <div class="runStatus">
-                <h3>Run Status</h3>
+                <h3><div>Run Status</div></h3>
                 <div class="datapreInside">
                         <?php 
 				$file = '../wmi/current/Run Status_wmi/ATLAS.html';
@@ -55,6 +57,10 @@
 					} else {
 						$text = "Error: Cannot parse '$file'";
 					}
+					$text = preg_replace('/bgcolor="#004080"/s', 'class="runStatusHead"', $text);
+					$text = preg_replace('/bgcolor="#dbeffb"/s', 'class="runStatusKey"', $text);
+					$text = preg_replace('/bgcolor="#ffffff"/s', 'class="runStatusValue"', $text);
+					$text = preg_replace('/color="#00ff00"/s', 'class="runStatusRunning"', $text);
 				} else {
 					$text = "Error: Cannot find '$file'";
 				}
@@ -62,9 +68,18 @@
 			?>
                 </div>
             </div>
+
+<!--            
+            <div class="lhcStatus">
+   				<h3><div>LHC</div></h3>
+       			<div class="datapreInside">
+					<img src="http://vistar-capture.web.cern.ch/vistar-capture/lhc1.png?0.3496193529572338" width="100%" />
+      			</div>
+    		</div>
+-->
 <!--
       		<div class="quality">
-   				<h3>Quality</h3>
+   				<h3><div>Quality</div></h3>
         		<div class="datapreInside">
 				<?php 
 				$file = '../wmi/current/Data Quality Monitoring_wmi/ATLAS.html';
@@ -91,26 +106,40 @@
     		</div>
 -->            
             <div class="detectorControl">
-   				<h3>Detector</h3>
+   				<h3><div>Detector</div></h3>
        			<div class="datapreInside">
 					<img src="../dcs/data/snapshots/ATLAS.png" width="100%" />
       			</div>
     		</div>
 
+   			<table class="triggerEvent" border="0" cellpadding="0" cellspacing="0"><tr><td>
     		<div class="trigger">
-   				<h3>Trigger</h3>
+   				<h3><div>Trigger</div></h3>
        			<div class="datapreInside">
 					<img src="../wmi/current/WTRP_wmi/pot_globalRates_0.png" width="100%" />
 		        </div>
 		    </div>
-                		
+			</td></tr>
+			
+			<tr><td>
 		    <div class="event">
-   				<h3>Event Display</h3>
-       			<div class="datapreInside">
-					<img src="https://atlas-live.cern.ch/event_files/Default/latest.png" width="100%"/>
-        		</div>
+   				<h3><div>Event Display</div></h3>
+   				<table border="0" cellpadding="0" cellspacing="0"><tr><td>
+   				<div class="RhoZ">
+					<img src="https://atlas-live.cern.ch/event_files/Default/latest.png"/>
+				</div>
+				</td><td>
+				<div class="YX"> 
+					<img src="https://atlas-live.cern.ch/event_files/Default/latest.png"/>
+				</div>
+				</td>
+				</tr>
+				</table>
       		</div>
-      				        		          
+      		</td>
+			</tr>
+			</table>
+  
             <div class="clearfix"></div>
         </div>
         <!--end content-->
