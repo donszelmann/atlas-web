@@ -202,7 +202,6 @@
 														<li><a href="systems/geninfo/sys.php?subdet=SCT">SCT</a></li>
 														<li><a href="systems/geninfo/sys.php?subdet=TRT">TRT</a></li>
 														<li><a href="systems/geninfo/sys.php?subdet=IDE">IDE</a></li>
-														<li><a href="oper.php?subs=systems/geninfo/id.html">Inner Detector Status</a></li>
 													</ul>
 												</li>
 												<li><a href="systems/geninfo/sys.php?subdet=LAR">LAr Calorimeter</a></li>
@@ -213,7 +212,6 @@
 														<li><a href="systems/geninfo/sys.php?subdet=TGC">TGC</a></li>
 														<li><a href="systems/geninfo/sys.php?subdet=CSC">CSC</a></li>
 														<li><a href="systems/geninfo/sys.php?subdet=RPC">RPC</a></li>
-										  				<li><a href="oper.php?subs=systems/geninfo/muon.html">Muon Spectrometer Status</a></li>
 													</ul>
 												</li>												
 												<li><a href="#">Trigger</a>
@@ -228,9 +226,9 @@
 										 		<li><a href="http://atlasdqm.web.cern.ch/atlasdqm/">Data Quality</a></li>
 												<li><a href="#">Tier-0</a>
 													<ul class="subLeftNav">
-														<li><a href="http://atlas.web.cern.ch/Atlas/tzero/prod1/monitoring/">Tier-0 Processing</a></li>
+														<li><a href="https://atlas-tz-monitoring.cern.ch/">Tier-0 Monitoring</a></li>
+														<li><a href="http://atlas.web.cern.ch/Atlas/tzero/prod1/monitoring/">Tier-0 Monitoring (old)</a></li>
 														<li><a href="http://dashb-atlas-data.cern.ch/dashboard/request.py/site?name=&statsInterval=24&activity=1">Tier-0 Export</a></li>
-										 				<li><a href="oper.php?subs=tier0/">Tier-0 Status</a></li>
 										 			</ul>
 										 		</li>
 		                   					</ul>

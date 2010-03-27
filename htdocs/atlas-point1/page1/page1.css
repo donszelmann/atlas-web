@@ -1,0 +1,63 @@
+.runStatus{
+	width: 980px;
+	background:url(../images-new/detector-752x28.gif) no-repeat left top;
+}
+.detectorControl{
+	width: 450px;
+	background:url(../images-new/detector-215x28.gif) no-repeat left top;
+}
+.trigger{
+	width: 500px;
+	background:url(../images-new/detector-215x28.gif) no-repeat left top;
+}
+.event{
+	width: 285px;
+	background:url(../images-new/detector-215x28.gif) no-repeat left top;
+}
+.quality{
+	width: 200px;
+	background:url(../images-new/detector-190x28.gif) no-repeat left top;
+}
+.runStatus, .detectorControl, .trigger, .event, .quality{
+	float:left;
+	display:inline;
+	margin-right:13px;
+	margin-bottom:10px;
+}
+.runStatus h3, .detectorControl h3, .trigger h3, .event h3, .quality h3{
+	font-size:16px;
+	line-height:28px;
+	font-weight:bold;
+	display:block;
+	text-transform:uppercase;
+	padding:0 10px;
+	width:154px;
+	color:#FFFFFF;
+	cursor: pointer;
+}
+.runStatus h3.active, .detectorControl h3.active, .trigger h3.active, .event h3.active, .quality h3.active{
+	background-position: right 5px;
+}
+.runStatus .datapreInside, .detectorControl .datapreInside, .trigger .datapreInside, .event .datapreInside, .quality .datapreInside{
+	min-height:100px;
+	height:auto !important;
+	border:0px solid #C1BDBD;
+	border-top:none;
+	overflow:hidden;
+	background:#F2F2F2 url(../images-new/dataPre_grad.gif) repeat-x left bottom;
+}
+.statusOk{
+	background:#00ff00;
+}
+.statusActive{
+	background:#ffdc00;
+}
+.statusInactive{
+	background:#808080;
+}
+.statusError{
+	background:#ff0000;
+}
+.statusStandby{
+	background:#0000ff;
+}
