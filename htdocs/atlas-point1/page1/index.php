@@ -73,7 +73,7 @@
             <div class="lhcStatus">
    				<h3><div>LHC</div></h3>
        			<div class="datapreInside">
-					<img src="http://vistar-capture.web.cern.ch/vistar-capture/lhc1.png?0.3496193529572338" width="100%" />
+					<img src="http://vistar-capture.web.cern.ch/vistar-capture/lhc1.png" width="100%" />
       			</div>
     		</div>
 -->
@@ -81,6 +81,7 @@
       		<div class="quality">
    				<h3><div>Quality</div></h3>
         		<div class="datapreInside">
+        		<a href="https://atlasop.cern.ch/atlas-point1/wmi/current/Run%20Status_wmi/ATLAS.html">
 				<?php 
 				$file = '../wmi/current/Data Quality Monitoring_wmi/ATLAS.html';
 				if(file_exists($file)) {
@@ -102,13 +103,16 @@
 				}
 				echo $text;  					
 				?>
+				</a>
       			</div>
     		</div>
 -->            
             <div class="detectorControl">
    				<h3><div>Detector</div></h3>
        			<div class="datapreInside">
-					<img src="../dcs/data/snapshots/ATLAS.png" width="100%" />
+       			    <a href="https://atlasop.cern.ch/atlas-point1/dcs/status_pages.html">
+						<img src="../dcs/data/snapshots/ATLAS.png" width="100%" />
+					</a>
       			</div>
     		</div>
 
@@ -116,7 +120,9 @@
     		<div class="trigger">
    				<h3><div>Trigger</div></h3>
        			<div class="datapreInside">
-					<img src="../wmi/current/WTRP_wmi/pot_globalRates_0.png" width="100%" />
+       			    <a href="https://atlasop.cern.ch/atlas-point1/wmi/current/Run%20Status_wmi/ATLAS.html">
+						<img src="../wmi/current/WTRP_wmi/pot_globalRates_0.png" width="100%" />
+					</a>
 		        </div>
 		    </div>
 			</td></tr>
@@ -124,6 +130,7 @@
 			<tr><td>
 		    <div class="event">
    				<h3><div>Event Display</div></h3>
+   				<a href="https://atlas-live.cern.ch/event_files/Default/latest.png">
    				<table border="0" cellpadding="0" cellspacing="0"><tr><td>
    				<div class="RhoZ">
 					<img src="https://atlas-live.cern.ch/event_files/Default/latest.png"/>
@@ -135,6 +142,7 @@
 				</td>
 				</tr>
 				</table>
+				</a>
       		</div>
       		</td>
 			</tr>
