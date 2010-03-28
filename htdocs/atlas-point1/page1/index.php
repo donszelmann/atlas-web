@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="refresh" content="15">
+<meta http-equiv="refresh" content="20">
 <title>ATLAS Overview</title>
 <link rel="stylesheet" type="text/css" href="../css-new/style.css" />
 <link rel="stylesheet" type="text/css" href="page1.css" />
@@ -41,6 +41,33 @@
     <div id="mainWp">
         <div id="content" class="container">
    
+   			<table border="0" cellpadding="0" cellspacing="0">
+   			<tr><td valign="top" rowspan="2">
+   			
+   			<table border="0" cellpadding="0" cellspacing="0">
+   			<tr><td valign="top">
+            <div class="lhcStatus">
+   				<h3><div>LHC Status</div></h3>
+       			<a href="http://vistar-capture.web.cern.ch/vistar-capture/lhc1.png">
+					<img src="http://vistar-capture.web.cern.ch/vistar-capture/lhc1.png" width="100%" />
+				</a>
+    		</div>
+    		
+    		</td></tr>
+    		<tr><td valign="top">
+    		
+            <div class="detectorControl">
+   				<h3><div>Detector Status</div></h3>
+      			<a href="https://atlasop.cern.ch/atlas-point1/dcs/status_pages.html">
+					<img src="../dcs/data/snapshots/ATLAS.png" width="100%" />
+				</a>
+				<p style="position: relative; top: -472px; left: 10px; width: 240px; padding: 0px; background-color: #fff;">&nbsp;</p>
+    		</div>
+
+			</td></tr>
+			</table>
+			
+			<td colspan="2" valign="top">
             <div class="runStatus">
                 <h3><div>Run Status</div></h3>
                 <div class="datapreInside">
@@ -68,15 +95,64 @@
 			?>
                 </div>
             </div>
+            </td></tr>
+			
+			<tr>
+			<td valign="top">
+    		<div class="trigger">
+   				<h3><div>Trigger Rates</div></h3>
+   				<table border="0" cellpadding="0" cellspacing="0"><tr><td>       			
+					<img src="../wmi/current/WTRP_wmi/pot_globalRates_0.png" width="100%" />
+				</td></tr><tr><td>
+					<img src="../wmi/current/WTRP_wmi/pot_StreamRates_0.png" width="100%" />
+				</td></tr><tr><td>
+					<img src="../wmi/current/WTRP_wmi/pot_StreamRates_1.png" width="100%" />
+				</td></tr></table>
+		    </div>
+		    </td>
+		    
+		    <td valign="top">
+		    <div class="event">
+   				<h3><div>Event Display</div></h3>
+   				<a href="https://atlas-live.cern.ch/event_files/Default/latest.png">
+   				<table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="2">
+   				<div class="RhoZ">
+					<img src="https://atlas-live.cern.ch/event_files/Default/latest.png"/>
+				</div>
+				</td></tr>
+				<tr><td>
+				<div class="YX1"> 
+					<img src="https://atlas-live.cern.ch/event_files/Default/latest.png"/>
+				</div>
+				</td>
+				<td>
+				<div class="YX2"> 
+					<img src="https://atlas-live.cern.ch/event_files/Default/latest.png"/>
+				</div>
+				</td>
+				</tr>
+				</table>
+				</a>
+      		</div> 
+			</td>
+			
+			</tr>
+			</table>
+            <div class="clearfix"></div>
+        </div>
+        <!--end content-->
+    </div>
+    <!--end mainWp-->
+    <div id="footer">
+        <div id="copyright" class="container">
+            <p>Copyright© 2010 CERN - <a href="mailto:Mark.Donszelmann@cern.ch?subject=ATLAS Operations Website">ATLAS Operations</a></p>
+        </div>
+    </div>
+</div>
+<!--end wrapper-->
+</body>
+</html>
 
-<!--            
-            <div class="lhcStatus">
-   				<h3><div>LHC</div></h3>
-       			<div class="datapreInside">
-					<img src="http://vistar-capture.web.cern.ch/vistar-capture/lhc1.png" width="100%" />
-      			</div>
-    		</div>
--->
 <!--
       		<div class="quality">
    				<h3><div>Quality</div></h3>
@@ -106,62 +182,9 @@
 				</a>
       			</div>
     		</div>
--->            
-            <div class="detectorControl">
-   				<h3><div>Detector</div></h3>
-       			<div class="datapreInside">
-       			    <a href="https://atlasop.cern.ch/atlas-point1/dcs/status_pages.html">
-						<img src="../dcs/data/snapshots/ATLAS.png" width="100%" />
-					</a>
-      			</div>
-    		</div>
+-->          
 
-   			<table class="triggerEvent" border="0" cellpadding="0" cellspacing="0"><tr><td>
-    		<div class="trigger">
-   				<h3><div>Trigger</div></h3>
-       			<div class="datapreInside">
-       			    <a href="https://atlasop.cern.ch/atlas-point1/wmi/current/Run%20Status_wmi/ATLAS.html">
-						<img src="../wmi/current/WTRP_wmi/pot_globalRates_0.png" width="100%" />
-					</a>
-		        </div>
-		    </div>
-			</td></tr>
-			
-			<tr><td>
-		    <div class="event">
-   				<h3><div>Event Display</div></h3>
-   				<a href="https://atlas-live.cern.ch/event_files/Default/latest.png">
-   				<table border="0" cellpadding="0" cellspacing="0"><tr><td>
-   				<div class="RhoZ">
-					<img src="https://atlas-live.cern.ch/event_files/Default/latest.png"/>
-				</div>
-				</td><td>
-				<div class="YX"> 
-					<img src="https://atlas-live.cern.ch/event_files/Default/latest.png"/>
-				</div>
-				</td>
-				</tr>
-				</table>
-				</a>
-      		</div>
-      		</td>
-			</tr>
-			</table>
-  
-            <div class="clearfix"></div>
-        </div>
-        <!--end content-->
-    </div>
-    <!--end mainWp-->
-    <div id="footer">
-        <div id="copyright" class="container">
-            <p>Copyright© 2010 CERN - <a href="mailto:Mark.Donszelmann@cern.ch?subject=ATLAS Operations Website">ATLAS Operations</a></p>
-        </div>
-    </div>
-</div>
-<!--end wrapper-->
-</body>
-</html>
+
 <!--
 
    <div class="genNewBox1">

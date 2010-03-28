@@ -1,66 +1,94 @@
+html,body{
+	width:1920;
+	height:1080;
+}
+#content {
+padding: 18px 0px 0px 0px;
+}
 .container{
-	width:1095px;
+	width:1800px;
 	margin:0 auto;
 }
 .runStatus{
-	width: 100%;
+	width: 1270px;
 }
 .lhcStatus{
-	width: 400px;
-	height: 400px;
+	width: 464px;
 }
 .lhcStatus img{
 	width: 100%;
 }	
 .detectorControl{
-	width: 485px;
+	width: 464px;
 }
 .trigger{
 	width: 595px;
 }
 .event{
-	width: 595px;
-	height: 100%;
+	width: 612px;
 }
-.event .RhoZ, .event .YX {
+.event .RhoZ, .event .YX1, .event .YX2 {
 	min-height:100px;
-	height: 222px;
 	border:0px solid #C1BDBD;
 	border-top:none;
 	overflow:hidden;
 }
 .event .RhoZ {
-	width: 400px;
+	width: 612px;
+	height: 343px;
 }
-.event .YX {
-	width: 195px;
+.event .YX1 {
+	width: 306px;
+	height: 343px;
+}
+.event .YX2 {
+	width: 306px;
+	height: 343px;
 }
 .event .RhoZ img {
 	position:relative;
-	width: 600px;
+	width: 922px;
 	left: 0px;
-	top: -243px;
+	top: -373px;
 }
-.event .YX img {
+.event .YX1 img {
 	position:relative;
-	width: 600px;
+	width: 922px;
 	left: 0px;
-	top: -18px;
+	top: -28px;
+}
+.event .YX2 img {
+	position:relative;
+	width: 922px;
+	left: -613px;
+	top: -28px;
 }
 .quality{
 	width: 200px;
 }
-.runStatus, .lhcStatus, .detectorControl, .quality {
+.lhcStatus, .quality {
 	float: left;
 	display: inline;
-	margin-right: 13px;
+	margin-right: 66px;
 	margin-bottom: 10px;
 }
-.trigger, .event, .triggerEvent {
+.runStatus {
 	float: right;
 	display: inline;
 	margin-left: 0px;
 	margin-bottom: 10px;
+}
+.detectorControl, .trigger {
+	float: left;
+	display: inline;
+	margin-right: 13px;
+	margin-bottom: 0px;
+}
+.event {
+	float: right;
+	display: inline;
+	margin-left: 0px;
+	margin-bottom: 0px;
 }
 .runStatus h3, .lhcStatus h3, .detectorControl h3, .trigger h3, .event h3, .quality h3{
 	font-size:16px;
