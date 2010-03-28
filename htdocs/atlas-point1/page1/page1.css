@@ -1,9 +1,9 @@
 .container{
-	width:1160px;
+	width:1095px;
 	margin:0 auto;
 }
 .runStatus{
-	width: 775px;
+	width: 100%;
 }
 .lhcStatus{
 	width: 400px;
@@ -13,7 +13,7 @@
 	width: 100%;
 }	
 .detectorControl{
-	width: 487px;
+	width: 485px;
 }
 .trigger{
 	width: 595px;
@@ -50,10 +50,16 @@
 .quality{
 	width: 200px;
 }
-.runStatus, .lhcStatus, .detectorControl, .quality, .trigger, .event, .triggerEvent {
+.runStatus, .lhcStatus, .detectorControl, .quality {
 	float: left;
 	display: inline;
 	margin-right: 13px;
+	margin-bottom: 10px;
+}
+.trigger, .event, .triggerEvent {
+	float: right;
+	display: inline;
+	margin-left: 0px;
 	margin-bottom: 10px;
 }
 .runStatus h3, .lhcStatus h3, .detectorControl h3, .trigger h3, .event h3, .quality h3{
@@ -70,7 +76,7 @@
 	margin:0;
 	display:block;
 	padding:0;
-	background:url(../images-new/detector-1000x28-right.gif) no-repeat right top;
+	background:url(../images-new/detector-1500x28-right.gif) no-repeat right top;
 }
 #.runStatus h3.active, .lhcStatus h3.active, .detectorControl h3.active, .trigger h3.active, .event h3.active, .quality h3.active{
 #	background-position: right 5px;
