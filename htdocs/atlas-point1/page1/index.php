@@ -132,6 +132,13 @@
 				</div>
 				</td>
 				</tr>
+				<tr>
+				<td colspan="2" id="date">
+				<div class="date">
+					<img src="https://atlas-live.cern.ch/event_files/MinBias/latest.png"/>
+				</div>
+				</td>
+				</tr>
 				</table>
 				</a>
       		</div> 

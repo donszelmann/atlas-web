@@ -3,7 +3,7 @@ html,body{
 	height:1080;
 }
 #content {
-padding: 15px 0px;
+padding: 10px 0px;
 }
 .container{
 	width:1800px;
@@ -32,26 +32,33 @@ padding: 15px 0px;
 .event{
 	width: 612px;
 }
-.event .RhoZ, .event .YX1, .event .YX2 {
-	min-height:100px;
+.event .RhoZ, .event .YX1, .event .YX2, .event .date {
 	border:0px solid #C1BDBD;
 	border-top:none;
 	overflow:hidden;
 }
 .event .RhoZ {
 	width: 612px;
-	height: 343px;
+	height: 340px;
 }
 .event .YX1 {
 	width: 306px;
-	height: 343px;
+	height: 340px;
 }
 .event .YX2 {
 	width: 306px;
-	height: 343px;
+	height: 340px;
+}
+.event .date {
+	width: 203px;
+	height: 16px;
+}
+#date {
+	background-color: #e0e0e0;
 }
 .event .RhoZ img {
 	position:relative;
+	top: -20px;
 	width: 922px;
 	left: 0px;
 	top: -373px;
@@ -67,6 +74,12 @@ padding: 15px 0px;
 	width: 922px;
 	left: -613px;
 	top: -28px;
+}
+.event .date img {
+	position: relative;
+	width: 922px;
+	left: -82px; 
+	top: -3px; 
 }
 .quality{
 	width: 200px;
