@@ -114,20 +114,20 @@
 		    <td valign="top">
 		    <div class="event">
    				<h3><div>Event Display</div></h3>
-   				<a href="https://atlas-live.cern.ch/event_files/Default/latest.png">
+   				<a href="https://atlas-live.cern.ch/event_files/MinBias/latest.png">
    				<table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="2">
    				<div class="RhoZ">
-					<img src="https://atlas-live.cern.ch/event_files/Default/latest.png"/>
+					<img src="https://atlas-live.cern.ch/event_files/MinBias/latest.png"/>
 				</div>
 				</td></tr>
 				<tr><td>
 				<div class="YX1"> 
-					<img src="https://atlas-live.cern.ch/event_files/Default/latest.png"/>
+					<img src="https://atlas-live.cern.ch/event_files/MinBias/latest.png"/>
 				</div>
 				</td>
 				<td>
 				<div class="YX2"> 
-					<img src="https://atlas-live.cern.ch/event_files/Default/latest.png"/>
+					<img src="https://atlas-live.cern.ch/event_files/MinBias/latest.png"/>
 				</div>
 				</td>
 				</tr>
