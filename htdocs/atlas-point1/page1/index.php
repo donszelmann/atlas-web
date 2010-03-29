@@ -78,9 +78,9 @@
 					$contents = fread($fp, filesize($file)); 
 					fclose($fp); 
 					
-					$pattern = '/Other active partitions can be seen here\.<\/a>.?<br.?\/>.?<table width="100%">.?<tr><td align="center">(.*?)<\/td>.?<\/tr>.?<tr><td>\&nbsp<\/td>/s';
+					$pattern = '/Other active partitions can be seen here\.<\/a>.?<br.?\/>.?<table width="100%">.?<tr><td align="center">(.*?)<\/table><\/td>.?<\/tr>.?<\/table><\/td>.?<\/tr>/s';
 					if(preg_match($pattern, $contents, $matches)) { 
-						$text = $matches[1]; 
+						$text = $matches[1] . "</table></td></tr></table></td></tr>"; 
 					} else {
 						$text = "Error: Cannot parse '$file'";
 					}
