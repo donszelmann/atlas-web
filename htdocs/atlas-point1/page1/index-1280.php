@@ -5,7 +5,7 @@
 <meta http-equiv="refresh" content="20">
 <title>ATLAS Overview</title>
 <link rel="stylesheet" type="text/css" href="../css-new/style.css" />
-<link rel="stylesheet" type="text/css" href="page1.css" />
+<link rel="stylesheet" type="text/css" href="page1-1280.css" />
 <!--[if lt IE 8]>
     <script src="script-new/IE8.js" type="text/javascript"></script>
     <![endif]-->

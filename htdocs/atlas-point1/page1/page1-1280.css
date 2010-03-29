@@ -1,44 +1,44 @@
 html,body{
-	width:1920;
-	height:1080;
+	width:1280;
+	height:720;
 }
 #content {
-padding: 10px 0px;
+	padding: 10px 0px;
 }
 .container{
-	width:1800px;
+	width:1200px;
 	margin:0 auto;
 }
 .runStatus{
-	width: 1270px;
+	width: 847px;
 }
 .lhcStatus{
-	width: 464px;
+	width: 340px;
 }
 .lhcStatus img{
 	width: 100%;
 }	
 .detectorControl{
-	width: 464px;
-	height: 472px;
+	width: 340px;
+	height: 346px;
 }
 .detectorControl img{
-	width: 464px;
-	height: 472px;
+	width: 340px;
+	height: 346px;
 }
 .detectorControl p {
 	position: relative; 
 	top: -472px; 
 	left: 5px; 
-	width: 240px; 
+	width: 0px; 
 	padding: 0px; 
 	background-color: #fff;
 }
 .trigger{
-	width: 595px;
+	width: 406px;
 }
 .event{
-	width: 612px;
+	width: 408px;
 }
 .event .RhoZ, .event .YX1, .event .YX2, .event .date {
 	border:0px solid #C1BDBD;
@@ -46,47 +46,47 @@ padding: 10px 0px;
 	overflow:hidden;
 }
 .event .RhoZ {
-	width: 612px;
-	height: 340px;
+	width: 408px;
+	height: 227px;
 }
 .event .YX1 {
-	width: 306px;
-	height: 340px;
+	width: 204px;
+	height: 227px;
 }
 .event .YX2 {
-	width: 306px;
-	height: 340px;
+	width: 204px;
+	height: 227px;
 }
 .event .date {
-	width: 203px;
-	height: 16px;
+	width: 140px;
+	height: 12px;
 }
 #date {
 	background-color: #e0e0e0;
 }
 .event .RhoZ img {
 	position:relative;
-	width: 922px;
+	width: 615px;
 	left: 0px;
-	top: -373px;
+	top: -249px;
 }
 .event .YX1 img {
 	position:relative;
-	width: 922px;
+	width: 615px;
 	left: 0px;
-	top: -28px;
+	top: -19px;
 }
 .event .YX2 img {
 	position:relative;
-	width: 922px;
-	left: -613px;
-	top: -28px;
+	width: 615px;
+	left: -409px;
+	top: -19px;
 }
 .event .date img {
 	position: relative;
-	width: 922px;
-	left: -82px; 
-	top: -3px; 
+	width: 615px;
+	left: -55px; 
+	top: -2px; 
 }
 .quality{
 	width: 200px;
@@ -94,7 +94,7 @@ padding: 10px 0px;
 .lhcStatus, .quality {
 	float: left;
 	display: inline;
-	margin-right: 66px;
+	margin-right: 30px;
 	margin-bottom: 10px;
 }
 .runStatus {
