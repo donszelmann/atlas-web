@@ -21,6 +21,10 @@ padding: 18px 0px 0px 0px;
 .detectorControl{
 	width: 464px;
 }
+.detectorControl img{
+	width: 464px;
+	height: 472px;
+}
 .trigger{
 	width: 595px;
 }
