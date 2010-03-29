@@ -78,7 +78,7 @@
 					$contents = fread($fp, filesize($file)); 
 					fclose($fp); 
 					
-					$pattern = '/Other active partitions can be seen here\.<\/a>.?<br.?\/>.?<table width="100%">.?<tr><td align="center">(.*)<\/td>.?<\/tr>.?<tr><td align="center"><font size="5" color="#3c3cb7"><b>Busy Status/s';
+					$pattern = '/Other active partitions can be seen here\.<\/a>.?<br.?\/>.?<table width="100%">.?<tr><td align="center">(.*?)<\/td>.?<\/tr>.?<tr><td>\&nbsp<\/td>/s';
 					if(preg_match($pattern, $contents, $matches)) { 
 						$text = $matches[1]; 
 					} else {
@@ -88,6 +88,7 @@
 					$text = preg_replace('/bgcolor="#dbeffb"/s', 'class="runStatusKey"', $text);
 					$text = preg_replace('/bgcolor="#ffffff"/s', 'class="runStatusValue"', $text);
 					$text = preg_replace('/color="#00ff00"/s', 'class="runStatusRunning"', $text);
+					$text = preg_replace('/color="#228b22"/s', 'class="runStatusNone"', $text);
 				} else {
 					$text = "Error: Cannot find '$file'";
 				}
