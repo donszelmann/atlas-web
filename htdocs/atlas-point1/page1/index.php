@@ -61,7 +61,7 @@
       			<a href="https://atlasop.cern.ch/atlas-point1/dcs/status_pages.html">
 					<img src="../dcs/data/snapshots/ATLAS.png" width="100%" />
 				</a>
-				<p style="position: relative; top: -472px; left: 10px; width: 240px; padding: 0px; background-color: #fff;">&nbsp;</p>
+				<p style="position: relative; top: -472px; left: 5px; width: 240px; padding: 0px; background-color: #fff;">&nbsp;</p>
     		</div>
 
 			</td></tr>
