@@ -37,6 +37,9 @@ html,body{
 .trigger{
 	width: 406px;
 }
+.trigger img{
+	width: 406px;
+}
 .event{
 	width: 408px;
 }

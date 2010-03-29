@@ -37,6 +37,9 @@ padding: 10px 0px;
 .trigger{
 	width: 595px;
 }
+.trigger img{
+	width: 595px;
+}
 .event{
 	width: 612px;
 }
