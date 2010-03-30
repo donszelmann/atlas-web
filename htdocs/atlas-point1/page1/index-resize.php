@@ -14,8 +14,8 @@
 		document.getElementsByTagName("head")[0].appendChild(loadcss)
 	}
 
-	if(window.outerWidth >= '1600') {
-		getcss('page1.css')
+	if(window.outerWidth > '1600') {
+		getcss('page1-1920.css')
 	} else if(window.outerWidth >= '1280') {
 		getcss('page1-1280.css')
 	} else {
