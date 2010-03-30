@@ -243,7 +243,7 @@
 		                            <div class="subBoxOpen">
 		                            	<div class="datapreInside">
 		           							<ul id="menuSec" class="slidingmenu">
-												<li><a href="page1/index">ATLAS Overview</a></li>
+												<li><a href="page1/index.php">ATLAS Overview</a></li>
 												<li><a href="http://op-webtools.web.cern.ch/op-webtools/vistar/vistars.php?usr=LHC1">LHC Page 1</a></li>
 												<li><a href="oper.php?subs=dcs/dcs/process.php?page=ATL_LHC&subd=IS">ATLAS Page 1</a></li>
 												<li><a href="oper.php?subs=http://atlas.web.cern.ch/Atlas/GROUPS/DATAPREPARATION/runs.html">Luminosity Performance</a></li>
