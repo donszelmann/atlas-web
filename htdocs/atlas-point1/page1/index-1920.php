@@ -5,24 +5,7 @@
 <meta http-equiv="refresh" content="20">
 <title>ATLAS Overview</title>
 <link rel="stylesheet" type="text/css" href="../css-new/style.css" />
-<script type="text/javascript">
-	function getcss(cssfile){
-		loadcss = document.createElement('link')
-		loadcss.setAttribute("rel", "stylesheet")
-		loadcss.setAttribute("type", "text/css")
-		loadcss.setAttribute("href", cssfile)
-		document.getElementsByTagName("head")[0].appendChild(loadcss)
-	}
-
-	if(window.outerWidth > '1600') {
-		getcss('page1-1920.css')
-	} else if(window.outerWidth >= '1280') {
-		getcss('page1-1280.css')
-	} else {
-		getcss('page1-1024.css')
-	}
-</script>
-
+<link rel="stylesheet" type="text/css" href="page1-1920.css" />
 <!--[if lt IE 8]>
     <script src="script-new/IE8.js" type="text/javascript"></script>
     <![endif]-->
