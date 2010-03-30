@@ -61,7 +61,7 @@ html,body{
 	height: 227px;
 }
 .event .date {
-	width: 140px;
+	width: 137px;
 	height: 12px;
 }
 #date {
@@ -88,7 +88,7 @@ html,body{
 .event .date img {
 	position: relative;
 	width: 615px;
-	left: -55px; 
+	left: -48px; 
 	top: -2px; 
 }
 .quality{
