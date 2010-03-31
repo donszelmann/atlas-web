@@ -33,7 +33,7 @@
 <script type="text/javascript" src="../script-new/jquery-1.2.1.min.js"></script>
 <script type="text/javascript" src="../script-new/menu.js"></script>
 </head>
-<body>
+<body onResize="window.location.href = window.location.href;">
 <div id="wrapper">
     <div id="topRow">
         <div id="login" class="container">
