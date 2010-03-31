@@ -246,7 +246,7 @@
 												<li><a href="page1/index.php">ATLAS Overview</a></li>
 												<li><a href="http://op-webtools.web.cern.ch/op-webtools/vistar/vistars.php?usr=LHC1">LHC Page 1</a></li>
 												<li><a href="oper.php?subs=dcs/dcs/process.php?page=ATL_LHC&subd=IS">ATLAS Page 1</a></li>
-												<li><a href="oper.php?subs=http://atlas.web.cern.ch/Atlas/GROUPS/DATAPREPARATION/runs.html">Luminosity Performance</a></li>
+												<li><a href="oper.php?subs=http://atlas.web.cern.ch/Atlas/GROUPS/DATAPREPARATION/DataSummary/">Data Summary</a></li>
 												<li><a href="oper.php?subs=lhc/backgrounds.html">Backgrounds</a></li>
 												<li><a href="oper.php?subs=dcs/dcs/process.php?page=LHC_INS::BPTXInfo&subd=IS">Beam Instrumentation</a></li>
 												<li><a href="oper.php?subs=dcs/dcs/process.php?page=ATL_EXT::Vacuum&subd=IS">Vacuum Beam Pipe</a></li>
