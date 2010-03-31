@@ -152,6 +152,7 @@ html,body{
 }
 .runStatus table td table td{
 	padding: 5px 2px 5px 2px;
+	font-size: x-small;
 }
 .runStatusHead{
     background:#004080;
