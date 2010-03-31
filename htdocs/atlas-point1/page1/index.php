@@ -5,6 +5,8 @@
 <meta http-equiv="refresh" content="20">
 <title>ATLAS Overview</title>
 <link rel="stylesheet" type="text/css" href="../css-new/style.css" />
+<!-- default in case javascript is off -->
+<link rel="stylesheet" type="text/css" href="page1-1024.css" />
 <script type="text/javascript">
 	function getcss(cssfile){
 		loadcss = document.createElement('link')
