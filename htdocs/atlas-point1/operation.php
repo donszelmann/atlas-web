@@ -62,6 +62,7 @@
                         <li><a href="#">Shifts</a>
                             <ul class="subLeftNav">
 								<li><a href="http://atlas-otp.cern.ch/">Shift Booking (OTP)</a></li>
+								<li><a href="https://twiki.cern.ch/twiki/bin/view/Atlas/OTP">OTP TWiki</a></li>
 								<li><a href="shift.html">Shift Booking Rules</a></li>
 								<li class="last-child"><a href="http://pptevm-public.cern.ch/mao/public/PhoneList.html">Today's Shift Schedule</a></li>
                             </ul>
