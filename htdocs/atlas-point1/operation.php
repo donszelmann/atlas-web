@@ -219,7 +219,7 @@
 													<ul class="subLeftNav">
 														<li><a href="systems/geninfo/sys.php?subdet=TDQ">L1CALO</a></li>
 														<li><a href="wmi/current/WTRP_wmi/">Trigger Rates</a></li>
-											  			<li><a href="oper.php?subs=systems/geninfo/trigger.html">Trigger Status</a></li>
+											  			<li><a href="operRef.php?subs=systems/geninfo/trigger.html">Trigger Status</a></li>
 													</ul>
 												</li>												
 										 		<li><a href="wmi/current/Run%20Status_wmi/ATLAS.html">DAQ</a></li>
@@ -246,12 +246,23 @@
 		           							<ul id="menuSec" class="slidingmenu">
 												<li><a href="page1/index.php">ATLAS Overview</a></li>
 												<li><a href="http://op-webtools.web.cern.ch/op-webtools/vistar/vistars.php?usr=LHC1">LHC Page 1</a></li>
-												<li><a href="oper.php?subs=dcs/dcs/process.php?page=ATL_LHC&subd=IS">ATLAS Page 1</a></li>
-												<li><a href="oper.php?subs=http://atlas.web.cern.ch/Atlas/GROUPS/DATAPREPARATION/DataSummary/">Data Summary</a></li>
-												<li><a href="oper.php?subs=lhc/backgrounds.html">Backgrounds</a></li>
-												<li><a href="oper.php?subs=dcs/dcs/process.php?page=LHC_INS::BPTXInfo&subd=IS">Beam Instrumentation</a></li>
-												<li><a href="oper.php?subs=dcs/dcs/process.php?page=ATL_EXT::Vacuum&subd=IS">Vacuum Beam Pipe</a></li>
-												<li><a href="oper.php?subs=dcs/dcs/process.php?page=LHC_BIS">Beam Interlock System</a></li>
+												<li><a href="operRef.php?subs=dcs/dcs/process.php?page=ATL_LHC&subd=IS">ATLAS Page 1</a></li>
+												<li><a href="operRef.php?subs=http://atlas.web.cern.ch/Atlas/GROUPS/DATAPREPARATION/DataSummary/">Data Summary</a></li>
+												<li><a href="#">Backgrounds</a>
+													<ul class="subLeftNav">
+													<li><a href="operRef.php?subs=dcs/dcs/process.php?page=LHC_BKG&subd=IS">ATLAS Backgrounds</a></li>
+													<li><a href="operRef.php?subs=dcs/dcs/process.php?page=LHC_BKG::BKG_HIT&subd=IS">ATLAS hit rates</a>
+														<div class="sub_subLeftNav">
+															<p><a href="operRef.php?subs=dcs/dcs/process.php?page=LHC_BKG::refMBTS&subd=IS">MBTS</a></p>
+														</div>
+													</li>
+													<li><a href="operRef.php?subs=dcs/dcs/process.php?page=LHC_BKG::BKG_CAL&subd=IS">Calorimeter currents</a></li>
+													<li><a href="operRef.php?subs=dcs/dcs/process.php?page=LHC_BKG::BKG_MUO&subd=IS">Muon currents</a></li>
+													</ul>
+												</li>
+												<li><a href="operRef.php?subs=dcs/dcs/process.php?page=LHC_INS::BPTXInfo&subd=IS">Beam Instrumentation</a></li>
+												<li><a href="operRef.php?subs=dcs/dcs/process.php?page=ATL_EXT::Vacuum&subd=IS">Vacuum Beam Pipe</a></li>
+												<li><a href="operRef.php?subs=dcs/dcs/process.php?page=LHC_BIS">Beam Interlock System</a></li>
 		                   					</ul>
 		                                </div>
 		                            </div>
@@ -264,10 +275,37 @@
 		                            <div class="subBoxOpen">
 		                            	<div class="datapreInside">
 		           							<ul id="menuSec" class="slidingmenu">
-												<li><a href="oper.php?subs=cooling/cooling.html" >Cooling</a></li>
-												<li><a href="oper.php?subs=electrnet/">Electrical Network</a></li>
-												<li><a href="oper.php?subs=gas/gas.html">Gas Systems</a></li>
-												<li><a href="oper.php?subs=cryo/cryo.html">Cryogenics</a></li>
+												<li><a href="#" >Cooling</a>
+													<ul class="subLeftNav">
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=CIC_COOLING&subd=IS">Rack Cooling Circuits</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=EXT_CAV">Cooling &amp; Ventilation</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=EXT_CAV::Detectors">Detector Cooling</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=IDE_EVCOOL&subd=IS">ID Evaporative Cooling</a></li>
+													</ul>
+												</li>
+																						
+												<li><a href="#">Electrical Network</a>
+													<ul class="subLeftNav">
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=EXT_ELECTRICITY::DistributionMonitor&subd=IS">Electricity Distribution</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=EXT_ELECTRICITY::DieselUPS&subd=IS">Diesel &amp; UPS Network</a></li>
+													</ul>
+												</li>
+												
+												<li><a href="#">Gas Systems</a>
+													<ul class="subLeftNav">
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=EXT_GAS::GAS_Primary">Primary Gas Supply</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=EXT_GAS::GAS_Distribution">Detector Gas Systems</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=ATL_EXT::IdCool&subd=IS">Gas Environment ID</a></li>
+													</ul>												
+												</li>
+												
+												<li><a href="#">Cryogenics</a>
+													<ul class="subLeftNav">
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=ATL_EXT::Argon">LAr Cryogenics</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=EXT_MAGNETS::Helium">Magnet Cryogenics</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=ATL_EXT::CRYOSTAT&subd=IS">Temp. LAr FT Cryostat</a></li>
+													</ul>
+												</li>
 		                   					</ul>
 		                                </div>
 		                            </div>
@@ -280,13 +318,64 @@
 		                            <div class="subBoxOpen">
 		                            	<div class="datapreInside">
 		           							<ul id="menuSec" class="slidingmenu">
-												<li><a href="oper.php?subs=magnets/">Magnets</a></li>
-												<li><a href="oper.php?subs=countingrooms/">Counting Rooms, Cavern</a></li>
-												<li><a href="oper.php?subs=envir/">Environment</a></li>
-												<li><a href="oper.php?subs=safety/ss.php">Safety System</a></li>
-												<li><a href="oper.php?subs=sysadmin/host-status/index.php">Computers & Network</a></li>
-												<li> <a href="https://atlas-service-dbmonitor.web.cern.ch/atlas-service-dbmonitor/shifter/database_dashboard.php">Database Servers</a></li>
-												<li> <a href="oper.php?subs=radiation/">Radiation Monitors</a></li>
+												<li><a href="#">Magnets</a>
+													<ul class="subLeftNav">
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=EXT_MAGNETS&subd=IS">Magnet System Overview</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=EXT_MAGNETS::Helium&subd=IS">Magnet Cryogenics</a></li>
+													</ul>
+												</li>
+												
+												<li><a href="#">Counting Rooms, Cavern</a>
+													<ul class="subLeftNav">
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=CIC_SCS&subd=CIC">Summary</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=CIC_USA15LEVEL1_RC&subd=IS">USA15 L1</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=CIC_USA15LEVEL2_RC&subd=IS">USA15 L2</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=CIC_US15LEVEL2_RC&subd=IS">US15 LVL 2</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=CIC_SDXLEVEL1_RC&subd=IS">SDX1 L1</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=CIC_SDXLEVEL2_RC&subd=IS">SDX1 L2</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=CIC_UXUS15SIDE_RC&subd=IS">UX US15</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=CIC_UXUSA15SIDE_RC&subd=IS">UX USA15</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=CIC_UXHOSIDEA_RC&subd=IS">UX HO A</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=CIC_UXHOSIDEC_RC&subd=IS">UX HO C</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=CIC_MBWSIDEA_RC&subd=IS">BIG WHEEL A</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=CIC_MBWSIDEC_RC&subd=IS">BIG WHEEL C</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=CIC_ENVIRONMENT&subd=IS">Environment</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=CIC_COOLING&subd=IS">Cooling</a></li>
+													</ul>
+												</li>
+												
+												<li><a href="#">Environment</a>
+													<ul class="subLeftNav">
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=CIC_ENVIRONMENT&subd=IS">Counting Rooms' Env.</a></li>
+														<li><a href="#">Muon Chambers' Temp.</a>
+															<div class="sub_subLeftNav">
+																<p><a href="operRef.php?subs=dcs/dcs/process.php?page=MDT_INF&subd=IS">MDT</a></p>
+																<p><a href="operRef.php?subs=dcs/dcs/process.php?page=TGC_TMP_A&subd=IS">TGC A</a></p>
+																<p><a href="operRef.php?subs=dcs/dcs/process.php?page=TGC_TMP_C&subd=IS">TGC C</a></p>												
+															</div>
+														</li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=CIC_ENVIRONMENT::StructUX">Aluminum Struct. Temp.</a></li>
+													</ul>
+												</li>
+												
+												<li><a href="operRef.php?subs=safety/ss.php">Safety System</a></li>
+												
+												<li><a href="operRef.php?subs=sysadmin/host-status/index.php">Computers & Network</a></li>
+												
+												<li><a href="https://atlas-service-dbmonitor.web.cern.ch/atlas-service-dbmonitor/shifter/database_dashboard.php">Database Servers</a></li>
+												
+												<li><a href="#">Radiation Monitors</a>
+													<ul class="subLeftNav">
+														<li><a href="#">Ramses</a>
+															<div class="sub_subLeftNav">
+																<p><a href="operRef.php?subs=dcs/dcs/process.php?page=SAF_RADIATION::RadiationUX15&subd=IS">Rad. Monitors UX15</a></p>
+																<p><a href="operRef.php?subs=dcs/dcs/process.php?page=SAF_RADIATION::RadiationUSA15&subd=IS">Rad. Monitors USA15</a></p>
+																<p><a href="operRef.php?subs=dcs/dcs/process.php?page=SAF_RADIATION::RadiationSurface&subd=IS">Surface Rad. Monitors</a></p>
+															</div>
+														</li>
+														<li><a href="operRef.php?subs=../local-server/pc-medipix-01/">ATLAS - MPX</a></li>
+													</ul>
+												</li>
 		                   					</ul>
 										</div>
 		                            </div>

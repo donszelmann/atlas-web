@@ -339,7 +339,7 @@ ul#menu li ul.subLeftNav{
 	padding-top:5px;
 }
 ul#menu li ul.subLeftNav li{
-	  margin-left:40px;
+	  margin-left:10px;
 	  background:none;  
 }
 ul#menu li ul.subLeftNav li a {
@@ -1115,7 +1115,7 @@ ul#menuSec li ul.subLeftNav{
 	padding-top:5px;
 }
 ul#menuSec li ul.subLeftNav li{
-	  margin-left:10px;
+	  margin-left:8px;
 	  background:none;  
 }
 ul#menuSec li ul.subLeftNav li a {
@@ -1140,7 +1140,7 @@ ul#menuSec li ul li a:hover {
 }
 .sub_subLeftNav a{
 	color:#7D7D7D !important;
-	margin-left:40px;
+	margin-left:8px;
 }
 .sub_subLeftNav a:hover{
 	color:#357cc3 !important;
@@ -1252,7 +1252,7 @@ p.txtLeft{
 
 }
 .genNewBox1 ul{
-	padding:10px;
+#	padding:10px;
 }
 .genNewBox1 ul li{
 	padding:0 10px 8px 10px;
@@ -1260,7 +1260,7 @@ p.txtLeft{
 	color:#4d4d4d;
 }
 .genNewBox1 p{
-	padding:10px;
+#	padding:10px;
 }
 
 /**-largeGeneralNews2--**/
