@@ -33,7 +33,8 @@
     <div id="header">
     	<div id="logoWp" class="container"><h1><a href="<?=Baseurl?>index.php">Atlas Experiment</a></h1>
            	<ul class="topNav">
-            	<li><a href="<?=Baseurl?>index.php" <?=$class?>>Collaboration</a></li>
+                <li><a href="<?=Baseurl?>/hot/index.php">Hot<img src="hot/HotEventIcon.png" style="padding:4px;margin-top:6px;"/></a></li>
+            	<li><em></em><a href="<?=Baseurl?>index.php" <?=$class?>>Collaboration</a></li>
                 <li><em></em><a href="<?=Baseurl?>atlas_live.php" <?=$class1?>>ATLAS Now</a></li>
                 <li><em></em><a href="http://atlas.ch/">ATLAS Public</a></li>
                 <li class="last-child"><em></em><a href="http://www.cern.ch/">CERN&nbsp;</a></li>

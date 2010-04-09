@@ -101,6 +101,9 @@ body {
 	padding:0 22px;
 	font-family:Helvetica, Arial, sans-serif;
 }
+#hot a, #hot a.active, #hot a:hover {
+	background:url(../hot/HotEventIcon.png) no-repeat center top;
+}
 #logoWp ul.topNav li.last-child a {
 	padding:0 0 0 22px;
 }
