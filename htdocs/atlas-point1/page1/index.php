@@ -67,7 +67,7 @@
    			<tr><td valign="top">
             <div class="lhcStatus">
    				<h3><div>LHC Status</div></h3>
-       			<a href="http://vistar-capture.web.cern.ch/vistar-capture/lhc1.png">
+       			<a href="http://op-webtools.web.cern.ch/op-webtools/Vistar/vistars.php?usr=LHC1">
 					<img src="http://vistar-capture.web.cern.ch/vistar-capture/lhc1.png" width="100%" />
 				</a>
     		</div>
@@ -89,8 +89,10 @@
 			<td colspan="2" valign="top">
             <div class="runStatus">
                 <h3><div>Run Status</div></h3>
+                <a href="../wmi/current/Run Status_wmi/ATLAS.html">
                 <div class="datapreInside">
                         <?php 
+//				$file = '../wmi/current/Run Status_wmi/NotUp.html';
 				$file = '../wmi/current/Run Status_wmi/ATLAS.html';
 				if(file_exists($file)) {
 					$fp = fopen($file, 'r'); 
@@ -100,20 +102,26 @@
 					$pattern = '/Other active partitions can be seen here\.<\/a>.?<br.?\/>.?<table width="100%">.?<tr><td align="center">(.*?)<\/table><\/td>.?<\/tr>.?<\/table><\/td>.?<\/tr>/s';
 					if(preg_match($pattern, $contents, $matches)) { 
 						$text = $matches[1] . "</table></td></tr></table>"; 
+						$text = preg_replace('/bgcolor="#004080"/s', 'class="runStatusHead"', $text);
+						$text = preg_replace('/bgcolor="#dbeffb"/s', 'class="runStatusKey"', $text);
+						$text = preg_replace('/bgcolor="#ffffff"/s', 'class="runStatusValue"', $text);
+						$text = preg_replace('/color="#00ff00"/s', 'class="runStatusRunning"', $text);
+						$text = preg_replace('/color="#228b22"/s', 'class="runStatusNone"', $text);
 					} else {
-						$text = "Error: Cannot parse '$file'";
+						$pattern = '/.*Partition ATLAS Not Up.*/s';
+						if(preg_match($pattern, $contents, $matches)) {
+							$text = "Partition ATLAS Not Up";
+						} else {
+							$text = "Error: Cannot parse '$file'";
+						}
 					}
-					$text = preg_replace('/bgcolor="#004080"/s', 'class="runStatusHead"', $text);
-					$text = preg_replace('/bgcolor="#dbeffb"/s', 'class="runStatusKey"', $text);
-					$text = preg_replace('/bgcolor="#ffffff"/s', 'class="runStatusValue"', $text);
-					$text = preg_replace('/color="#00ff00"/s', 'class="runStatusRunning"', $text);
-					$text = preg_replace('/color="#228b22"/s', 'class="runStatusNone"', $text);
 				} else {
 					$text = "Error: Cannot find '$file'";
 				}
 				echo $text;  					
 			?>
                 </div>
+                </a>
             </div>
             </td></tr>
 			
@@ -121,20 +129,23 @@
 			<td valign="top">
     		<div class="trigger">
    				<h3><div>Trigger Rates</div></h3>
+   				<a href="../wmi/current/WTRP_wmi">
    				<table border="0" cellpadding="0" cellspacing="0"><tr><td>       			
 					<img src="../wmi/current/WTRP_wmi/pot_globalRates_0.png" width="100%" />
 				</td></tr><tr><td>
 					<img src="../wmi/current/WTRP_wmi/pot_StreamRates_0.png" width="100%" />
 				</td></tr><tr><td>
 					<img src="../wmi/current/WTRP_wmi/pot_StreamRates_1.png" width="100%" />
-				</td></tr></table>
+				</td></tr>
+				</table>
+				</a>
 		    </div>
 		    </td>
 		    
 		    <td valign="top">
 		    <div class="event">
    				<h3><div>Event Display</div></h3>
-   				<a href="https://atlas-live.cern.ch/event_files/MinBias/latest.png">
+   				<a href="https://atlas-live.cern.ch/">
    				<table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="2">
    				<div class="RhoZ">
 					<img src="https://atlas-live.cern.ch/event_files/MinBias/latest.png"/>
