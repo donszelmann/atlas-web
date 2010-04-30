@@ -57,11 +57,12 @@
 								<li><a href="http://indico.cern.ch/categoryDisplay.py?categId=1428">Run Meetings</a></li>
 								<li class="last-child"><a href="https://edms.cern.ch/cedar/plsql/navigation.tree?p_top_id=1069988858&p_top_type=P&p_open_id=1916187939&p_open_type=P">Operation Documents in EDMS</a></li>
                             </ul>
-                        </li>
+                        </li>                       
 					    <li><a href="ATLAS_Logbook.htm">E-Logbook</a></li>
                         <li><a href="#">Shifts</a>
                             <ul class="subLeftNav">
 								<li><a href="http://atlas-otp.cern.ch/">Shift Booking (OTP)</a></li>
+								<li><a href="https://twiki.cern.ch/twiki/bin/view/Atlas/OtpShiftClasses">Shift Classes</a></li>
 								<li><a href="https://twiki.cern.ch/twiki/bin/view/Atlas/OTP">OTP TWiki</a></li>
 								<li><a href="shift.html">Shift Booking Rules</a></li>
 								<li class="last-child"><a href="http://pptevm-public.cern.ch/mao/public/PhoneList.html">Today's Shift Schedule</a></li>
