@@ -355,7 +355,7 @@
 																<p><a href="operRef.php?subs=dcs/dcs/process.php?page=TGC_TMP_C&subd=IS">TGC C</a></p>												
 															</div>
 														</li>
-														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=TOR">Aluminum Struct. Temp.</a></li>
+														<li><a href="operRef.php?subs=dcs/dcs/process.php?page=TOR_MONITOR">Aluminum Struct. Temp.</a></li>
 													</ul>
 												</li>
 												
